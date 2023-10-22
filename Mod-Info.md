@@ -5,6 +5,7 @@ Do take note that the characters won't appear right away. Instead they will visi
   * [Karl](#Karl)
   * [Diane](#Diane)
   * [Paolo](#Paolo)
+
 ##Karl
 Karl is an office worker hailing from Zuzu City. He started visiting Pelican Town to fish, his pastime and escape. A simple and hardworking man doing what he think is best for his family. Karl can often be seen mingling and fishing around the valley during the weekend.
 ##Diane

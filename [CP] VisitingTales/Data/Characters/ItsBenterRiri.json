@@ -1,0 +1,83 @@
+﻿{
+  "$schema":"https://smapi.io/schemas/content-patcher.json",
+  "Format": "1.30.0",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "ItsBenterRiri": {
+          //Basic info
+          "DisplayName": "{{i18n:ItsBenterRiri.Name}}",
+          "Gender": "Female",
+          "Age": "Child",
+          "Manner": "Polite",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Outgoing",
+          "BirthSeason": "Spring",
+          "BirthDay": 3,
+          "HomeRegion": "Other",
+          //Social features
+          "CanBeRomanced": false,
+          "Calendar": "Never",
+          "SocialTab": "HiddenUntilMet",
+          "SocializeConditions": true,
+          "CanVisitIslandCondition": false,
+          "ExcludeFromIntroductionsQuest": true,
+          "ExcludeFromPerfectionScore": true,
+          "EndSlideShow": "TrailingGroup",
+          //Spawn rules
+          "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Any <id>",
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_ItsBenter_NPCWarpRoom",
+              "Tile": {
+                "X": 3,
+                "Y": 0
+              },
+              "Direction": "down"
+            }
+          ]
+        }
+      }
+    },
+    //Gift Tastes
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "ItsBenterRiri": "{{i18n:ItsBenterRiri.Gifts_Loved}}/904 597 208 651 905/{{i18n:ItsBenterRiri.Gifts_Liked}}/88 245/{{i18n:ItsBenterRiri.Gifts_Disliked}}/410 253 395/{{i18n:ItsBenterRiri.Gifts_Hated}}/446/{{i18n:ItsBenterRiri.Gifts_Neutral}}/-6/"
+      }
+      //Loves: banana pudding 904, blue jazz 597, glazed yam 208, poppyseed muffin 651, mango sticky rice 905
+      //Likes: coconut 88, sugar 245
+      //Neutrals: milk -6
+      //Dislikes: blackberry 410, triple shot espreso 253, coffee 395
+      //Hates: rabbit's foot 446
+    },
+    //Animation
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "ItsBenterRiri_sleep": "20/20/20",
+        "ItsBenterRiri_read": "24/24/24"
+      }
+    },
+    //Schedule
+    {
+      "Action": "Load",
+      "Target": "Characters/schedules/ItsBenterRiri",
+      "FromFile": "Characters/schedules/ItsBenterRiri_{{ItsBenterRiriSchedule}}.json"
+    },
+    //Dialogue
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/ItsBenterRiri",
+      "Entries": {
+        ////Spring////
+        "spring_1": "{{i18n:ItsBenterRiri.Dialogue.spring_1}}", //Season change
+      }
+    }
+  ]
+}

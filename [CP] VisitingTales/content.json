@@ -1,0 +1,159 @@
+{
+  "$schema": "https://smapi.io/schemas/content-patcher.json",
+  "Format": "1.30.0",
+  "ConfigSchema": {
+    "Karl": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "Character"
+    },
+    "Diane": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "Character"
+    },
+    "Cara": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "Character"
+    },
+    "Finch_and_Faith": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "Character"
+    }
+  },
+  "DynamicTokens": [
+    //Karl schedule
+    {
+      "Name": "ItsBenterKarlSchedule",
+      "Value": "locked"
+    },
+    {
+      "Name": "ItsBenterKarlSchedule",
+      "Value": "unlocked",
+      "When": {
+        "HasSeenEvent |contains=xxxx": true
+      }
+    },
+    {
+      "Name": "ItsBenterKarlSchedule",
+      "Value": "promoted",
+      "When": {
+        "HasSeenEvent |contains=xxxx": true
+      }
+    },
+    //Diane schedule
+    {
+      "Name": "ItsBenterDianeSchedule",
+      "Value": "Locked"
+    },
+    {
+      "Name": "ItsBenterDianeSchedule",
+      "Value": "Unlocked",
+      "When": {
+        "HasSeenEvent |contains=xxxx": true
+      }
+    },
+    {
+      "Name": "ItsBenterDianechedule",
+      "Value": "Study",
+      "When": {
+        "HasSeenEvent |contains=xxxx": true
+      }
+    },
+    {
+      "Name": "ItsBenterDianeSchedule",
+      "Value": "Curator",
+      "When": {
+        "HasSeenEvent |contains=xxxx": true
+      }
+    },
+    //Paolo schedule
+    {
+      "Name": "ItsBenterPaoloSchedule",
+      "Value": "Locked"
+    },
+    {
+      "Name": "ItsBenterPaoloSchedule",
+      "Value": "Unlocked",
+      "When": {
+        "HasSeenEvent |contains=xxxx": true
+      }
+    },
+    {
+      "Name": "ItsBenterPaoloSchedule",
+      "Value": "DianeCurator",
+      "When": {
+        "HasSeenEvent |contains=xxxx": true
+      }
+    },
+    {
+      "Name": "ItsBenterPaoloSchedule",
+      "Value": "CasualVisit",
+      "When": {
+        "HasSeenEvent |contains=xxxx": true
+      }
+    },
+    {
+      "Name": "ItsBenterPaoloSchedule",
+      "Value": "DianeCurator_CasualVisit",
+      "When": {
+        "HasSeenEvent |contains=xxxx": true,
+        "HasSeenEvent |contains=xxxy": true
+      }
+    },
+    //Riri schedule
+    {
+      "Name": "ItsBenterRiriSchedule",
+      "Value": "Locked"
+    },
+    {
+      "Name": "ItsBenterRiriSchedule",
+      "Value": "Unlocked",
+      "When": {
+        "HasSeenEvent |contains=xxxx": true
+      }
+    }
+  ],
+  //Load Map
+  "CustomLocations": [
+    {
+      "Name": "Custom_ItsBenter_NPCWarpRoom",
+      "FromMapFile": "Maps/Custom_ItsBenter_NPCWarpRoom.tmx"
+    }
+  ],
+  "Changes": [
+    {
+      "LogName": "Add NPC warp inside the bus. Taking into account SVE's one",
+      "Action": "EditMap",
+      "Target": "Maps/BusStop",
+      "MapProperties": {
+        "NPCWarp": "13 8 Custom_ItsBenter_NPCWarpRoom 2 2"
+      }
+    },
+    {
+      "LogName": "NPCs base portraits",
+      "Action": "Load",
+      "Target": "Portraits/ItsBenterKarl, Portraits/ItsBenterDiane, Portraits/ItsBenterPaolo, Portraits/ItsBenterRiri",
+      "FromFile": "{{Target}}.png"
+    },
+    {
+      "LogName": "NPCs base sprites",
+      "Action": "Load",
+      "Target": "Characters/ItsBenterKarl, Characters/ItsBenterDiane, Characters/ItsBenterPaolo, Characters/ItsBenterRiri",
+      "FromFile": "{{Target}}.png"
+    },
+    {
+      "LogName": "NPCs blank dialogues",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/ItsBenterKarl, Characters/Dialogue/ItsBenterDiane, Characters/Dialogue/ItsBenterPaolo, Characters/Dialogue/ItsBenterRiri",
+      "FromFile": "blank.json"
+    },
+    {
+      "LogName": "NPC Details",
+      "Action": "Include",
+      "FromFile": "Data/Characters/ItsBenterKarl.json, Data/Characters/ItsBenterDiane.json, Data/Characters/ItsBenterPaolo.json, Data/Characters/ItsBenterRiri.json"
+    }
+  ]
+}

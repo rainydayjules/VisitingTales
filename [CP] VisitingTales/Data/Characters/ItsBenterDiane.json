@@ -1,0 +1,143 @@
+﻿{
+  "$schema":"https://smapi.io/schemas/content-patcher.json",
+  "Format": "1.30.0",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "ItsBenterDiane": {
+          //Basic info
+          "DisplayName": "{{i18n:ItsBenterDiane.Name}}",
+          "Gender": "Female",
+          "Age": "Adult",
+          "Manner": "Polite",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Neutral",
+          "BirthSeason": "Fall",
+          "BirthDay": 25,
+          "HomeRegion": "Other",
+          //Social features
+          "CanBeRomanced": false,
+          "Calendar": "Never",
+          "SocialTab": "HiddenUntilMet",
+          "SocializeConditions": true,
+          "CanVisitIslandCondition": false,
+          "ExcludeFromIntroductionsQuest": true,
+          "ExcludeFromPerfectionScore": true,
+          "EndSlideShow": "TrailingGroup",
+          //Spawn rules
+          "UnlockConditions": "MUSEUM_DONATIONS 60",
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_ItsBenter_NPCWarpRoom",
+              "Tile": {
+                "X": 1,
+                "Y": 0
+              },
+              "Direction": "down"
+            }
+          ]
+        }
+      }
+    },
+    //Gift Tastes
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "ItsBenterDiane": "{{i18n:ItsBenterDiane.Gifts_Loved}}/70 104 106 376/{{i18n:ItsBenterDiane.Gifts_Liked}}/-2 797/{{i18n:ItsBenterDiane.Gifts_Disliked}}/-21/{{i18n:ItsBenterDiane.Gifts_Hated}}/128 397/{{i18n:ItsBenterDiane.Gifts_Neutral}}/-7 -4 446 373 -79 -80 -75 -26/"
+      }
+      //Loves: jade 70, elvish jewelry 104, ornamental fan 106, poppy 376
+      //Likes: gems -2, pearl 797
+      //Neutrals: cooking -7, fish -4, rabbit's foot 446, golden pumpkin 373, fruit -79, flowers -80, vegetable -75, artisan goods -26
+      //Dislikes: baits -21
+      //Hates: pufferfish 128, sea urchin 397
+    },
+    //Animation
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "ItsBenterDiane.sleep": "20/20/20",
+        "ItsBenterDiane.writing": "20/20/20",
+        "ItsBenterDiane.reading": "24/24/24",
+        "ItsBenterDiane.reflect": "24/24/24"
+      }
+    },
+    //Schedule
+    {
+      "Action": "Load",
+      "Target": "Characters/schedules/ItsBenterDiane",
+      "FromFile": "Characters/schedules/ItsBenterDiane_{{ItsBenterDianeSchedule}}.json"
+    },
+    //Dialogue
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/ItsBenterDiane",
+      "Entries": {
+        ////Spring////
+        "spring_1_2": "{{i18n:ItsBenterDiane.Dialogue.spring_1}}", //New Year
+        "spring_Mon": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-2, 00H-3, 00H-4, 00H-5, 00H-6, 00H-7}}}}",
+        "spring_Mon2": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-2, 00H-3, 00H-4, 00H-6, 02H-1, 02H-2, 02H-3, 02H-4, 02H-5, 02H-6, 02H-7, 02H-8, 02H-9}}}}",
+        "spring_Mon4": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-6, 02H-1, 02H-3, 02H-4, 02H-6, 02H-7, 02H-9, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9, 04H-Spring-1, 04H-Spring-2, 04H-Spring-3}}}}",
+        "spring_Mon6": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-6, 02H-7, 02H-9, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9, 04H-Spring-1, 04H-Spring-2, 04H-Spring-3, 06H-1, 06H-2, 06H-3, 06H-4, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10}}}}",
+        "spring_Mon8": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-6, 02H-9, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-8, 04H-Spring-1, 04H-Spring-2, 04H-Spring-3, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-4, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9}}}}",
+        "spring_Mon10": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-9, 04H-1, 04H-3, 04H-4, 04H-5, 04H-8, 04H-Spring-1, 04H-Spring-2, 04H-Spring-3, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-4, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9, 10H-1, 10H-2, 10H-3, 10H-4, 10H-5, 10H-6, 10H-7, 10H-8, 10H-9, 10H-10, 10H-Curator-1, 10H-Curator-2, 10H-Curator-3, 10H-Curator-4, 10H-Curator-5, 10H-Curator-6}}}}",
+        //Stop visiting on Tue after Diane's 10 heart event
+        "spring_Tue": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-2, 00H-3, 00H-4, 00H-5, 00H-6, 00H-7}}}}",
+        "spring_Tue2": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-2, 00H-3, 00H-4, 00H-6, 02H-1, 02H-2, 02H-3, 02H-4, 02H-5, 02H-6, 02H-7, 02H-8, 02H-9}}}}",
+        "spring_Tue4": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-6, 02H-1, 02H-3, 02H-4, 02H-6, 02H-7, 02H-9, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9, 04H-Spring-1, 04H-Spring-2, 04H-Spring-3}}}}",
+        "spring_Tue6": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-6, 02H-7, 02H-9, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9, 04H-Spring-1, 04H-Spring-2, 04H-Spring-3, 06H-1, 06H-2, 06H-3, 06H-4, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10}}}}",
+        "spring_Tue8": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-6, 02H-9, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-8, 04H-Spring-1, 04H-Spring-2, 04H-Spring-3, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-4, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9}}}}",
+        "spring_Tue10": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-9, 04H-1, 04H-3, 04H-4, 04H-5, 04H-8, 04H-Spring-1, 04H-Spring-2, 04H-Spring-3, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-4, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9, 10H-1, 10H-2, 10H-3, 10H-4, 10H-5, 10H-6, 10H-7, 10H-8, 10H-9, 10H-10, 10H-Curator-1, 10H-Curator-2, 10H-Curator-3, 10H-Curator-4, 10H-Curator-5, 10H-Curator-6}}}}",
+        ////Summer////
+        "summer_1_2": "{{i18n:ItsBenterDiane.Dialogue.summer_1}}", //Season change
+        "summer_Mon": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-2, 00H-3, 00H-4, 00H-5, 00H-6, 00H-7}}}}",
+        "summer_Mon2": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-2, 00H-3, 00H-4, 00H-6, 02H-1, 02H-2, 02H-3, 02H-4, 02H-5, 02H-6, 02H-7, 02H-8, 02H-9, 02H-Summer-1}}}}",
+        "summer_Mon4": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-6, 02H-1, 02H-3, 02H-4, 02H-6, 02H-7, 02H-9, 02H-Summer-1, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9}}}}",
+        "summer_Mon6": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-6, 02H-7, 02H-9, 02H-Summer-1, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9, 06H-1, 06H-2, 06H-3, 06H-4, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10}}}}",
+        "summer_Mon8": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-6, 02H-9, 02H-Summer-1, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-8, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-4, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9}}}}",
+        "summer_Mon10": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-9, 02H-Summer-1, 04H-1, 04H-3, 04H-4, 04H-5, 04H-8, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-4, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9, 10H-1, 10H-2, 10H-3, 10H-4, 10H-5, 10H-6, 10H-7, 10H-8, 10H-9, 10H-10, 10H-Curator-1, 10H-Curator-2, 10H-Curator-3, 10H-Curator-4, 10H-Curator-5, 10H-Curator-6}}}}",
+        //Stop visiting on Tue after Diane's 10 heart event
+        "summer_Tue": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-2, 00H-3, 00H-4, 00H-5, 00H-6, 00H-7}}}}",
+        "summer_Tue2": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-2, 00H-3, 00H-4, 00H-6, 02H-1, 02H-2, 02H-3, 02H-4, 02H-5, 02H-6, 02H-7, 02H-8, 02H-9, 02H-Summer-1}}}}",
+        "summer_Tue4": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-6, 02H-1, 02H-3, 02H-4, 02H-6, 02H-7, 02H-9, 02H-Summer-1, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9}}}}",
+        "summer_Tue6": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-6, 02H-7, 02H-9, 02H-Summer-1, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9, 06H-1, 06H-2, 06H-3, 06H-4, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10}}}}",
+        "summer_Tue8": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-6, 02H-9, 02H-Summer-1, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-8, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-4, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9}}}}",
+        "summer_Tue10": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-9, 02H-Summer-1, 04H-1, 04H-3, 04H-4, 04H-5, 04H-8, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-4, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9, 10H-1, 10H-2, 10H-3, 10H-4, 10H-5, 10H-6, 10H-7, 10H-8, 10H-9, 10H-10, 10H-Curator-1, 10H-Curator-2, 10H-Curator-3, 10H-Curator-4, 10H-Curator-5, 10H-Curator-6}}}}",
+        //Fall//
+        "fall_1": "{{i18n:ItsBenterDiane.Dialogue.fall_1}}", //Season change
+        "fall_Mon": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-2, 00H-3, 00H-4, 00H-5, 00H-6, 00H-7}}}}",
+        "fall_Mon2": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-2, 00H-3, 00H-4, 00H-6, 02H-1, 02H-2, 02H-3, 02H-4, 02H-5, 02H-6, 02H-7, 02H-8, 02H-9, 02H-Fall-1, 02H-Fall-2}}}}",
+        "fall_Mon4": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-6, 02H-1, 02H-3, 02H-4, 02H-6, 02H-7, 02H-9, 02H-Fall-1, 02H-Fall-2, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9}}}}",
+        "fall_Mon6": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-6, 02H-7, 02H-9, 02H-Fall-1, 02H-Fall-2, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9, 06H-1, 06H-2, 06H-3, 06H-4, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10}}}}",
+        "fall_Mon8": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-6, 02H-9, 02H-Fall-1, 02H-Fall-2, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-8, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-4, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9}}}}",
+        "fall_Mon10": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-9, 02H-Fall-1, 02H-Fall-2, 04H-1, 04H-3, 04H-4, 04H-5, 04H-8, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-4, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9, 10H-1, 10H-2, 10H-3, 10H-4, 10H-5, 10H-6, 10H-7, 10H-8, 10H-9, 10H-10, 10H-Curator-1, 10H-Curator-2, 10H-Curator-3, 10H-Curator-4, 10H-Curator-5, 10H-Curator-6}}}}",
+        //Stop visiting on Tue after Diane's 10 heart event
+        "fall_Tue": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-2, 00H-3, 00H-4, 00H-5, 00H-6, 00H-7}}}}",
+        "fall_Tue2": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-2, 00H-3, 00H-4, 00H-6, 02H-1, 02H-2, 02H-3, 02H-4, 02H-5, 02H-6, 02H-7, 02H-8, 02H-9, 02H-Fall-1, 02H-Fall-2}}}}",
+        "fall_Tue4": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-6, 02H-1, 02H-3, 02H-4, 02H-6, 02H-7, 02H-9, 02H-Fall-1, 02H-Fall-2, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9}}}}",
+        "fall_Tue6": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-6, 02H-7, 02H-9, 02H-Fall-1, 02H-Fall-2, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9, 06H-1, 06H-2, 06H-3, 06H-4, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10}}}}",
+        "fall_Tue8": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-6, 02H-9, 02H-Fall-1, 02H-Fall-2, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-8, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-4, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9}}}}",
+        "fall_Tue10": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-9, 02H-Fall-1, 02H-Fall-2, 04H-1, 04H-3, 04H-4, 04H-5, 04H-8, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-4, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9, 10H-1, 10H-2, 10H-3, 10H-4, 10H-5, 10H-6, 10H-7, 10H-8, 10H-9, 10H-10, 10H-Curator-1, 10H-Curator-2, 10H-Curator-3, 10H-Curator-4, 10H-Curator-5, 10H-Curator-6}}}}",
+        //Winter
+        "winter_1": "{{i18n:ItsBenterDiane.Dialogue.winter_1}}", //Season change
+        "winter_Mon": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-2, 00H-3, 00H-4, 00H-5, 00H-6, 00H-7}}}}",
+        "winter_Mon2": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-2, 00H-3, 00H-4, 00H-6, 02H-1, 02H-2, 02H-3, 02H-4, 02H-5, 02H-6, 02H-7, 02H-8, 02H-9, 02H-Winter-1}}}}",
+        "winter_Mon4": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-6, 02H-1, 02H-3, 02H-4, 02H-6, 02H-7, 02H-9, 02H-Winter-1, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9}}}}",
+        "winter_Mon6": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-6, 02H-7, 02H-9, 02H-Winter-1, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9, 06H-1, 06H-2, 06H-3, 06H-4, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10}}}}",
+        "winter_Mon8": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-6, 02H-9, 02H-Winter-1, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-8, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-4, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9}}}}",
+        "winter_Mon10": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-9, 02H-Winter-1, 04H-1, 04H-3, 04H-4, 04H-5, 04H-8, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-4, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9, 10H-1, 10H-2, 10H-3, 10H-4, 10H-5, 10H-6, 10H-7, 10H-8, 10H-9, 10H-10, 10H-Curator-1, 10H-Curator-2, 10H-Curator-3, 10H-Curator-4, 10H-Curator-5, 10H-Curator-6}}}}",
+        //Stop visiting on Tue after Diane's 10 heart event
+        "winter_Tue": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-2, 00H-3, 00H-4, 00H-5, 00H-6, 00H-7}}}}",
+        "winter_Tue2": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-2, 00H-3, 00H-4, 00H-6, 02H-1, 02H-2, 02H-3, 02H-4, 02H-5, 02H-6, 02H-7, 02H-8, 02H-9, 02H-Winter-1}}}}",
+        "winter_Tue4": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 00H-6, 02H-1, 02H-3, 02H-4, 02H-6, 02H-7, 02H-9, 02H-Winter-1, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9}}}}",
+        "winter_Tue6": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-6, 02H-7, 02H-9, 02H-Winter-1, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-6, 04H-7, 04H-8, 04H-9, 06H-1, 06H-2, 06H-3, 06H-4, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10}}}}",
+        "winter_Tue8": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-6, 02H-9, 02H-Winter-1, 04H-1, 04H-2, 04H-3, 04H-4, 04H-5, 04H-8, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-4, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9}}}}",
+        "winter_Tue10": "{{i18n:ItsBenterDiane.Dialogue.{{Random:00H-1, 02H-3, 02H-9, 02H-Winter-1, 04H-1, 04H-3, 04H-4, 04H-5, 04H-8, 06H-1, 06H-2, 06H-3, 06H-5, 06H-6, 06H-7, 06H-8, 06H-9, 06H-10, 08H-1, 08H-2, 08H-3, 08H-4, 08H-5, 08H-6, 08H-7, 08H-8, 08H-9, 10H-1, 10H-2, 10H-3, 10H-4, 10H-5, 10H-6, 10H-7, 10H-8, 10H-9, 10H-10, 10H-Curator-1, 10H-Curator-2, 10H-Curator-3, 10H-Curator-4, 10H-Curator-5, 10H-Curator-6}}}}",
+      }
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+﻿{
+  "$schema":"https://smapi.io/schemas/content-patcher.json",
+  "Format": "1.30.0",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "ItsBenterPaolo": {
+          //Basic info
+          "DisplayName": "{{i18n:ItsBenterPaolo.Name}}",
+          "Gender": "Male",
+          "Age": "Adult",
+          "Manner": "Neutral",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Neutral",
+          "BirthSeason": "Winter",
+          "BirthDay": 10,
+          "HomeRegion": "Other",
+          //Social features
+          "CanBeRomanced": false,
+          "Calendar": "Never",
+          "SocialTab": "HiddenUntilMet",
+          "SocializeConditions": true,
+          "CanVisitIslandCondition": false,
+          "ExcludeFromIntroductionsQuest": true,
+          "ExcludeFromPerfectionScore": true,
+          "EndSlideShow": "TrailingGroup",
+          //Spawn rules
+          "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Any <id>",
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_ItsBenter_NPCWarpRoom",
+              "Tile": {
+                "X": 2,
+                "Y": 0
+              },
+              "Direction": "down"
+            }
+          ]
+        }
+      }
+    },
+    //Gift Tastes
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "ItsBenterPaolo": "{{i18n:ItsBenterPaolo.Gifts_Loved}}/224 210 342 903 307/{{i18n:ItsBenterPaolo.Gifts_Liked}}/88 834/{{i18n:ItsBenterPaolo.Gifts_Disliked}}/410/{{i18n:ItsBenterPaolo.Gifts_Hated}}/591 459/{{i18n:ItsBenterPaolo.Gifts_Neutral}}/74 446/"
+      }
+      //Loves: spaghetti 224, hashbrown 210, pickles 342, ginger ale 903, duck mayo 307
+      //Likes: coconut 88, mango 834
+      //Neutrals: prismatic shard 74, rabbit's foot 446
+      //Dislikes: blackberry 410
+      //Hates: tulip 591, mead 459
+    },
+    //Animation
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "ItsBenterPaolo_sleep": "20/20/20",
+        "ItsBenterPaolo_tap": "24/24/24"
+      }
+    },
+    //Schedule
+    {
+      "Action": "Load",
+      "Target": "Characters/schedules/ItsBenterPaolo",
+      "FromFile": "Characters/schedules/ItsBenterPaolo_{{ItsBenterPaoloSchedule}}.json"
+    },
+    //Dialogue
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/ItsBenterPaolo",
+      "Entries": {
+        ////Spring////
+        "spring_1": "{{i18n:ItsBenterPaolo.Dialogue.spring_1}}", //Season change
+        //With Diane
+        "Mon": "{{i18n:ItsBenterPaolo.Dialogue.Mon}}",
+        "Mon2": "{{i18n:ItsBenterPaolo.Dialogue.Mon2}}",
+        "Mon4": "{{i18n:ItsBenterPaolo.Dialogue.Mon4}}",
+        "Mon6": "{{i18n:ItsBenterPaolo.Dialogue.Mon6}}",
+        "Mon8": "{{i18n:ItsBenterPaolo.Dialogue.Mon8-{{Random:1, 2}}}}",
+        "Mon10": "{{i18n:ItsBenterPaolo.Dialogue.Mon10-{{Random:1, 2, 3}}}}",
+        //With Diane; Stop visiting on Tue after Diane's 10 heart event
+        "Tue": "{{i18n:ItsBenterPaolo.Dialogue.Tue}}",
+        "Tue2": "{{i18n:ItsBenterPaolo.Dialogue.Tue2}}",
+        "Tue4": "{{i18n:ItsBenterPaolo.Dialogue.Tue4}}",
+        "Tue6": "{{i18n:ItsBenterPaolo.Dialogue.Tue6}}",
+        "Tue8": "{{i18n:ItsBenterPaolo.Dialogue.Tue8}}",
+        "Tue10": "{{i18n:ItsBenterPaolo.Dialogue.Tue10}}",
+        //Start visiting on Friday after Paolo's 6 heart event
+        "Fri": "{{i18n:ItsBenterPaolo.Dialogue.Fri}}",
+        "Fri6": "{{i18n:ItsBenterPaolo.Dialogue.Fri6}}",
+        "Fri8": "{{i18n:ItsBenterPaolo.Dialogue.Fri8-{{Random:1, 2}}}}",
+        "Fri10": "{{i18n:ItsBenterPaolo.Dialogue.Fri10-{{Random:1, 2, 3}}}}",
+        //Start visiting on Saturday with Riana after Paolo's 10 heart event
+        "Sat": "{{i18n:ItsBenterPaolo.Dialogue.Sat}}",
+        "Sat10": "{{i18n:ItsBenterPaolo.Dialogue.Sat10-{{Random:1, 2, 3}}}}",
+        ////Summer////
+        "summer_1": "{{i18n:ItsBenterPaolo.Dialogue.summer_1}}", //Season change
+        //With Diane
+        "summer_Mon": "{{i18n:ItsBenterPaolo.Dialogue.summer_Mon}}",
+        "summer_Mon2": "{{i18n:ItsBenterPaolo.Dialogue.summer_Mon2}}",
+        "summer_Mon4": "{{i18n:ItsBenterPaolo.Dialogue.summer_Mon4}}",
+        "summer_Mon6": "{{i18n:ItsBenterPaolo.Dialogue.summer_Mon6}}",
+        "summer_Mon8": "{{i18n:ItsBenterPaolo.Dialogue.summer_Mon8-{{Random:1, 2}}}}",
+        "summer_Mon10": "{{i18n:ItsBenterPaolo.Dialogue.summer_Mon10-{{Random:1, 2, 3}}}}",
+        //With Diane; Stop visiting on Tue after Diane's 10 heart event
+        "summer_Tue": "{{i18n:ItsBenterPaolo.Dialogue.summer_Tue}}",
+        "summer_Tue2": "{{i18n:ItsBenterPaolo.Dialogue.summer_Tue2}}",
+        "summer_Tue4": "{{i18n:ItsBenterPaolo.Dialogue.summer_Tue4}}",
+        "summer_Tue6": "{{i18n:ItsBenterPaolo.Dialogue.summer_Tue6}}",
+        "summer_Tue8": "{{i18n:ItsBenterPaolo.Dialogue.summer_Tue8}}",
+        "summer_Tue10": "{{i18n:ItsBenterPaolo.Dialogue.summer_Tue10}}",
+        //Start visiting on Friday after Paolo's 6 heart event
+        "summer_Fri": "{{i18n:ItsBenterPaolo.Dialogue.summer_Fri}}",
+        "summer_Fri6": "{{i18n:ItsBenterPaolo.Dialogue.summer_Fri6}}",
+        "summer_Fri8": "{{i18n:ItsBenterPaolo.Dialogue.summer_Fri8-{{Random:1, 2}}}}",
+        "summer_Fri10": "{{i18n:ItsBenterPaolo.Dialogue.summer_Fri10-{{Random:1, 2, 3}}}}",
+        //Start visiting on Saturday with Riana after Paolo's 10 heart event
+        "summer_Sat": "{{i18n:ItsBenterPaolo.Dialogue.summer_Sat}}",
+        "summer_Sat10": "{{i18n:ItsBenterPaolo.Dialogue.summer_Sat10-{{Random:1, 2, 3}}}}",
+        //Fall//
+        "fall_1": "{{i18n:ItsBenterPaolo.Dialogue.fall_1}}", //Season change
+        //With Diane
+        "fall_Mon": "{{i18n:ItsBenterPaolo.Dialogue.fall_Mon}}",
+        "fall_Mon2": "{{i18n:ItsBenterPaolo.Dialogue.fall_Mon2}}",
+        "fall_Mon4": "{{i18n:ItsBenterPaolo.Dialogue.fall_Mon4}}",
+        "fall_Mon6": "{{i18n:ItsBenterPaolo.Dialogue.fall_Mon6}}",
+        "fall_Mon8": "{{i18n:ItsBenterPaolo.Dialogue.fall_Mon8-{{Random:1, 2}}}}",
+        "fall_Mon10": "{{i18n:ItsBenterPaolo.Dialogue.fall_Mon10-{{Random:1, 2, 3}}}}",
+        //With Diane; Stop visiting on Tue after Diane's 10 heart event
+        "fall_Tue": "{{i18n:ItsBenterPaolo.Dialogue.fall_Tue}}",
+        "fall_Tue2": "{{i18n:ItsBenterPaolo.Dialogue.fall_Tue2}}",
+        "fall_Tue4": "{{i18n:ItsBenterPaolo.Dialogue.fall_Tue4}}",
+        "fall_Tue6": "{{i18n:ItsBenterPaolo.Dialogue.fall_Tue6}}",
+        "fall_Tue8": "{{i18n:ItsBenterPaolo.Dialogue.fall_Tue8}}",
+        "fall_Tue10": "{{i18n:ItsBenterPaolo.Dialogue.fall_Tue10}}",
+        //Start visiting on Friday after Paolo's 6 heart event
+        "fall_Fri": "{{i18n:ItsBenterPaolo.Dialogue.fall_Fri}}",
+        "fall_Fri6": "{{i18n:ItsBenterPaolo.Dialogue.fall_Fri6}}",
+        "fall_Fri8": "{{i18n:ItsBenterPaolo.Dialogue.fall_Fri8-{{Random:1, 2}}}}",
+        "fall_Fri10": "{{i18n:ItsBenterPaolo.Dialogue.fall_Fri10-{{Random:1, 2, 3}}}}",
+        //Start visiting on Saturday with Riana after Paolo's 10 heart event
+        "fall_Sat": "{{i18n:ItsBenterPaolo.Dialogue.fall_Sat}}",
+        "fall_Sat10": "{{i18n:ItsBenterPaolo.Dialogue.fall_Sat10-{{Random:1, 2, 3}}}}",
+        //Winter
+        "winter_1": "{{i18n:ItsBenterPaolo.Dialogue.winter_1}}", //Season change
+        //With Diane
+        "winter_Mon": "{{i18n:ItsBenterPaolo.Dialogue.winter_Mon}}",
+        "winter_Mon2": "{{i18n:ItsBenterPaolo.Dialogue.winter_Mon2}}",
+        "winter_Mon4": "{{i18n:ItsBenterPaolo.Dialogue.winter_Mon4}}",
+        "winter_Mon6": "{{i18n:ItsBenterPaolo.Dialogue.winter_Mon6}}",
+        "winter_Mon8": "{{i18n:ItsBenterPaolo.Dialogue.winter_Mon8-{{Random:1, 2}}}}",
+        "winter_Mon10": "{{i18n:ItsBenterPaolo.Dialogue.winter_Mon10-{{Random:1, 2, 3}}}}",
+        //With Diane; Stop visiting on Tue after Diane's 10 heart event
+        "winter_Tue": "{{i18n:ItsBenterPaolo.Dialogue.winter_Tue}}",
+        "winter_Tue2": "{{i18n:ItsBenterPaolo.Dialogue.winter_Tue2}}",
+        "winter_Tue4": "{{i18n:ItsBenterPaolo.Dialogue.winter_Tue4}}",
+        "winter_Tue6": "{{i18n:ItsBenterPaolo.Dialogue.winter_Tue6}}",
+        "winter_Tue8": "{{i18n:ItsBenterPaolo.Dialogue.winter_Tue8}}",
+        "winter_Tue10": "{{i18n:ItsBenterPaolo.Dialogue.winter_Tue10}}",
+        //Start visiting on Friday after Paolo's 6 heart event
+        "winter_Fri": "{{i18n:ItsBenterPaolo.Dialogue.winter_Fri}}",
+        "winter_Fri6": "{{i18n:ItsBenterPaolo.Dialogue.winter_Fri6}}",
+        "winter_Fri8": "{{i18n:ItsBenterPaolo.Dialogue.winter_Fri8-{{Random:1, 2}}}}",
+        "winter_Fri10": "{{i18n:ItsBenterPaolo.Dialogue.winter_Fri10-{{Random:1, 2, 3}}}}",
+        //Start visiting on Saturday with Riana after Paolo's 10 heart event
+        "winter_Sat": "{{i18n:ItsBenterPaolo.Dialogue.winter_Sat}}",
+        "winter_Sat10": "{{i18n:ItsBenterPaolo.Dialogue.winter_Sat10-{{Random:1, 2, 3}}}}",
+      }
+    }
+  ]
+}

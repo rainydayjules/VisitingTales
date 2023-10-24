@@ -60,6 +60,30 @@ Karl visits Pelican Town on Friday and Saturday.
   </table>
 </details>
 
+## Gift Tastes
+Excludes universal gift tastes
+### Loves
+* [Salmon Dinner](https://stardewvalleywiki.com/Salmon_Dinner)
+* [Sashimi](https://stardewvalleywiki.com/Sashimi)
+* [Fried Calamary](https://stardewvalleywiki.com/Fried_Calamari)
+* [Crispy Bass](https://stardewvalleywiki.com/Crispy_Bass)
+* Beer
+* Mead
+* [Piña Colada](https://stardewvalleywiki.com/Pi%C3%B1a_Colada)
+* [Ice Cream](https://stardewvalleywiki.com/Ice_Cream)
+### Likes
+* All eggs (except [Void Egg](https://stardewvalleywiki.com/Void_Egg))
+* All fish
+* [Hardwood](https://stardewvalleywiki.com/Hardwood)
+### Neutral
+* All vegetables
+* All flowers
+* [Pearl](https://stardewvalleywiki.com/Pearl)
+* [Rabbit's Foot](https://stardewvalleywiki.com/Rabbit%27s_Foot)
+### Dislikes
+* [Ginger](https://stardewvalleywiki.com/Ginger)
+### Hates
+* [Hot Pepper](https://stardewvalleywiki.com/Hot_Pepper)
 ## Heart Events
 ### Introduction Event
 After reaching level 10 fishing, enter bus stop on a sunny day between 3pm and 6pm

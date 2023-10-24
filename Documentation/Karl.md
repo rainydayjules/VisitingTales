@@ -17,7 +17,7 @@ Karl is an office worker from Zuzu City. He visits Pelican Town to fish. A pasti
 * [Notes](#Notes)
 
 ## Relationships
-Karl lives in Zuzu with his wife, Emma. His wife seems to not have much interest in outdoors activity. In Pelican Town, Karl seems to be in good terms with Linus and Willy.
+Karl lives in Zuzu with his wife, Emma. Based on his dialogue, his wife does not share his interest in fishing. Also he seems to be in good terms with his co-workers. Despite his outgoing demeanor, Karl does not seem to be close with others beside Linus and Willy.
 
 ## Schedules
 Karl visits Pelican Town on Friday and Saturday.
@@ -67,8 +67,8 @@ Excludes universal gift tastes
 * [Sashimi](https://stardewvalleywiki.com/Sashimi)
 * [Fried Calamary](https://stardewvalleywiki.com/Fried_Calamari)
 * [Crispy Bass](https://stardewvalleywiki.com/Crispy_Bass)
-* Beer
-* Mead
+* [Beer](https://stardewvalleywiki.com/Beer)
+* [Mead](https://stardewvalleywiki.com/Mead)
 * [Piña Colada](https://stardewvalleywiki.com/Pi%C3%B1a_Colada)
 * [Ice Cream](https://stardewvalleywiki.com/Ice_Cream)
 ### Likes

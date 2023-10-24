@@ -4,11 +4,6 @@ Karl is an office worker from Zuzu City. He visits Pelican Town to fish. A pasti
 * [Relationships](#relationships)
 * [Schedules](#schedules)
 * [Gift Tastes](#gift-tastes)
-  * [Loves](#loves)
-  * [Likes](#likes)
-  * [Neutrals](#neutrals)
-  * [Dislikes](#dislikes)
-  * [Hates](#hates)
 * [Heart Events](#heart-events)
 * [Movie Theater Tastes](#move-theater-tastes)
   * [Movies](#movies)
@@ -62,28 +57,49 @@ Karl visits Pelican Town on Friday and Saturday.
 
 ## Gift Tastes
 Excludes universal gift tastes
-### Loves
-* [Salmon Dinner](https://stardewvalleywiki.com/Salmon_Dinner)
-* [Sashimi](https://stardewvalleywiki.com/Sashimi)
-* [Fried Calamary](https://stardewvalleywiki.com/Fried_Calamari)
-* [Crispy Bass](https://stardewvalleywiki.com/Crispy_Bass)
-* [Beer](https://stardewvalleywiki.com/Beer)
-* [Mead](https://stardewvalleywiki.com/Mead)
-* [Piña Colada](https://stardewvalleywiki.com/Pi%C3%B1a_Colada)
-* [Ice Cream](https://stardewvalleywiki.com/Ice_Cream)
-### Likes
-* All eggs (except [Void Egg](https://stardewvalleywiki.com/Void_Egg))
-* All fish
-* [Hardwood](https://stardewvalleywiki.com/Hardwood)
-### Neutral
-* All vegetables
-* All flowers
-* [Pearl](https://stardewvalleywiki.com/Pearl)
-* [Rabbit's Foot](https://stardewvalleywiki.com/Rabbit%27s_Foot)
-### Dislikes
-* [Ginger](https://stardewvalleywiki.com/Ginger)
-### Hates
-* [Hot Pepper](https://stardewvalleywiki.com/Hot_Pepper)
+<details>
+  <summary>Loves</summary>
+  <ul>
+    <li><a href="https://stardewvalleywiki.com/Salmon_Dinner">Salmon Dinner</a></li>
+    <li><a href="https://stardewvalleywiki.com/Sashimi">Sashimi</a></li>
+    <li><a href="https://stardewvalleywiki.com/Fried_Calamari">Fried Calamary</a></li>
+    <li><a href="https://stardewvalleywiki.com/Crispy_Bass">Crispy Bass</a></li>
+    <li><a href="https://stardewvalleywiki.com/Beer">Beer</a></li>
+    <li><a href="https://stardewvalleywiki.com/Mead">Mead</a></li>
+    <li><a href="https://stardewvalleywiki.com/Pi%C3%B1a_Colada">Piña Colada</a></li>
+    <li><a href="https://stardewvalleywiki.com/Ice_Cream">Ice Cream</a></li>
+  </ul>
+</details>
+<details>
+  <summary>Likes</summary>
+  <ul>
+    <li>All eggs except <a href="https://stardewvalleywiki.com/Void_Egg">Void Egg</a></li>
+    <li>All fish</li>
+    <li><a href="https://stardewvalleywiki.com/Hardwood">Hardwood</a></li>
+  </ul>
+</details>
+<details>
+  <summary>Neutrals</summary>
+  <ul>
+    <li>All vegetables</li>
+    <li>All flowers</li>
+    <li><a href="https://stardewvalleywiki.com/Rabbit%27s_Foot">Rabbit's Foot</a></li>
+    <li><a href="https://stardewvalleywiki.com/Pearl">Pearl</a></li>
+  </ul>
+</details>
+<details>
+  <summary>Dislikes</summary>
+  <ul>
+    <li><a href="https://stardewvalleywiki.com/Ginger">Ginger</a></li>
+  </ul>
+</details>
+<details>
+  <summary>Hates</summary>
+  <ul>
+    <li><a href="https://stardewvalleywiki.com/Hot_Pepper">Hot Pepper</a></li>
+  </ul>
+</details>
+
 ## Heart Events
 ### Introduction Event
 After reaching level 10 fishing, enter bus stop on a sunny day between 3pm and 6pm

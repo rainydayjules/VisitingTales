@@ -1,4 +1,4 @@
-Karl is an office worker from Zuzu City. He comes to Pelican Town for some fishing, a hobby and a way to escape the bustling city life. He's a down-to-earth, hardworking man who's just trying to provide for his family. You can often spot him casting his line in the valley on Fridays and Saturdays.
+Karl is an office worker from Zuzu City. He comes to Pelican Town for some fishing, a hobby and a way to escape the bustling city life. He's a down-to-earth, hardworking man who is just trying to provide for his family. You can often spot him casting his line in the valley on Fridays and Saturdays.
 
 ![](Images/Karl_portrait.png) ![](Images/Karl_sprites.png)
 
@@ -139,6 +139,7 @@ Player finds Karl fishing. Karl is startled leading to him losing the fish. He m
 
 ## Movie Theater Tastes
 ### Movies
+Details on movies schedule can be seen on [movie theater wikipage](https://stardewvalleywiki.com/Movie_Theater#Movies)
 <details>
   <summary>Loves</summary>
   <ul>
@@ -166,6 +167,7 @@ Player finds Karl fishing. Karl is startled leading to him losing the fish. He m
 </details>
 
 ### Concessions
+Prices of concessions can be seen on [movie theater wikipage](https://stardewvalleywiki.com/Movie_Theater#Concessions)
 <details>
   <summary>Loves</summary>
   <ul>

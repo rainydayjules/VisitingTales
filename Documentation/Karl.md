@@ -104,7 +104,7 @@ This list excludes [universal gift tastes](https://stardewvalleywiki.com/Friends
 </details>
 
 ## Heart Events
-### Introduction Event
+### Introduction Event: New Fisherman in Town
 After reaching level 10 fishing, enter bus stop on a sunny day between 3pm and 6pm
 
 > [!WARNING]
@@ -113,27 +113,37 @@ After reaching level 10 fishing, enter bus stop on a sunny day between 3pm and 6
 <details>
 <summary>Details</summary>
 <par>
-Player enters the bus stop and sees a cheerful Karl on his way to the bus. Karl noticed the player and decided to gives player an Iridium quality carp.
+Player enters the bus stop and encounters cheerful Karl, who is on his way to the bus. Karl spots the player and offers an Iridium-quality carp from his day's catch. He mentions that the player can look forward to more encounters with him, as he would like to explore fishing spots around Stardew Valley.
 </par>
 </details>
 
-### Two Hearts
+### Two Hearts Events: Little Friendly Feast
 On a sunny Friday or Saturday enter mountain between 4pm and 6pm
 
 <details>
 <summary>Details</summary>
 <par>
-Player enters mountain and sees Karl and Linus sitting in front of fireplace near Linus' tent. Upon noticing the player, Karl asks the player to join their little feast. He says that sharing the food with his new friends make the dish very tasty
+Player enters the mountains and spot Karl and Linus sitting a campfire near Linus' tent. Karl notices and invites the player to join their small gathering. He's curious about what the player thinks of the roasted fish they're having. No matter the player's response, Karl says that the meal becomes even better when shared with new friends.
 </par>
 </details>
 
-### Four Hearts
+### Four Hearts Events: Losing the Catch
 On Friday or Saturday enter Cindersap Forest between 4pm and 6pm
 
 <details>
 <summary>Details</summary>
 <par>
-Player finds Karl fishing. Karl is startled leading to him losing the fish. He mentions he is just not quite in the game that day. He then explains that he had a rough week and can only find an escape when fishing. He then says after coming to Pelican Town he wonders if he should move. Player can give opinion on his idea.
+Karl is fishing by the river when the player's sudden arrival startles him, making him to lose the fish he was trying to catch. He admits that he's feeling a bit off today and goes on to explain that he had a tough week. For him, fishing is a way to escape from it all. He then chimes that he wonders if he should relocate to Pelican Town, and the player has the chance to share their opinion on the idea.
+</par>
+</details>
+
+### Six Hearts Events: 
+On Friday or Saturday enter Cindersap Forest between 4pm and 6pm
+
+<details>
+<summary>Details</summary>
+<par>
+A woman is walking off from the forest to the town. 
 </par>
 </details>
 

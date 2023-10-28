@@ -1,18 +1,21 @@
-Karl is an office worker from Zuzu City. He visits Pelican Town to fish. A pastime and an escape from the busy city life. He is a simple and hardworking man doing what he think is best for his family. Karl can often be seen mingling and fishing around the valley on Friday and Saturday.
+Karl is an office worker from Zuzu City. He comes to Pelican Town for some fishing, a hobby and a way to escape the bustling city life. He's a down-to-earth, hardworking man who's just trying to provide for his family. You can often spot him casting his line in the valley on Fridays and Saturdays.
+
+![](Images/Karl_portrait.png)
 
 ## Contents
 * [Relationships](#relationships)
 * [Schedules](#schedules)
 * [Gift Tastes](#gift-tastes)
 * [Heart Events](#heart-events)
-* [Movie Theater Tastes](#move-theater-tastes)
+* [Movie Theater Tastes](#movie-theater-tastes)
   * [Movies](#movies)
   * [Concessions](#concessions)
 * [Changelogs](#changelogs)
 * [Notes](#Notes)
 
 ## Relationships
-Karl lives in Zuzu with his wife, Emma. Based on his dialogue, his wife does not share his interest in fishing. Also he seems to be in good terms with his co-workers. Despite his outgoing demeanor, Karl does not seem to be close with others beside Linus and Willy.
+
+Karl resides in Zuzu alongside his wife, Emma. From his dialogues it appears that Emma does not share his loves for fishing. He generally gets along well with his co-workers, but despite his friendly demeanor, Karl isn't particularly close to anyone except for Linus and Willy in Pelican Town.
 
 ## Schedules
 Karl visits Pelican Town on Friday and Saturday.
@@ -132,4 +135,32 @@ On Friday or Saturday enter Cindersap Forest between 4pm and 6pm
 <par>
 Player finds Karl fishing. Karl is startled leading to him losing the fish. He mentions he is just not quite in the game that day. He then explains that he had a rough week and can only find an escape when fishing. He then says after coming to Pelican Town he wonders if he should move. Player can give opinion on his idea.
 </par>
+</details>
+
+## Movie Theater Tastes
+### Movies
+<details>
+  <summary>Loves</summary>
+  <ul>
+    <li>The Brave Little Sapling</li>
+    <li>The Miracle At Coldstar Ranch</li>
+    <li>Wumbus</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Likes</summary>
+  <ul>
+    <li>Journey Of The Prairie King: The Motion Picture</li>
+    <li>It Howls In The Rain</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Dislikes</summary>
+  <ul>
+    <li>Mysterium</li>
+    <li>Natural Wonders: Exploring Our Vibrant World</li>
+    <li>The Zuzu City Express</li>
+  </ul>
 </details>

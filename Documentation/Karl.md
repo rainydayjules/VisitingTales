@@ -59,7 +59,7 @@ Karl visits Pelican Town on Friday and Saturday.
 </details>
 
 ## Gift Tastes
-Excludes universal gift tastes
+This list excludes [universal gift tastes](https://stardewvalleywiki.com/Friendship#Universal_Gifts).
 <details>
   <summary>Loves</summary>
   <ul>
@@ -210,3 +210,9 @@ Prices of concessions can be seen on [movie theater wikipage](https://stardewval
     <li>Star Cookie</li>
   </ul>
 </details>
+
+## Changelogs
+* 1.0.0 initial release
+ 
+## Notes
+* Karl's looks and personality is highly inspired by [ASMR Outdoorsman](https://www.youtube.com/@The-ASMR-Outdoorsman)

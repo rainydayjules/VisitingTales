@@ -27,7 +27,7 @@
           "ExcludeFromPerfectionScore": true,
           "EndSlideShow": "TrailingGroup",
           //Spawn rules
-          "UnlockConditions": "MUSEUM_DONATIONS 60",
+          "UnlockConditions": "MUSEUM_DONATIONS 45",
           "Home": [
             {
               "Id": "Default",

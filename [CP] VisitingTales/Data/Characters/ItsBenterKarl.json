@@ -60,11 +60,11 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "ItsBenterKarl": "{{i18n:ItsBenterKarl.Gifts_Loved}}/212 227 346 459 873 233 214 202/{{i18n:ItsBenterKarl.Gifts_Liked}}/-4 -5 186 709 194/{{i18n:ItsBenterKarl.Gifts_Disliked}}/820/{{i18n:ItsBenterKarl.Gifts_Hated}}/260/{{i18n:ItsBenterKarl.Gifts_Neutral}}/-75 -80 797 446 142/"
+        "ItsBenterKarl": "{{i18n:ItsBenterKarl.Gifts_Loved}}/212 227 346 459 873 233 214 202/{{i18n:ItsBenterKarl.Gifts_Liked}}/-4 -5 186 709/{{i18n:ItsBenterKarl.Gifts_Disliked}}/820/{{i18n:ItsBenterKarl.Gifts_Hated}}/260/{{i18n:ItsBenterKarl.Gifts_Neutral}}/-75 -80 797 446/"
       }
       //Loves: salmon dinner 212, sashimi 227, beer 346, mead 459, pina colada 873, ice cream 233, crispy bass 214, fried calamari 202
-      //Likes: fish -4, eggs -5, hardwood 709, fried egg 194
-      //Neutrals: vegetables -75, flower -80, pearl 797, rabbit's foot 446, carp 142
+      //Likes: fish -4, eggs -5, hardwood 709
+      //Neutrals: vegetables -75, flower -80, pearl 797, rabbit's foot 446
       //Dislikes: ginger 829
       //Hates: hot pepper 260
     },

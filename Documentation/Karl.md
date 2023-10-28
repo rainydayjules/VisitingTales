@@ -15,7 +15,7 @@ Karl is an office worker from Zuzu City. He comes to Pelican Town for some fishi
 
 ## Relationships
 
-Karl resides in Zuzu alongside his wife, Emma. From his dialogues it appears that Emma does not share his loves for fishing. He generally gets along well with his co-workers, but despite his friendly demeanor, Karl isn't particularly close to anyone except for Linus and Willy in Pelican Town.
+Karl resides in Zuzu alongside his wife, Emma. From his dialogues it appears that Emma does not share his loves for fishing. He generally gets along well with his co-workers, but despite his friendly demeanor, Karl is not particularly close to anyone except for Linus and Willy in Pelican Town.
 
 ## Schedules
 Karl visits Pelican Town on Friday and Saturday.
@@ -162,5 +162,49 @@ Player finds Karl fishing. Karl is startled leading to him losing the fish. He m
     <li>Mysterium</li>
     <li>Natural Wonders: Exploring Our Vibrant World</li>
     <li>The Zuzu City Express</li>
+  </ul>
+</details>
+
+### Concessions
+<details>
+  <summary>Loves</summary>
+  <ul>
+    <li>Fries</li>
+    <li>Ice Cream Sandwich</li>
+    <li>Nachos</li>
+    <li>Personal Pizza</li>
+    <li>Salmon Burger</li>
+    <li>Stardrop Sorbet</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Likes</summary>
+  <ul>
+    <li>Panzanella Salad</li>
+    <li>Apple Slices</li>
+    <li>Cappuccino Mousse Cake</li>
+    <li>Chocolate Popcorn</li>
+    <li>Popcorn</li>
+    <li>Sour Slimes</li>
+    <li>Salted Peanuts</li>
+    <li>Sour Slimes</li>
+    <li>Truffle Popcorn</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Dislikes</summary>
+  <ul>
+    <li>Black Licorice</li>
+    <li>Cotton Candy</li>
+    <li>Hummus Snack Pack</li>
+    <li>Jasmine Tea</li>
+    <li>Jawbreaker</li>
+    <li>Joja Cola</li>
+    <li>JojaCorn</li>
+    <li>Kale Smoothie</li>
+    <li>Rock Candy</li>
+    <li>Star Cookie</li>
   </ul>
 </details>

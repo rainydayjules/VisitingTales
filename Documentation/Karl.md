@@ -1,6 +1,6 @@
 Karl is an office worker from Zuzu City. He comes to Pelican Town for some fishing, a hobby and a way to escape the bustling city life. He's a down-to-earth, hardworking man who's just trying to provide for his family. You can often spot him casting his line in the valley on Fridays and Saturdays.
 
-![](Images/Karl_portrait.png)
+![](Images/Karl_portrait.png) ![](Images/Karl_sprites.png)
 
 ## Contents
 * [Relationships](#relationships)

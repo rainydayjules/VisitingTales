@@ -1,4 +1,4 @@
-Diane is a history buff who started visiting Pelican Town after hearing the sudden increase in Pelican Town's museum collection. A lady of class and of heart. Diane spends most of her time in the museum, but can also be found enjoying the valley.
+Diane is a history enthusiast who came to Pelican Town because of the growing museum collection. A lady of class and of heart. Diane spends most of her time at the museum but also enjoys exploring the valley.
 
 ![](Images/Diane_portrait.png) ![](Images/Diane_sprites.png)
 
@@ -18,43 +18,27 @@ Diane is a history buff who started visiting Pelican Town after hearing the sudd
 Diane is married to Francesco, and even though they love each other and get along, they are unable to spend much of their time together. Diane knows wide range of people because of her background, but she thinks many of these connections are just mere surface-level. In Pelican Town, she mainly spends her time at the museum with Gunther and at other times watches over the children with Penny.
 
 ## Schedules
-Diane visits Pelican Town on Monday and Tuesday.
+Diane visits Pelican Town on Monday, Tuesday, and Wednesday.
 <details>
-  <summary>Friday</summary>
-  <par>After seeing Karl's 8 heart event, Karl would stop visiting on Friday.</par>
+  <summary>Monday and Wednesday</summary>
+  <par>After seeing Diane's 10 heart event, Diane would stop visiting on Monday.</par>
   <table>
     <tr><th>Time</th><th>Location</th></tr>
-    <tr><td>15.00</td><td>From inside the bus goes to the beach's piers to fish</td></tr>
-    <tr><td>19.00</td><td>Goes to bus stop to catch a ride home</td></tr>
+    <tr><td>09.00</td><td>From inside the bus goes to stand in front of the flower near the saloon</td></tr>
+    <tr><td>12.00</td><td>Goes to look at museum's collections</td></tr>
+    <tr><td>14.00</td><td>Finds a corner to read inside the museum</td></tr>
+    <tr><td>18.00</td><td>Goes to stand beside the river near the museum</td></tr>
+    <tr><td>20.00</td><td>Goes to bus stop to catch a ride home</td></tr>
   </table>
 </details>
 <details>
-  <summary>Saturday</summary>
-  <par>Karl randomly chooses from the following schedules</par>
-  <br><br>
-  <b>Fishing in Mountain and Visiting Linus</b>
+  <summary>Tuesday</summary>
   <table>
    <tr><th>Time</th><th>Location</th></tr>
-   <tr><td>07.00</td><td>From inside the bus goes to stand near fireplace near Linus tent</td></tr>
-   <tr><td>10.00</td><td>Goes to fish in mountain lake alternating between the lake island and west side of the lake</td></tr>
-   <tr><td>16.00</td><td>Goes to stand near fireplace near Linus tent</td></tr>
-   <tr><td>19.00</td><td>Goes to bus stop to catch a ride home</td></tr>
-  </table>
-  <b>Fishing in Town</b>
-  <table>
-    <tr><th>Time</th><th>Location</th></tr>
-    <tr><td>07.00</td><td>From inside the bus goes to fish in town river near the top stream</td></tr>
-    <tr><td>12.00</td><td>Goes to Stardrop Saloon</td></tr>
-    <tr><td>15.30</td><td>Goes to fish in beach piers</td></tr>
-    <tr><td>19.00</td><td>Goes to bus stop to catch a ride home</td></tr>
-  </table>
-  <b>Fishing with Willy</b>
-  <table>
-    <tr><th>Time</th><th>Location</th></tr>
-    <tr><td>07.00</td><td>From inside the bus goes to fish in Cindersap Forest near Leah's Cottage</td></tr>
-    <tr><td>13.30</td><td>Goes to fish in town</td></tr>
-    <tr><td>17.00</td><td>Goes to stand near water in beach</td></tr>
-    <tr><td>19.00</td><td>Goes to bus stop to catch a ride home</td></tr>
+   <tr><td>09.00</td><td>From inside the bus goes to the museum and read book while watching Penny tutors the children</td></tr>
+   <tr><td>14.30</td><td>Goes to the bridge near the museum standing near Penny and the children</td></tr>
+   <tr><td>16.00</td><td>Goes to stand near the fountain near community center</td></tr>
+   <tr><td>20.00</td><td>Goes to bus stop to catch a ride home</td></tr>
   </table>
 </details>
 

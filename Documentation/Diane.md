@@ -47,22 +47,18 @@ This list excludes [universal gift tastes](https://stardewvalleywiki.com/Friends
 <details>
   <summary>Loves</summary>
   <ul>
-    <li><a href="https://stardewvalleywiki.com/Salmon_Dinner">Salmon Dinner</a></li>
-    <li><a href="https://stardewvalleywiki.com/Sashimi">Sashimi</a></li>
-    <li><a href="https://stardewvalleywiki.com/Fried_Calamari">Fried Calamary</a></li>
-    <li><a href="https://stardewvalleywiki.com/Crispy_Bass">Crispy Bass</a></li>
-    <li><a href="https://stardewvalleywiki.com/Beer">Beer</a></li>
-    <li><a href="https://stardewvalleywiki.com/Mead">Mead</a></li>
-    <li><a href="https://stardewvalleywiki.com/Pi%C3%B1a_Colada">Piña Colada</a></li>
-    <li><a href="https://stardewvalleywiki.com/Ice_Cream">Ice Cream</a></li>
+    <li><a href="https://stardewvalleywiki.com/Jade">Jade</a></li>
+    <li><a href="https://stardewvalleywiki.com/Elvish_Jewelry">Elvish Jewelry</a></li>
+    <li><a href="https://stardewvalleywiki.com/Ornamental_Fan">Ornamental Fan</a></li>
+    <li><a href="https://stardewvalleywiki.com/Poppy">Poppy</a></li>
+    <li><a href="https://stardewvalleywiki.com/Roasted_Hazelnuts">Roasted Hazelnuts</a></li>
   </ul>
 </details>
 <details>
   <summary>Likes</summary>
   <ul>
-    <li>All eggs except <a href="https://stardewvalleywiki.com/Void_Egg">Void Egg</a></li>
-    <li>All fish</li>
-    <li><a href="https://stardewvalleywiki.com/Hardwood">Hardwood</a></li>
+    <li>All gems</li>
+    <li><a href="https://stardewvalleywiki.com/Pearl">Pearl</a></li>
   </ul>
 </details>
 <details>
@@ -70,20 +66,25 @@ This list excludes [universal gift tastes](https://stardewvalleywiki.com/Friends
   <ul>
     <li>All vegetables</li>
     <li>All flowers</li>
+    <li>All fruits</li>
+    <li>All cooking except <a href="https://stardewvalleywiki.com/Roasted_Hazelnuts">Roasted Hazelnuts</a></li>
+    <li>All fish</li>
+    <li>All artisan goods</li>
     <li><a href="https://stardewvalleywiki.com/Rabbit%27s_Foot">Rabbit's Foot</a></li>
-    <li><a href="https://stardewvalleywiki.com/Pearl">Pearl</a></li>
+    <li><a href="https://stardewvalleywiki.com/Golden_Pumpkin">Golden Pumpkin</a></li>
   </ul>
 </details>
 <details>
   <summary>Dislikes</summary>
   <ul>
-    <li><a href="https://stardewvalleywiki.com/Ginger">Ginger</a></li>
+    <li>All baits</a></li>
   </ul>
 </details>
 <details>
   <summary>Hates</summary>
   <ul>
-    <li><a href="https://stardewvalleywiki.com/Hot_Pepper">Hot Pepper</a></li>
+    <li><a href="https://stardewvalleywiki.com/Pufferfish">Pufferfish</a></li>
+    <li><a href="https://stardewvalleywiki.com/Sea_Urchin">Sea Urchin</a></li>
   </ul>
 </details>
 

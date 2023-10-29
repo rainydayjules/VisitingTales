@@ -1,6 +1,6 @@
-Karl is an office worker from Zuzu City. He comes to Pelican Town for some fishing, a hobby and a way to escape the bustling city life. He's a down-to-earth, hardworking man who is just trying to provide for his family. You can often spot him casting his line in the valley on Fridays and Saturdays.
+Diane is a history buff who started visiting Pelican Town after hearing the sudden increase in Pelican Town's museum collection. A lady of class and of heart. Diane spends most of her time in the museum, but can also be found enjoying the valley.
 
-![](Images/Karl_portrait.png) ![](Images/Karl_sprites.png)
+![](Images/Diane_portrait.png) ![](Images/Diane_sprites.png)
 
 ## Contents
 * [Relationships](#relationships)
@@ -15,10 +15,10 @@ Karl is an office worker from Zuzu City. He comes to Pelican Town for some fishi
 
 ## Relationships
 
-Karl resides in Zuzu alongside his wife, Emma. From his dialogues it appears that Emma does not share his loves for fishing. He generally gets along well with his co-workers, but despite his friendly demeanor, Karl is not particularly close to anyone except for Linus and Willy in Pelican Town.
+Diane is married to Francesco, and even though they love each other and get along, they are unable to spend much of their time together. Diane knows wide range of people because of her background, but she thinks many of these connections are just mere surface-level. In Pelican Town, she mainly spends her time at the museum with Gunther and at other times watches over the children with Penny.
 
 ## Schedules
-Karl visits Pelican Town on Friday and Saturday.
+Diane visits Pelican Town on Monday and Tuesday.
 <details>
   <summary>Friday</summary>
   <par>After seeing Karl's 8 heart event, Karl would stop visiting on Friday.</par>
@@ -131,84 +131,32 @@ Player enters the mountains and spot Karl and Linus sitting a campfire near Linu
 </par>
 </details>
 
-### Four Hearts
-**Losing the Catch**
-
-On Friday or Saturday enter Cindersap Forest between 3pm and 6pm
-
-<details>
-<summary>Details</summary>
-<par>
-Karl is fishing by the river when the player's sudden arrival startles him, making him to lose the fish he was trying to catch. He admits that he's feeling a bit off today and goes on to explain that he had a tough week. For him, fishing is a way to escape from it all. He then chimes that he wonders if he should relocate to Pelican Town, and the player has the chance to share their opinion on the idea.
-</par>
-</details>
-
-### Six Hearts 1
-**At Least He Tried**
-
-On Friday or Saturday enter Cindersap Forest between 3pm and 6pm
-
-<details>
-<summary>Details</summary>
-<par>
-A woman, looking upset, rush to leave the forest. Karl follows her, revealing that she's his wife, Emma, and he needs to catch up with her. The player is left puzzled.
-
-The day after, Emma sends a letter explaining the situation.
-</par>
-</details>
-
-### Six Hearts 2
-**Karl Explains**
-
-Enter farm anytime after seeing Six Heart 1 event.
-
-<details>
-<summary>Details</summary>
-<par>
-Karl visits the farmhouse and shares that he tried to convince Emma to go fishing with him, but it did not work out. He jokes that maybe moving to Pelican Town to become fishermen is not such a great idea after all. Karl then takes his leave, saying he will see the player around.
-</par>
-</details>
-
-### Eight Hearts
-**Moving Up**
-
-Karl will send a letter after reaching eight hearts (except when it's winter), read the letter and then enter the beach on a sunny Friday or Saturday between 3pm and 5pm
-
-<details>
-<summary>Details</summary>
-<par>
-Karl, Emma, and Linus are having a picnic, with Linus roasting something on the open fire. Karl mentions he got a job promotion and wanted to celebrate a bit. Emma compliments his hard work, making him blush. Linus and Emma chat, Willy appears from the the direction of the piers and join, while Karl moves closer to the water, and the player follows. Karl shares that he is content with his life and feels grateful to Yoba.
-
-Karl will only visit on Saturday after the event
-</par>
-</details>
-
 ## Movie Theater Tastes
 ### Movies
 Details on movies schedule can be seen on [movie theater wikipage](https://stardewvalleywiki.com/Movie_Theater#Movies)
 <details>
   <summary>Loves</summary>
   <ul>
-    <li>The Brave Little Sapling</li>
+    <li>The Zuzu City Express</li>
     <li>The Miracle At Coldstar Ranch</li>
-    <li>Wumbus</li>
+    <li>It Howls In The Rain</li>
   </ul>
 </details>
 
 <details>
   <summary>Likes</summary>
   <ul>
-    <li>Journey Of The Prairie King: The Motion Picture</li>
-    <li>It Howls In The Rain</li>
+    <li>Natural Wonders: Exploring Our Vibrant World</li>
+    <li>The Brave Little Sapling</li>
   </ul>
 </details>
 
 <details>
   <summary>Dislikes</summary>
   <ul>
+    <li>Journey Of The Prairie King: The Motion Picture</li>
+    <li>Wumbus</li>
     <li>Mysterium</li>
-    <li>Natural Wonders: Exploring Our Vibrant World</li>
-    <li>The Zuzu City Express</li>
   </ul>
 </details>
 
@@ -217,43 +165,44 @@ Prices of concessions can be seen on [movie theater wikipage](https://stardewval
 <details>
   <summary>Loves</summary>
   <ul>
-    <li>Fries</li>
+    <li>Panzanella Salad</li>
+    <li>Hummus Snack Pack</li>
     <li>Ice Cream Sandwich</li>
-    <li>Nachos</li>
-    <li>Personal Pizza</li>
-    <li>Salmon Burger</li>
+    <li>Truffle Popcorn</li>
+    <li>Cappuccino Mousse Cake</li>
     <li>Stardrop Sorbet</li>
+    <li>Salted Peanuts</li>
   </ul>
 </details>
 
 <details>
   <summary>Likes</summary>
   <ul>
-    <li>Panzanella Salad</li>
+    <li>Cotton Candy</li>
+    <li>Salmon Burger</li>
     <li>Apple Slices</li>
-    <li>Cappuccino Mousse Cake</li>
     <li>Chocolate Popcorn</li>
     <li>Popcorn</li>
     <li>Sour Slimes</li>
-    <li>Salted Peanuts</li>
-    <li>Sour Slimes</li>
-    <li>Truffle Popcorn</li>
+    <li>Star Cookie</li>
   </ul>
 </details>
 
 <details>
   <summary>Dislikes</summary>
   <ul>
+    <li>Nachos</li>
+    <li>Personal Pizza</li>
+    <li>Sour Slimes</li>
+    <li>Fries</li>
     <li>Black Licorice</li>
-    <li>Cotton Candy</li>
-    <li>Hummus Snack Pack</li>
     <li>Jasmine Tea</li>
     <li>Jawbreaker</li>
     <li>Joja Cola</li>
     <li>JojaCorn</li>
     <li>Kale Smoothie</li>
     <li>Rock Candy</li>
-    <li>Star Cookie</li>
+    
   </ul>
 </details>
 
@@ -261,4 +210,4 @@ Prices of concessions can be seen on [movie theater wikipage](https://stardewval
 * 1.0.0 initial release
  
 ## Notes
-* Karl's appearance and personality is inspired by [ASMR Outdoorsman](https://www.youtube.com/@The-ASMR-Outdoorsman)
+* Diane is one of the oldest character concept and her portraits has gone through multiple alterations.

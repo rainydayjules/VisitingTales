@@ -110,7 +110,7 @@ This list excludes [universal gift tastes](https://stardewvalleywiki.com/Friends
 > [!WARNING]
 > Only host player gets to trigger character introduction event.
 
-After reaching level 10 fishing, enter bus stop on a sunny day between 3pm and 6pm
+After reaching level 10 fishing, enter bus stop on a sunny Friday or Saturday between 3pm and 6pm
 
 <details>
 <summary>Details</summary>
@@ -122,7 +122,7 @@ Player enters the bus stop and encounters cheerful Karl, who is on his way to th
 ### Two Hearts
 **Little Friendly Feast**
 
-On a sunny Friday or Saturday enter mountain between 4pm and 6pm
+On a sunny Friday or Saturday enter mountain between 3pm and 6pm
 
 <details>
 <summary>Details</summary>
@@ -134,7 +134,7 @@ Player enters the mountains and spot Karl and Linus sitting a campfire near Linu
 ### Four Hearts
 **Losing the Catch**
 
-On Friday or Saturday enter Cindersap Forest between 4pm and 6pm
+On Friday or Saturday enter Cindersap Forest between 3pm and 6pm
 
 <details>
 <summary>Details</summary>
@@ -143,15 +143,29 @@ Karl is fishing by the river when the player's sudden arrival startles him, maki
 </par>
 </details>
 
-### Six Hearts
+### Six Hearts 1
 **At Least He Tried**
 
-On Friday or Saturday enter Cindersap Forest between 4pm and 6pm
+On Friday or Saturday enter Cindersap Forest between 3pm and 6pm
 
 <details>
 <summary>Details</summary>
 <par>
-A woman is walking off from the forest to the town. 
+A woman, looking upset, rush to leave the forest. Karl follows her, revealing that she's his wife, Emma, and he needs to catch up with her. The player is left puzzled.
+
+The day after, Emma sends a letter explaining the situation.
+</par>
+</details>
+
+### Six Hearts 2
+**Karl Explains**
+
+Enter farm anytime after seeing Six Heart 1 event.
+
+<details>
+<summary>Details</summary>
+<par>
+Karl visits the farmhouse and shares that he tried to convince Emma to go fishing with him, but it did not work out. He jokes that maybe moving to Pelican Town to become fishermen is not such a great idea after all. Karl then takes his leave, saying he will see the player around.
 </par>
 </details>
 

@@ -169,6 +169,20 @@ Karl visits the farmhouse and shares that he tried to convince Emma to go fishin
 </par>
 </details>
 
+### Eight Hearts
+**Moving Up**
+
+Karl will send a letter after reaching eight hearts (except when it's winter), read the letter and then enter the beach on a sunny Friday or Saturday between 3pm and 5pm
+
+<details>
+<summary>Details</summary>
+<par>
+Karl, Emma, and Linus are having a picnic, with Linus roasting something on the open fire. Karl mentions he got a job promotion and wanted to celebrate a bit. Emma compliments his hard work, making him blush. Linus and Emma chat, Willy appears from the the direction of the piers and join, while Karl moves closer to the water, and the player follows. Karl shares that he is content with his life and feels grateful to Yoba.
+
+Karl will only visit on Saturday after the event
+</par>
+</details>
+
 ## Movie Theater Tastes
 ### Movies
 Details on movies schedule can be seen on [movie theater wikipage](https://stardewvalleywiki.com/Movie_Theater#Movies)

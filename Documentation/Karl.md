@@ -11,7 +11,7 @@ Karl is an office worker from Zuzu City. He comes to Pelican Town for some fishi
   * [Movies](#movies)
   * [Concessions](#concessions)
 * [Changelogs](#changelogs)
-* [Notes](#Notes)
+* [Notes](#notes)
 
 ## Relationships
 
@@ -104,11 +104,13 @@ This list excludes [universal gift tastes](https://stardewvalleywiki.com/Friends
 </details>
 
 ## Heart Events
-### Introduction Event: New Fisherman in Town
-After reaching level 10 fishing, enter bus stop on a sunny day between 3pm and 6pm
+### Introduction
+**New Fisherman in Town**
 
 > [!WARNING]
 > Only host player gets to trigger character introduction event.
+
+After reaching level 10 fishing, enter bus stop on a sunny day between 3pm and 6pm
 
 <details>
 <summary>Details</summary>
@@ -117,7 +119,9 @@ Player enters the bus stop and encounters cheerful Karl, who is on his way to th
 </par>
 </details>
 
-### Two Hearts Events: Little Friendly Feast
+### Two Hearts
+**Little Friendly Feast**
+
 On a sunny Friday or Saturday enter mountain between 4pm and 6pm
 
 <details>
@@ -127,7 +131,9 @@ Player enters the mountains and spot Karl and Linus sitting a campfire near Linu
 </par>
 </details>
 
-### Four Hearts Events: Losing the Catch
+### Four Hearts
+**Losing the Catch**
+
 On Friday or Saturday enter Cindersap Forest between 4pm and 6pm
 
 <details>
@@ -137,7 +143,9 @@ Karl is fishing by the river when the player's sudden arrival startles him, maki
 </par>
 </details>
 
-### Six Hearts Events: 
+### Six Hearts
+**At Least He Tried**
+
 On Friday or Saturday enter Cindersap Forest between 4pm and 6pm
 
 <details>
@@ -225,4 +233,4 @@ Prices of concessions can be seen on [movie theater wikipage](https://stardewval
 * 1.0.0 initial release
  
 ## Notes
-* Karl's looks and personality is highly inspired by [ASMR Outdoorsman](https://www.youtube.com/@The-ASMR-Outdoorsman)
+* Karl's appearance and personality is inspired by [ASMR Outdoorsman](https://www.youtube.com/@The-ASMR-Outdoorsman)

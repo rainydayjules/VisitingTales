@@ -22,12 +22,24 @@ Diane visits Pelican Town on Monday, Tuesday, and Wednesday.
 <details>
   <summary>Monday and Wednesday</summary>
   <par>After seeing Diane's 10 heart event, Diane would stop visiting on Monday.</par>
+  <br><br>
+  <par>Diane randomly chooses from the following schedules</par>
+  <br>
+  <b>Museum Day</b>
   <table>
     <tr><th>Time</th><th>Location</th></tr>
     <tr><td>09.00</td><td>From inside the bus goes to stand in front of the flower near the saloon</td></tr>
     <tr><td>12.00</td><td>Goes to look at museum's collections</td></tr>
     <tr><td>14.00</td><td>Finds a corner to read inside the museum</td></tr>
     <tr><td>18.00</td><td>Goes to stand beside the river near the museum</td></tr>
+    <tr><td>20.00</td><td>Goes to bus stop to catch a ride home</td></tr>
+  </table>
+  <b>Town Day</b>
+  <table>
+    <tr><th>Time</th><th>Location</th></tr>
+    <tr><td>09.00</td><td>From inside the bus goes to stand in the beach</td></tr>
+    <tr><td>13.00</td><td>Goes to saloon for lunch</td></tr>
+    <tr><td>16.00</td><td>Goes to stand in town plaza</td></tr>
     <tr><td>20.00</td><td>Goes to bus stop to catch a ride home</td></tr>
   </table>
 </details>
@@ -91,7 +103,7 @@ This list excludes [universal gift tastes](https://stardewvalleywiki.com/Friends
 ## Heart Events
 ### Introduction
 **The Lady Arrived**
-
+<br>
 After donating 45 artifacts to the museum, enter town from the museum on a sunny Monday, Tuesday, or Wednesday between 9am and 4pm
 
 <details>
@@ -103,15 +115,53 @@ Diane and Lewis are talking in front of the museum, with Lewis proudly talking a
 
 ### Two Hearts 1
 **Care Package for Jas**
-
+<br>
 Enter town map on a sunny Monday, Tuesday, or Wednesday between 2pm and 6pm
 
 <details>
 <summary>Details</summary>
 <par>
 Jas is reading a book under a tree near Emily and Haley's house. Diane comes over and asks about the book, revealing that she used to read a pop-up version of the book. Penny joins them and offers to walk Jas home. They head in the direction of Marnie's ranch.
+<br>
 After Penny and Jas leave, only the player and Diane remain. Diane expresses concern for Jas being alone but believes she might be overthinking it. Then she proceed to compliment Penny for her work with the children.
+<br><br>
 The day after the event Jas and Marney would mention they received a package of pop-up children books in the mail.
+</par>
+</details>
+
+### Two Hearts 2
+**Bits of Recognition**
+<br>
+Enter museum when Diane is inside
+
+<details>
+<summary>Details</summary>
+<par>
+Diane is talking to Gunther. As player enters the museum Diane mentions that she heard all the artifacts in the museum were donated by the player and criticizes the previous curator who run with the artifacts and Gunther who refuses to drop the name of the curator. The player can respond, and Diane reacts accordingly.
+</par>
+</details>
+
+### Four Hearts
+**A Little History**
+<br>
+Enter museum when Diane is inside
+
+<details>
+<summary>Details</summary>
+<par>
+Diane is by a bookshelf and sees the player. She starts talking about how she's been into archaeology since she was young, as it's her go-to when she's on her own. After a moment, she adds that she's come to accept her situation and feels content. Player can respond, and Diane reacts accordingly.
+</par>
+</details>
+
+### Six Hearts
+**Medical Assistance Required**
+<br>
+Enter the beach
+
+<details>
+<summary>Details</summary>
+<par>
+
 </par>
 </details>
 

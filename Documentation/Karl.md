@@ -19,9 +19,11 @@ Karl resides in Zuzu alongside his wife, Emma. From his dialogues it appears tha
 
 ## Schedules
 Karl visits Pelican Town on Friday and Saturday.
+> [!NOTE]  
+> After seeing Karl's 8 heart event, Karl would stop visiting on Friday.
 <details>
   <summary>Friday</summary>
-  <par>After seeing Karl's 8 heart event, Karl would stop visiting on Friday.</par>
+  <b>Day End Fishing</b>
   <table>
     <tr><th>Time</th><th>Location</th></tr>
     <tr><td>15.00</td><td>From inside the bus goes to the beach's piers to fish</td></tr>
@@ -30,8 +32,8 @@ Karl visits Pelican Town on Friday and Saturday.
 </details>
 <details>
   <summary>Saturday</summary>
-  <par>Karl randomly chooses from the following schedules</par>
-  <br><br>
+  <par>Karl randomly chooses from the following schedules:</par>
+  <br>
   <b>Fishing in Mountain and Visiting Linus</b>
   <table>
    <tr><th>Time</th><th>Location</th></tr>

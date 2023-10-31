@@ -19,11 +19,11 @@ Diane is married to Francesco, and even though they love each other and get alon
 
 ## Schedules
 Diane visits Pelican Town on Monday, Tuesday, and Wednesday.
+> [!NOTE]  
+> After seeing Diane's 10 heart event, Diane would stop visiting on Monday.
 <details>
   <summary>Monday and Wednesday</summary>
-  <par>After seeing Diane's 10 heart event, Diane would stop visiting on Monday.</par>
-  <br><br>
-  <par>Diane randomly chooses from the following schedules</par>
+  <par>Diane randomly chooses from the following schedules:</par>
   <br>
   <b>Museum Day</b>
   <table>
@@ -45,6 +45,7 @@ Diane visits Pelican Town on Monday, Tuesday, and Wednesday.
 </details>
 <details>
   <summary>Tuesday</summary>
+  <b>Somewhat with the Children</b>
   <table>
    <tr><th>Time</th><th>Location</th></tr>
    <tr><td>09.00</td><td>From inside the bus goes to the museum and read book while watching Penny tutors the children</td></tr>
@@ -109,7 +110,7 @@ After donating 45 artifacts to the museum, enter town from the museum on a sunny
 <details>
 <summary>Details</summary>
 <par>
-Diane and Lewis are talking in front of the museum, with Lewis proudly talking about his town management. Then the player exits the museum and them. Lewis introduces the player. Diane asks if the player visits the museum often and reacts accordingly.
+Diane and Lewis are talking in front of the museum, with Lewis proudly talking about his town management. Then the player exits the museum and them. Lewis introduces the player. Diane asks if the player visits the museum often.
 </par>
 </details>
 
@@ -137,7 +138,7 @@ Enter museum when Diane is inside
 <details>
 <summary>Details</summary>
 <par>
-Diane is talking to Gunther. As player enters the museum Diane mentions that she heard all the artifacts in the museum were donated by the player and criticizes the previous curator who run with the artifacts and Gunther who refuses to drop the name of the curator. The player can respond, and Diane reacts accordingly.
+Diane is talking to Gunther. As player enters the museum Diane mentions that she heard all the artifacts in the museum were donated by the player and criticizes the previous curator who run with the artifacts and Gunther who refuses to drop the name of the curator.
 </par>
 </details>
 
@@ -149,7 +150,7 @@ Enter museum when Diane is inside
 <details>
 <summary>Details</summary>
 <par>
-Diane is by a bookshelf and sees the player. She starts talking about how she's been into archaeology since she was young, as it's her go-to when she's on her own. After a moment, she adds that she's come to accept her situation and feels content. Player can respond, and Diane reacts accordingly.
+Diane is by a bookshelf and sees the player. She starts talking about how she's been into archaeology since she was young, as it's her go-to when she's on her own. After a moment, she adds that she's come to accept her situation and feels content.
 </par>
 </details>
 

@@ -1,4 +1,4 @@
-Diane is a history enthusiast who came to Pelican Town because of the growing museum collection. A lady of class and of heart. Diane spends most of her time at the museum but also enjoys exploring the valley.
+Diane is a history enthusiast who came to Pelican Town after intrigued by the town's growing museum collection. A lady of class and of heart. Diane spends most of her time at the museum but also enjoys exploring the valley.
 
 ![](Images/Diane_portrait.png) ![](Images/Diane_sprites.png)
 
@@ -90,29 +90,28 @@ This list excludes [universal gift tastes](https://stardewvalleywiki.com/Friends
 
 ## Heart Events
 ### Introduction
-**New Fisherman in Town**
+**The Lady Arrived**
 
-> [!WARNING]
-> Only host player gets to trigger character introduction event.
-
-After reaching level 10 fishing, enter bus stop on a sunny Friday or Saturday between 3pm and 6pm
+After donating 45 artifacts to the museum, enter town from the museum on a sunny Monday, Tuesday, or Wednesday between 9am and 4pm
 
 <details>
 <summary>Details</summary>
 <par>
-Player enters the bus stop and encounters cheerful Karl, who is on his way to the bus. Karl spots the player and offers an Iridium-quality carp from his day's catch. He mentions that the player can look forward to more encounters with him, as he would like to explore fishing spots around Stardew Valley.
+Diane and Lewis are talking in front of the museum, with Lewis proudly talking about his town management. Then the player exits the museum and them. Lewis introduces the player. Diane asks if the player visits the museum often and reacts accordingly.
 </par>
 </details>
 
-### Two Hearts
-**Little Friendly Feast**
+### Two Hearts 1
+**Care Package for Jas**
 
-On a sunny Friday or Saturday enter mountain between 3pm and 6pm
+Enter town map on a sunny Monday, Tuesday, or Wednesday between 2pm and 6pm
 
 <details>
 <summary>Details</summary>
 <par>
-Player enters the mountains and spot Karl and Linus sitting a campfire near Linus' tent. Karl notices and invites the player to join their small gathering. He's curious about what the player thinks of the roasted fish they're having. No matter the player's response, Karl says that the meal becomes even better when shared with new friends.
+Jas is reading a book under a tree near Emily and Haley's house. Diane comes over and asks about the book, revealing that she used to read a pop-up version of the book. Penny joins them and offers to walk Jas home. They head in the direction of Marnie's ranch.
+After Penny and Jas leave, only the player and Diane remain. Diane expresses concern for Jas being alone but believes she might be overthinking it. Then she proceed to compliment Penny for her work with the children.
+The day after the event Jas and Marney would mention they received a package of pop-up children books in the mail.
 </par>
 </details>
 

@@ -106,10 +106,7 @@ This list excludes [universal gift tastes](https://stardewvalleywiki.com/Friends
 ## Heart Events
 ### Introduction
 **New Fisherman in Town**
-
-> [!WARNING]
-> Only host player gets to trigger character introduction event.
-
+<br>
 After reaching level 10 fishing, enter bus stop on a sunny Friday or Saturday between 3pm and 6pm
 
 <details>
@@ -121,7 +118,7 @@ Player enters the bus stop and encounters cheerful Karl, who is on his way to th
 
 ### Two Hearts
 **Little Friendly Feast**
-
+<br>
 On a sunny Friday or Saturday enter mountain between 3pm and 6pm
 
 <details>
@@ -133,7 +130,7 @@ Player enters the mountains and spot Karl and Linus sitting a campfire near Linu
 
 ### Four Hearts
 **Losing the Catch**
-
+<br>
 On Friday or Saturday enter Cindersap Forest between 3pm and 6pm
 
 <details>
@@ -144,22 +141,22 @@ Karl is fishing by the river when the player's sudden arrival startles him, maki
 </details>
 
 ### Six Hearts 1
-**At Least He Tried**
-
+**An Attempt was Made**
+<br>
 On Friday or Saturday enter Cindersap Forest between 3pm and 6pm
 
 <details>
 <summary>Details</summary>
 <par>
 A woman, looking upset, rush to leave the forest. Karl follows her, revealing that she's his wife, Emma, and he needs to catch up with her. The player is left puzzled.
-
+<br><br>
 The day after, Emma sends a letter explaining the situation.
 </par>
 </details>
 
 ### Six Hearts 2
 **Karl Explains**
-
+<br>
 Enter farm anytime after seeing Six Heart 1 event.
 
 <details>
@@ -170,15 +167,16 @@ Karl visits the farmhouse and shares that he tried to convince Emma to go fishin
 </details>
 
 ### Eight Hearts
-**Moving Up**
-
+**Karl is Moving Up**
+<br>
 Karl will send a letter after reaching eight hearts (except when it's winter), read the letter and then enter the beach on a sunny Friday or Saturday between 3pm and 5pm
 
 <details>
 <summary>Details</summary>
 <par>
 Karl, Emma, and Linus are having a picnic, with Linus roasting something on the open fire. Karl mentions he got a job promotion and wanted to celebrate a bit. Emma compliments his hard work, making him blush. Linus and Emma chat, Willy appears from the the direction of the piers and join, while Karl moves closer to the water, and the player follows. Karl shares that he is content with his life and feels grateful to Yoba.
-
+<br>
+<br>
 Karl will only visit on Saturday after the event
 </par>
 </details>

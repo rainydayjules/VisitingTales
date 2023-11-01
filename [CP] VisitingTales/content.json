@@ -125,12 +125,17 @@
   ],
   "Changes": [
     {
-      "LogName": "Add NPC warp inside the bus. Taking into account SVE's one",
+      "LogName": "Add NPC warp inside the bus. Already taking into account SVE's one",
       "Action": "EditMap",
       "Target": "Maps/BusStop",
-      "MapProperties": {
-        "NPCWarp": "13 8 Custom_ItsBenter_NPCWarpRoom 2 2"
-      }
+      "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": ["MapProperties", "NPCWarp"],
+            "Value": "13 9 Custom_ItsBenter_NPCWarpRoom 2 2",
+            "Delimiter": " "
+        }
+      ]
     },
     {
       "LogName": "NPCs base portraits",

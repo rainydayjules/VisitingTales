@@ -7,6 +7,7 @@ Diane is a history enthusiast who came to Pelican Town after intrigued by the to
 * [Schedules](#schedules)
 * [Gift Tastes](#gift-tastes)
 * [Heart Events](#heart-events)
+* [Quests](#quests)
 * [Movie Theater Tastes](#movie-theater-tastes)
   * [Movies](#movies)
   * [Concessions](#concessions)
@@ -110,12 +111,12 @@ After donating 45 artifacts to the museum, enter town from the museum on a sunny
 <details>
 <summary>Details</summary>
 <par>
-Diane and Lewis are talking in front of the museum, with Lewis proudly talking about his town management. Then the player exits the museum and them. Lewis introduces the player. Diane asks if the player visits the museum often.
+Diane and Lewis are talking in front of the museum, with Lewis proudly talking about his town management. Then the player exits the museum and them. Lewis introduces the player and Diane to each other. Diane asks if the player visits the museum often.
 </par>
 </details>
 
 ### Two Hearts 1
-**Care Package for Jas**
+**Package for Jas**
 <br>
 Enter town map on a sunny Monday, Tuesday, or Wednesday between 2pm and 6pm
 
@@ -124,7 +125,7 @@ Enter town map on a sunny Monday, Tuesday, or Wednesday between 2pm and 6pm
 <par>
 Jas is reading a book under a tree near Emily and Haley's house. Diane comes over and asks about the book, revealing that she used to read a pop-up version of the book. Penny joins them and offers to walk Jas home. They head in the direction of Marnie's ranch.
 <br>
-After Penny and Jas leave, only the player and Diane remain. Diane expresses concern for Jas being alone but believes she might be overthinking it. Then she proceed to compliment Penny for her work with the children.
+After Penny and Jas leave, only the player and Diane remain. Diane expresses concern that Jas is often alone but believes she might be overthinking it. Then she proceed to compliment Penny for her work with the children.
 <br><br>
 The day after the event Jas and Marney would mention they received a package of pop-up children books in the mail.
 </par>
@@ -150,14 +151,40 @@ Enter museum when Diane is inside
 <details>
 <summary>Details</summary>
 <par>
-Diane is by a bookshelf and sees the player. She starts talking about how she's been into archaeology since she was young, as it's her go-to when she's on her own. After a moment, she adds that she's come to accept her situation and feels content.
+Diane is by a bookshelf and sees the player. She starts talking about how she's been into archeoology since she was young, as it's her go-to when she's on her own. After a moment, she adds that she's come to accept her situation and feels content.
 </par>
 </details>
 
 ### Six Hearts
 **Medical Assistance Required**
 <br>
-Enter the beach
+Enter the beach on a sunny Monday, Tuesday, or Wednesday in other seasons beside winter between 2pm and 6pm
+
+<details>
+<summary>Details</summary>
+<par>
+Diane is sitting on a bench while Jas and Vincent play in the sand, with Penny watching over them. The player approaches Diane, noticing that she does not seem very well. Regardless of how the player reacts, Diane asks them to take her to the clinic, which Penny and the children would notice.
+<br><br>
+At the clinic, Harvey examines Diane and concludes that she will be fine, but she needs to avoid overexertion due to her weak constitution. Harvey mentions that he's been told of Diane's condition and is prepared for it. Diane seems surprised but proceed to appreciates Harvey's preparedness. She then tells the player that she probably have some talking to do when she get back home.
+</par>
+</details>
+
+### Eight Hearts
+**Adventuring Assistance Required**
+<br>
+Enter the museum when Diane is inside
+
+<details>
+<summary>Details</summary>
+<par>
+Diane is taking notes, with Gunther by her side. When she sees the player, she mentions that she's learning how to curate the museum collection from Gunther. Then, she asks the player to find her 5 ornamental fans for her study (starting quest chain).
+</par>
+</details>
+
+### Ten Hearts
+**Diane and City Museum**
+<br>
+After reading the letter from Diane enter bus stop between 9am to 3pm 
 
 <details>
 <summary>Details</summary>
@@ -165,6 +192,9 @@ Enter the beach
 
 </par>
 </details>
+
+## Quests
+
 
 ## Movie Theater Tastes
 ### Movies
@@ -202,9 +232,7 @@ Prices of concessions can be seen on [movie theater wikipage](https://stardewval
   <ul>
     <li>Panzanella Salad</li>
     <li>Hummus Snack Pack</li>
-    <li>Ice Cream Sandwich</li>
     <li>Truffle Popcorn</li>
-    <li>Cappuccino Mousse Cake</li>
     <li>Stardrop Sorbet</li>
     <li>Salted Peanuts</li>
   </ul>
@@ -214,6 +242,8 @@ Prices of concessions can be seen on [movie theater wikipage](https://stardewval
   <summary>Likes</summary>
   <ul>
     <li>Cotton Candy</li>
+    <li>Cappuccino Mousse Cake</li>
+    <li>Ice Cream Sandwich</li>
     <li>Salmon Burger</li>
     <li>Apple Slices</li>
     <li>Chocolate Popcorn</li>

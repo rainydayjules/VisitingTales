@@ -184,7 +184,7 @@ Diane is taking notes, with Gunther by her side. When she sees the player, she m
 ### Ten Hearts
 **Diane a Museum Curator**
 <br>
-After meeting Paolo and reaching 10 hearts with Diane, Diane will send a letter. Read the letter and enter bus stop between 9am to 3pm 
+After meeting Paolo, completing Diane's Study quest chain, and reaching 10 hearts with Diane, Diane will send a letter. Read the letter and enter bus stop between 9am to 3pm 
 
 <details>
 <summary>Details</summary>
@@ -198,7 +198,17 @@ Diane would stop visiting on Monday after the event
 </details>
 
 ## Quests
-
+<details>
+  <summary>Diane's Study</summary>
+  <par>Quests started after by Diane's eight hearts event. Quests are given sequentially and rewards 10 times the base value.</par>
+  <ol>
+    <li>Diane's Study on Chipped Amphora: Bring Diane 3 <a href="https://stardewvalleywiki.com/Chipped_Amphora">Chipped Amphora</a>. The reward is 1200g.</li>
+    <li>Diane's Study on Bone Flute: Bring Diane 3 <a href="https://stardewvalleywiki.com/Bone_Flute">Bone Flute</a>. The reward is 3000g.</li>
+    <li>Diane's Study on Palm Fossil: Bring Diane 3 <a href="https://stardewvalleywiki.com/Palm_Fossil">Palm Fossil</a>. The reward is 3000g.</li>
+    <li>Diane's Study on Golden Relic: Bring Diane 3 <a href="https://stardewvalleywiki.com/Golden_Relic">Golden Relic</a>. The reward is 7500g.</li>
+    <li>Diane's Study on Elvish Jewelry: Bring Diane 3 <a href="https://stardewvalleywiki.com/Elvish_Jewelry">Elvish Jewelry</a>. The reward is 6000g.</li>
+  </ol>
+</details>
 
 ## Movie Theater Tastes
 ### Movies

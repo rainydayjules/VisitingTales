@@ -46,7 +46,7 @@ Diane visits Pelican Town on Monday, Tuesday, and Wednesday.
 </details>
 <details>
   <summary>Tuesday</summary>
-  <b>With the Children</b>
+  <b>Alongside the Children</b>
   <table>
    <tr><th>Time</th><th>Location</th></tr>
    <tr><td>09.00</td><td>From inside the bus goes to the museum and read book while watching Penny tutors the children</td></tr>

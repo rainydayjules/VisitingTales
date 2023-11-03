@@ -46,7 +46,7 @@ Diane visits Pelican Town on Monday, Tuesday, and Wednesday.
 </details>
 <details>
   <summary>Tuesday</summary>
-  <b>Somewhat with the Children</b>
+  <b>With the Children</b>
   <table>
    <tr><th>Time</th><th>Location</th></tr>
    <tr><td>09.00</td><td>From inside the bus goes to the museum and read book while watching Penny tutors the children</td></tr>
@@ -104,7 +104,7 @@ This list excludes [universal gift tastes](https://stardewvalleywiki.com/Friends
 
 ## Heart Events
 ### Introduction
-**The Lady Arrived**
+**That Lady Arrived**
 <br>
 After donating 45 artifacts to the museum, enter town from the museum on a sunny Monday, Tuesday, or Wednesday between 9am and 4pm
 
@@ -164,8 +164,8 @@ Enter the beach on a sunny Monday, Tuesday, or Wednesday in other seasons beside
 <summary>Details</summary>
 <par>
 Diane is sitting on a bench while Jas and Vincent play in the sand, with Penny watching over them. The player approaches Diane, noticing that she does not seem very well. Regardless of how the player reacts, Diane asks them to take her to the clinic, which Penny and the children would notice.
-<br><br>
-At the clinic, Harvey examines Diane and concludes that she will be fine, but she needs to avoid overexertion due to her weak constitution. Harvey mentions that he's been told of Diane's condition and is prepared for it. Diane seems surprised but proceed to appreciates Harvey's preparedness. She then tells the player that she probably have some talking to do when she get back home.
+<br>
+At the clinic, Harvey examines Diane and concludes that she will be fine, but she needs to avoid overexertion due to her weak constitution. Harvey mentions that he's been told of Diane's condition and thus well-prepared for it. Diane seems surprised but proceed to appreciates Harvey's preparedness. She then tells the player that she would have some talking to do when she get back home.
 </par>
 </details>
 
@@ -182,14 +182,16 @@ Diane is taking notes, with Gunther by her side. When she sees the player, she m
 </details>
 
 ### Ten Hearts
-**Diane and City Museum**
+**Diane a Museum Curator**
 <br>
-After reading the letter from Diane enter bus stop between 9am to 3pm 
+After meeting Paolo and reaching 10 hearts with Diane, Diane will send a letter. Read the letter and enter bus stop between 9am to 3pm 
 
 <details>
 <summary>Details</summary>
 <par>
-
+Paolo encounters player on his way to player's farm and tells he is on the way to pick-up the player to the event. Paolo and player get on the bus.
+<br>
+Player and Paolo arrive in a museum. Diane is thrilled and takes player on a tour. Near the end of the tour, a man in a suit asks Diane about duplicate artifacts, and she explains. The man turns out to be Francesco, Diane's husband. While Francesco and Diane talk, some people come looking for him about work, and he has to leave.. Diane appears to be understanding.
 </par>
 </details>
 

@@ -192,6 +192,8 @@ After meeting Paolo and reaching 10 hearts with Diane, Diane will send a letter.
 Paolo encounters player on his way to player's farm and tells he is on the way to pick-up the player to the event. Paolo and player get on the bus.
 <br>
 Player and Paolo arrive in a museum. Diane is thrilled and takes player on a tour. Near the end of the tour, a man in a suit asks Diane about duplicate artifacts, and she explains. The man turns out to be Francesco, Diane's husband. While Francesco and Diane talk, some people come looking for him about work, and he has to leave.. Diane appears to be understanding.
+<br><br>
+Diane would stop visiting on Monday after the event
 </par>
 </details>
 

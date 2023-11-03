@@ -171,7 +171,7 @@ Karl visits the farmhouse and shares that he tried to convince Emma to go fishin
 ### Eight Hearts
 **Karl is Moving Up**
 <br>
-Karl will send a letter after reaching eight hearts (except when it's winter), read the letter and then enter the beach on a sunny Friday or Saturday between 3pm and 5pm
+After reaching eight hearts with Karl and the season is not winter, Karl will send a letter. Read the letter and then enter the beach on a sunny Friday or Saturday between 3pm and 5pm
 
 <details>
 <summary>Details</summary>

@@ -111,7 +111,7 @@ After donating 45 artifacts to the museum, enter town from the museum on a sunny
 <details>
 <summary>Details</summary>
 <par>
-Diane and Lewis are talking in front of the museum, with Lewis proudly talking about his town management. Then the player exits the museum and them. Lewis introduces the player and Diane to each other. Diane asks if the player visits the museum often.
+Diane and Lewis are talking in front of the museum, with Lewis proudly talking about his town management. Then the player exits the museum. Lewis introduces the player and Diane to each other. Diane asks if the player visits the museum often.
 </par>
 </details>
 
@@ -177,7 +177,7 @@ Enter the museum when Diane is inside
 <details>
 <summary>Details</summary>
 <par>
-Diane is taking notes, with Gunther by her side. When she sees the player, she mentions that she's learning how to curate the museum collection from Gunther. Then, she asks the player to find her 5 ornamental fans for her study (starting quest chain).
+Diane is taking notes, with Gunther by her side. When she sees the player, she mentions that she's learning how to curate the museum collection from Gunther. Then, she asks the player to find her 5 Chipped Amphora for her study, starting "Diane's Study" quest chain.
 </par>
 </details>
 
@@ -191,7 +191,7 @@ After meeting Paolo, completing Diane's Study quest chain, and reaching 10 heart
 <par>
 Paolo encounters player on his way to player's farm and tells he is on the way to pick-up the player to the event. Paolo and player get on the bus.
 <br>
-Player and Paolo arrive in a museum. Diane is thrilled and takes player on a tour. Near the end of the tour, a man in a suit asks Diane about duplicate artifacts, and she explains. The man turns out to be Francesco, Diane's husband. While Francesco and Diane talk, some people come looking for him about work, and he has to leave.. Diane appears to be understanding.
+Player and Paolo arrive in a museum. Diane is thrilled and takes player on a tour. Near the end of the tour, a man in a suit asks Diane about duplicate artifacts, and she explains. The man turns out to be Francesco, Diane's husband. While Francesco and Diane talk, some people come looking for him about work, and he has to leave. Diane appears to be understanding.
 <br><br>
 Diane would stop visiting on Monday after the event
 </par>
@@ -200,7 +200,7 @@ Diane would stop visiting on Monday after the event
 ## Quests
 <details>
   <summary>Diane's Study</summary>
-  <par>Quests started after by Diane's eight hearts event. Quests are given sequentially and rewards 10 times the base value.</par>
+  <par>Quests chain started on Diane's eight hearts event. Quests are given sequentially and rewards 10 times of the item base value.</par>
   <ol>
     <li>Diane's Study on Chipped Amphora: Bring Diane 3 <a href="https://stardewvalleywiki.com/Chipped_Amphora">Chipped Amphora</a>. The reward is 1200g.</li>
     <li>Diane's Study on Bone Flute: Bring Diane 3 <a href="https://stardewvalleywiki.com/Bone_Flute">Bone Flute</a>. The reward is 3000g.</li>

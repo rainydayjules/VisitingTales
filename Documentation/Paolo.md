@@ -15,10 +15,10 @@ Paolo starts accompanying Diane after she caught herself needing some medical as
 
 ## Relationships
 
-Paolo has daughter, Riri who is taken care of by her grandparents when Paolo is at work. He adores his daughter deeply. In Pelican Town, he appears to keep his distance with the town's residence and mostly focused on his duty to look after Diane.
+Paolo has a daughter, Riri who is taken care of by her grandparents when Paolo is at work. He adores his daughter deeply. In Pelican Town, he appears to keep a distance to the town's residence and mostly focused on his duty to look after Diane.
 
 ## Schedules
-Initilly Paolo visits Pelican Town on Monday, Tuesday, and Wednesday where he is accompanying Diane. Later he would also visit on Saturday and Sunday.
+Initially Paolo visits Pelican Town on Monday, Tuesday, and Wednesday where he is accompanying Diane. Later he would also visit on Saturday and Sunday.
 > [!NOTE]
 > After seeing Diane's ten hearts event, Paolo would also stop visiting on Monday.
 <details>
@@ -70,7 +70,7 @@ Initilly Paolo visits Pelican Town on Monday, Tuesday, and Wednesday where he is
 </details>
 
 > [!NOTE]
-> After seeing Paolo's eight hearts event, Paolo would start visiting on Saturday.
+> After seeing Paolo's six hearts event, Paolo would start visiting on Saturday.
 
 <details>
   <summary>Sunday</summary>
@@ -127,18 +127,18 @@ This list excludes [universal gift tastes](https://stardewvalleywiki.com/Friends
 
 ## Heart Events
 ### Introduction
-**That Lady Arrived**
+**Be Careful My Lady**
 <br>
-After donating 45 artifacts to the museum, enter town from the museum on a sunny Monday, Tuesday, or Wednesday between 9am and 4pm
+After seeing Diane's six hearts event enter town map on a sunny Monday, Tuesday, or Wednesday between 9am and 4pm
 
 <details>
 <summary>Details</summary>
 <par>
-Diane and Lewis are talking in front of the museum, with Lewis proudly talking about his town management. Then the player exits the museum. Lewis introduces the player and Diane to each other. Diane asks if the player visits the museum often.
+
 </par>
 </details>
 
-### Two Hearts 1
+### Two Hearts
 **Package for Jas**
 <br>
 Enter town map on a sunny Monday, Tuesday, or Wednesday between 2pm and 6pm

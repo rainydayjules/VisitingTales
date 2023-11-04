@@ -1,4 +1,4 @@
-Paolo is accompanying Diane after she caught herself needing some assistance. He takes the duty very seriously. Where there is Diane, there is Paolo. One would hope he would be able to appreciate Pelican Town the more time he spend on it.
+Paolo is accompanying Diane after she caught herself needing some medical assistance. He takes the duty very seriously. Where there is Diane, there is Paolo. One would hope he would be able to appreciate Pelican Town the more time he spend on it.
 
 ![](Images/Paolo_portrait.png) ![](Images/Paolo_sprites.png)
 
@@ -15,43 +15,57 @@ Paolo is accompanying Diane after she caught herself needing some assistance. He
 
 ## Relationships
 
-Paolo has daughter, Riri who is taken care of by her grandparents when Paolo is at work. Paolo adores Riri deeply. In Pelican Town, he appears to keep his distance with the town's residence and mostly focused on his duty to look after Diane.
+Paolo has daughter, Riri who is taken care of by her grandparents when Paolo is at work. He adores his daughter deeply. In Pelican Town, he appears to keep his distance with the town's residence and mostly focused on his duty to look after Diane.
 
 ## Schedules
-Initilly Paolo visits Pelican Town on Monday, Tuesday, and Wednesday where he is accompanying Diane.
+Initilly Paolo visits Pelican Town on Monday, Tuesday, and Wednesday where he is accompanying Diane. Later he would also visit on Saturday and Sunday.
 > [!NOTE]
 > After seeing Diane's ten hearts event, Paolo would also stop visiting on Monday.
 <details>
   <summary>Monday and Wednesday</summary>
-  <par>Diane randomly chooses from the following schedules:</par>
+  <par>Paolo follows Diane's schedules:</par>
   <br>
-  <b>Museum Day</b>
+  <b>Diane Museum Day</b>
   <table>
     <tr><th>Time</th><th>Location</th></tr>
-    <tr><td>09.00</td><td>From inside the bus goes to stand in front of the flower near the saloon</td></tr>
-    <tr><td>12.00</td><td>Goes to look at museum's collections</td></tr>
-    <tr><td>14.00</td><td>Finds a corner to read inside the museum</td></tr>
-    <tr><td>18.00</td><td>Goes to stand beside the river near the museum</td></tr>
+    <tr><td>09.00</td><td>From inside the bus goes to look after Diane standing in front of the flower near the saloon</td></tr>
+    <tr><td>12.00</td><td>Goes to look after Diane observing museum's collections</td></tr>
+    <tr><td>14.00</td><td>Watches Diane reading inside the museum</td></tr>
+    <tr><td>18.00</td><td>Goes to look after Diane standing beside the river near the museum</td></tr>
     <tr><td>20.00</td><td>Goes to bus stop to catch a ride home</td></tr>
   </table>
-  <b>Town Day</b>
+  <b>Diane Town Day</b>
   <table>
     <tr><th>Time</th><th>Location</th></tr>
-    <tr><td>09.00</td><td>From inside the bus goes to stand in the beach</td></tr>
+    <tr><td>09.00</td><td>From inside the bus goes to look after Diane standing in the beach</td></tr>
     <tr><td>13.00</td><td>Goes to saloon for lunch</td></tr>
-    <tr><td>16.00</td><td>Goes to stand in town plaza</td></tr>
+    <tr><td>16.00</td><td>Goes to look after Diane in town plaza</td></tr>
     <tr><td>20.00</td><td>Goes to bus stop to catch a ride home</td></tr>
   </table>
 </details>
 <details>
   <summary>Tuesday</summary>
-  <b>Alongside the Children</b>
+  <b>Diane Alongside the Children</b>
   <table>
    <tr><th>Time</th><th>Location</th></tr>
    <tr><td>09.00</td><td>From inside the bus goes to the museum and read book while watching Penny tutors the children</td></tr>
    <tr><td>14.30</td><td>Goes to the bridge near the museum standing near Penny and the children</td></tr>
-   <tr><td>16.00</td><td>Goes to stand near the fountain near community center</td></tr>
+   <tr><td>16.00</td><td>Goes to look after Diane standing near the fountain near community center</td></tr>
    <tr><td>20.00</td><td>Goes to bus stop to catch a ride home</td></tr>
+  </table>
+</details>
+
+> [!NOTE]
+> After seeing Paolo's ten hearts event, Paolo and Riri would start visiting on Saturday.
+
+<details>
+  <summary>Saturday</summary>
+  <b>Play Time</b>
+  <table>
+   <tr><th>Time</th><th>Location</th></tr>
+   <tr><td>09.00</td><td>From inside the bus goes to meet the town's children near the graveyard</td></tr>
+   <tr><td>12.00</td><td>Goes to watch children play on the playground</td></tr>
+   <tr><td>17.00</td><td>Goes to bus stop to catch a ride home</td></tr>
   </table>
 </details>
 
@@ -59,14 +73,15 @@ Initilly Paolo visits Pelican Town on Monday, Tuesday, and Wednesday where he is
 > After seeing Paolo's eight hearts event, Paolo would start visiting on Saturday.
 
 <details>
-  <summary>Saturday</summary>
-  <b>Alongside the Children</b>
+  <summary>Sunday</summary>
+  <b>Day of His Own</b>
   <table>
    <tr><th>Time</th><th>Location</th></tr>
-   <tr><td>09.00</td><td>From inside the bus goes to the museum and read book while watching Penny tutors the children</td></tr>
-   <tr><td>14.30</td><td>Goes to the bridge near the museum standing near Penny and the children</td></tr>
-   <tr><td>16.00</td><td>Goes to stand near the fountain near community center</td></tr>
-   <tr><td>20.00</td><td>Goes to bus stop to catch a ride home</td></tr>
+   <tr><td>06.00</td><td>From inside the bus goes to the beach</td></tr>
+   <tr><td>09.00</td><td>Goes to Pierre's shop</td></tr>
+   <tr><td>11.00</td><td>Goes to workout in the bath house</td></tr>
+   <tr><td>14.00</td><td>Goes to play pool in Saloon</td></tr>
+   <tr><td>16.00</td><td>Goes to bus stop to catch a ride home</td></tr>
   </table>
 </details>
 

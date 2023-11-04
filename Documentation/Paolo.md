@@ -1,4 +1,4 @@
-Paolo is accompanying Diane after she caught herself needing some medical assistance. He takes the duty very seriously. Where there is Diane, there is Paolo. One would hope he would be able to appreciate Pelican Town the more time he spend on it.
+Paolo starts accompanying Diane after she caught herself needing some medical assistance. He takes the duty very seriously. Where there is Diane, there is Paolo. One would hope he would be able to appreciate Pelican Town the more time he spend on it.
 
 ![](Images/Paolo_portrait.png) ![](Images/Paolo_sprites.png)
 
@@ -200,24 +200,27 @@ Prices of concessions can be seen on [movie theater wikipage](https://stardewval
 <details>
   <summary>Loves</summary>
   <ul>
-    <li>Panzanella Salad</li>
-    <li>Hummus Snack Pack</li>
-    <li>Truffle Popcorn</li>
+    <li>Rock Candy</li>
+    <li>Fries</li>
+    <li>Nachos</li>
     <li>Stardrop Sorbet</li>
-    <li>Salted Peanuts</li>
+    <li>Salmon Burger</li>
+    <li>Chocolate Popcorn</li>
+    <li>Popcorn</li>
   </ul>
 </details>
 
 <details>
   <summary>Likes</summary>
   <ul>
+    <li>Jawbreaker</li>
+    <li>Sour Slimes</li>
+    <li>Truffle Popcorn</li>
     <li>Cotton Candy</li>
     <li>Cappuccino Mousse Cake</li>
     <li>Ice Cream Sandwich</li>
-    <li>Salmon Burger</li>
+    <li>Salted Peanuts</li>
     <li>Apple Slices</li>
-    <li>Chocolate Popcorn</li>
-    <li>Popcorn</li>
     <li>Sour Slimes</li>
     <li>Star Cookie</li>
   </ul>
@@ -226,17 +229,14 @@ Prices of concessions can be seen on [movie theater wikipage](https://stardewval
 <details>
   <summary>Dislikes</summary>
   <ul>
-    <li>Nachos</li>
     <li>Personal Pizza</li>
-    <li>Sour Slimes</li>
-    <li>Fries</li>
     <li>Black Licorice</li>
     <li>Jasmine Tea</li>
-    <li>Jawbreaker</li>
     <li>Joja Cola</li>
     <li>JojaCorn</li>
     <li>Kale Smoothie</li>
-    <li>Rock Candy</li>
+    <li>Panzanella Salad</li>
+    <li>Hummus Snack Pack</li>
   </ul>
 </details>
 

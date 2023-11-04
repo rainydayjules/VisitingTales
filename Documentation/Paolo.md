@@ -90,44 +90,38 @@ This list excludes [universal gift tastes](https://stardewvalleywiki.com/Friends
 <details>
   <summary>Loves</summary>
   <ul>
-    <li><a href="https://stardewvalleywiki.com/Jade">Jade</a></li>
-    <li><a href="https://stardewvalleywiki.com/Elvish_Jewelry">Elvish Jewelry</a></li>
-    <li><a href="https://stardewvalleywiki.com/Ornamental_Fan">Ornamental Fan</a></li>
-    <li><a href="https://stardewvalleywiki.com/Poppy">Poppy</a></li>
-    <li><a href="https://stardewvalleywiki.com/Roasted_Hazelnuts">Roasted Hazelnuts</a></li>
+    <li><a href="https://stardewvalleywiki.com/Spaghetti">Spaghetti</a></li>
+    <li><a href="https://stardewvalleywiki.com/Hashbrown">Hashbrown</a></li>
+    <li><a href="https://stardewvalleywiki.com/Pickles">Pickles</a></li>
+    <li><a href="https://stardewvalleywiki.com/Ginger_Ale">Ginger Ale</a></li>
+    <li><a href="https://stardewvalleywiki.com/Duck_Mayo">Duck Mayo</a></li>
   </ul>
 </details>
 <details>
   <summary>Likes</summary>
   <ul>
-    <li>All gems</li>
-    <li><a href="https://stardewvalleywiki.com/Pearl">Pearl</a></li>
+    <li><a href="https://stardewvalleywiki.com/Mango">Mango</a></li>
+    <li><a href="https://stardewvalleywiki.com/Coconut">Coconut</a></li>
   </ul>
 </details>
 <details>
   <summary>Neutrals</summary>
   <ul>
-    <li>All vegetables</li>
-    <li>All flowers</li>
-    <li>All fruits</li>
-    <li>All cooking except <a href="https://stardewvalleywiki.com/Roasted_Hazelnuts">Roasted Hazelnuts</a></li>
-    <li>All fish</li>
-    <li>All artisan goods</li>
+    <li><a href="https://stardewvalleywiki.com/Prismatic_Shard">Prismatic Shard</a></li>
     <li><a href="https://stardewvalleywiki.com/Rabbit%27s_Foot">Rabbit's Foot</a></li>
-    <li><a href="https://stardewvalleywiki.com/Golden_Pumpkin">Golden Pumpkin</a></li>
   </ul>
 </details>
 <details>
   <summary>Dislikes</summary>
   <ul>
-    <li>All baits</a></li>
+    <li><a href="https://stardewvalleywiki.com/Blackberry">Blackberry</a></li>
   </ul>
 </details>
 <details>
   <summary>Hates</summary>
   <ul>
-    <li><a href="https://stardewvalleywiki.com/Pufferfish">Pufferfish</a></li>
-    <li><a href="https://stardewvalleywiki.com/Sea_Urchin">Sea Urchin</a></li>
+    <li><a href="https://stardewvalleywiki.com/Tulip">Tulip</a></li>
+    <li><a href="https://stardewvalleywiki.com/Mead">Mead</a></li>
   </ul>
 </details>
 

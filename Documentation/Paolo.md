@@ -134,7 +134,7 @@ After seeing Diane's six hearts event enter town map on a sunny Monday, Tuesday,
 <details>
 <summary>Details</summary>
 <par>
-
+Player stands near the tree and sees Diane walks near Emily and Haley's house with Paolo following her. Jas and Vincent come running toward Diane and ask her to play, but Paolo quickly tells the kids to step back. Diane says she would be happy to accompany Jas and Vincent, and the children run off excitedly. Diane asks Paolo to tone it down.
 </par>
 </details>
 
@@ -244,4 +244,4 @@ Prices of concessions can be seen on [movie theater wikipage](https://stardewval
 * 1.0.0 initial release
  
 ## Notes
-* Diane is one of the oldest character concept and her portraits has gone through multiple alterations.
+* Paolo's appearance is inspired by Rui Hachimura.

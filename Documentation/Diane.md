@@ -3,6 +3,7 @@ Diane is a history enthusiast who came to Pelican Town after intrigued by the to
 ![](Images/Diane_portrait.png) ![](Images/Diane_sprites.png)
 
 ## Contents
+
 * [Relationships](#relationships)
 * [Schedules](#schedules)
 * [Gift Tastes](#gift-tastes)
@@ -19,9 +20,12 @@ Diane is a history enthusiast who came to Pelican Town after intrigued by the to
 Diane is married to Francesco, and even though they love each other and get along, they are unable to spend much of their time together. Diane knows wide range of people because of her background, but she thinks many of these connections are just mere surface-level. In Pelican Town, she mainly spends her time at the museum with Gunther and at other times watches over the children with Penny.
 
 ## Schedules
+
 Diane visits Pelican Town on Monday, Tuesday, and Wednesday.
+
 > [!NOTE]  
 > After seeing Diane's 10 heart event, Diane would stop visiting on Monday.
+
 <details>
   <summary>Monday and Wednesday</summary>
   <par>Diane randomly chooses from the following schedules:</par>
@@ -56,7 +60,23 @@ Diane visits Pelican Town on Monday, Tuesday, and Wednesday.
   </table>
 </details>
 
+> [!NOTE]  
+> If Diane is visiting on Rainy day, Diane will use the following schedule instead of her usual schedule
+
+<details>
+  <summary>Raining</summary>
+  <b>Cooped Inside</b>
+  <table>
+   <tr><th>Time</th><th>Location</th></tr>
+   <tr><td>09.00</td><td>From inside the bus goes to the museum and read book</td></tr>
+   <tr><td>12.00</td><td>Goes to look at museum's collections</td></tr>
+   <tr><td>14.00</td><td>Goes to the counter and talk with Gunther</td></tr>
+   <tr><td>18.00</td><td>Goes to bus stop to catch a ride home</td></tr>
+  </table>
+</details>
+
 ## Gift Tastes
+
 This list excludes [universal gift tastes](https://stardewvalleywiki.com/Friendship#Universal_Gifts).
 <details>
   <summary>Loves</summary>
@@ -103,7 +123,9 @@ This list excludes [universal gift tastes](https://stardewvalleywiki.com/Friends
 </details>
 
 ## Heart Events
+
 ### Introduction
+
 **That Lady Arrived**
 <br>
 After donating 45 artifacts to the museum, enter town from the museum on a sunny Monday, Tuesday, or Wednesday between 9am and 4pm
@@ -116,6 +138,7 @@ Diane and Lewis are talking in front of the museum, with Lewis proudly talking a
 </details>
 
 ### Two Hearts 1
+
 **Package for Jas**
 <br>
 Enter town map on a sunny Monday, Tuesday, or Wednesday between 2pm and 6pm
@@ -132,6 +155,7 @@ The day after the event Jas and Marney would mention they received a package of 
 </details>
 
 ### Two Hearts 2
+
 **Bits of Recognition**
 <br>
 Enter museum when Diane is inside
@@ -144,6 +168,7 @@ Diane is talking to Gunther. As player enters the museum Diane mentions that she
 </details>
 
 ### Four Hearts
+
 **A Little History**
 <br>
 Enter museum when Diane is inside
@@ -156,6 +181,7 @@ Diane is by a bookshelf and sees the player. She starts talking about how she's 
 </details>
 
 ### Six Hearts
+
 **Medical Assistance Required**
 <br>
 Enter the beach on a sunny Monday, Tuesday, or Wednesday in other seasons beside winter between 2pm and 6pm
@@ -170,6 +196,7 @@ At the clinic, Harvey examines Diane and concludes that she will be fine, but sh
 </details>
 
 ### Eight Hearts
+
 **Adventuring Assistance Required**
 <br>
 Enter the museum when Diane is inside
@@ -182,9 +209,10 @@ Diane is taking notes, with Gunther by her side. When she sees the player, she m
 </details>
 
 ### Ten Hearts
+
 **Diane a Museum Curator**
 <br>
-After meeting Paolo, completing Diane's Study quest chain, and reaching 10 hearts with Diane, Diane will send a letter. Read the letter and enter bus stop between 9am to 3pm 
+After meeting Paolo, completing Diane's Study quest chain, and reaching 10 hearts with Diane, Diane will send a letter. Read the letter and enter bus stop between 9am to 3pm
 
 <details>
 <summary>Details</summary>
@@ -198,6 +226,7 @@ Diane would stop visiting on Monday after the event
 </details>
 
 ## Quests
+
 <details>
   <summary>Diane's Study</summary>
   <par>Quests chain started on Diane's eight hearts event. Quests are given sequentially and rewards 10 times of the item base value.</par>
@@ -211,7 +240,9 @@ Diane would stop visiting on Monday after the event
 </details>
 
 ## Movie Theater Tastes
+
 ### Movies
+
 Details on movies schedule can be seen on [movie theater wikipage](https://stardewvalleywiki.com/Movie_Theater#Movies)
 <details>
   <summary>Loves</summary>
@@ -240,6 +271,7 @@ Details on movies schedule can be seen on [movie theater wikipage](https://stard
 </details>
 
 ### Concessions
+
 Prices of concessions can be seen on [movie theater wikipage](https://stardewvalleywiki.com/Movie_Theater#Concessions)
 <details>
   <summary>Loves</summary>
@@ -281,12 +313,14 @@ Prices of concessions can be seen on [movie theater wikipage](https://stardewval
     <li>JojaCorn</li>
     <li>Kale Smoothie</li>
     <li>Rock Candy</li>
-    
+
   </ul>
 </details>
 
 ## Changelogs
+
 * 1.0.0 initial release
- 
+
 ## Notes
+
 * Diane is one of the oldest character concept and her portraits has gone through multiple alterations.

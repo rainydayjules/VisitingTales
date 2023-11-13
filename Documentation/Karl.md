@@ -3,6 +3,7 @@ Karl is an office worker from Zuzu City. He comes to Pelican Town for some fishi
 ![](Images/Karl_portrait.png) ![](Images/Karl_sprites.png)
 
 ## Contents
+
 * [Relationships](#relationships)
 * [Schedules](#schedules)
 * [Gift Tastes](#gift-tastes)
@@ -18,6 +19,7 @@ Karl is an office worker from Zuzu City. He comes to Pelican Town for some fishi
 Karl resides in Zuzu alongside his wife, Emma. From his dialogues it appears that Emma does not share his loves for fishing. He generally gets along well with his co-workers, but despite his friendly demeanor, Karl is not particularly close to anyone except for Linus and Willy in Pelican Town.
 
 ## Schedules
+
 Karl visits Pelican Town on Friday and Saturday.
 > [!NOTE]  
 > After seeing Karl's 8 heart event, Karl would stop visiting on Friday.
@@ -61,6 +63,7 @@ Karl visits Pelican Town on Friday and Saturday.
 </details>
 
 ## Gift Tastes
+
 This list excludes [universal gift tastes](https://stardewvalleywiki.com/Friendship#Universal_Gifts).
 <details>
   <summary>Loves</summary>
@@ -106,7 +109,9 @@ This list excludes [universal gift tastes](https://stardewvalleywiki.com/Friends
 </details>
 
 ## Heart Events
+
 ### Introduction
+
 **New Fisherman in Town**
 <br>
 After reaching level 10 fishing, enter bus stop on a sunny Friday or Saturday between 3pm and 6pm
@@ -119,6 +124,7 @@ Player enters the bus stop and encounters cheerful Karl, who is on his way to th
 </details>
 
 ### Two Hearts
+
 **Little Friendly Feast**
 <br>
 On a sunny Friday or Saturday enter mountain between 3pm and 6pm
@@ -131,6 +137,7 @@ Player enters the mountains and spot Karl and Linus sitting a campfire near Linu
 </details>
 
 ### Four Hearts
+
 **Losing the Catch**
 <br>
 On Friday or Saturday enter Cindersap Forest between 3pm and 6pm
@@ -143,6 +150,7 @@ Karl is fishing by the river when the player's sudden arrival startles him, maki
 </details>
 
 ### Six Hearts 1
+
 **An Attempt was Made**
 <br>
 On Friday or Saturday enter Cindersap Forest between 3pm and 6pm
@@ -157,6 +165,7 @@ The day after, Emma sends a letter explaining the situation.
 </details>
 
 ### Six Hearts 2
+
 **Karl Explains**
 <br>
 Enter farm anytime after seeing Six Heart 1 event.
@@ -169,6 +178,7 @@ Karl visits the farmhouse and shares that he tried to convince Emma to go fishin
 </details>
 
 ### Eight Hearts
+
 **Karl is Moving Up**
 <br>
 After reaching eight hearts with Karl and the season is not winter, Karl will send a letter. Read the letter and then enter the beach on a sunny Friday or Saturday between 3pm and 5pm
@@ -177,20 +187,21 @@ After reaching eight hearts with Karl and the season is not winter, Karl will se
 <summary>Details</summary>
 <par>
 Karl, Emma, and Linus are having a picnic, with Linus roasting something on the open fire. Karl mentions he got a job promotion and wanted to celebrate a bit. Emma compliments his hard work, making him blush. Linus and Emma chat, Willy appears from the the direction of the piers and join, while Karl moves closer to the water, and the player follows. Karl shares that he is content with his life and feels grateful to Yoba.
-<br>
-<br>
+<br><br>
 Karl will only visit on Saturday after the event
 </par>
 </details>
 
 ## Movie Theater Tastes
+
 ### Movies
+
 Details on movies schedule can be seen on [movie theater wikipage](https://stardewvalleywiki.com/Movie_Theater#Movies)
 <details>
   <summary>Loves</summary>
   <ul>
     <li>The Brave Little Sapling</li>
-    <li>The Miracle At Coldstar Ranch</li>
+    
     <li>Wumbus</li>
   </ul>
 </details>
@@ -198,6 +209,7 @@ Details on movies schedule can be seen on [movie theater wikipage](https://stard
 <details>
   <summary>Likes</summary>
   <ul>
+    <li>The Miracle At Coldstar Ranch</li>
     <li>Journey Of The Prairie King: The Motion Picture</li>
     <li>It Howls In The Rain</li>
   </ul>
@@ -213,6 +225,7 @@ Details on movies schedule can be seen on [movie theater wikipage](https://stard
 </details>
 
 ### Concessions
+
 Prices of concessions can be seen on [movie theater wikipage](https://stardewvalleywiki.com/Movie_Theater#Concessions)
 <details>
   <summary>Loves</summary>
@@ -220,7 +233,6 @@ Prices of concessions can be seen on [movie theater wikipage](https://stardewval
     <li>Fries</li>
     <li>Ice Cream Sandwich</li>
     <li>Nachos</li>
-    <li>Personal Pizza</li>
     <li>Salmon Burger</li>
     <li>Stardrop Sorbet</li>
   </ul>
@@ -229,6 +241,7 @@ Prices of concessions can be seen on [movie theater wikipage](https://stardewval
 <details>
   <summary>Likes</summary>
   <ul>
+    <li>Personal Pizza</li>
     <li>Panzanella Salad</li>
     <li>Apple Slices</li>
     <li>Cappuccino Mousse Cake</li>
@@ -258,7 +271,9 @@ Prices of concessions can be seen on [movie theater wikipage](https://stardewval
 </details>
 
 ## Changelogs
+
 * 1.0.0 initial release
- 
+
 ## Notes
+
 * Karl's appearance and personality is inspired by [ASMR Outdoorsman](https://www.youtube.com/@The-ASMR-Outdoorsman)

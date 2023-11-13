@@ -73,7 +73,7 @@ Initially Paolo visits Pelican Town on Monday, Tuesday, and Wednesday where he i
 </details>
 
 > [!NOTE]
-> After seeing Paolo's ten hearts event, Paolo and Riri would start visiting on Saturday.
+> After seeing Paolo's ten hearts event, Paolo and Riri would start visiting on Saturday when it's not raining.
 
 <details>
   <summary>Saturday</summary>
@@ -87,7 +87,7 @@ Initially Paolo visits Pelican Town on Monday, Tuesday, and Wednesday where he i
 </details>
 
 > [!NOTE]
-> After seeing Paolo's six hearts event, Paolo would start visiting on Saturday.
+> After seeing Paolo's six hearts event, Paolo would start visiting on Sunday.
 
 <details>
   <summary>Sunday</summary>
@@ -197,11 +197,22 @@ Enter spa on Sunday
 <details>
 <summary>Details</summary>
 <par>
-Player sees Paolo on his own crossing the bridge. Paolo stops and greets player telling that he gets here to fetch items from the town museum for Diane. He then look over the bridge and describe how the town feels different and that he heard there's a spa in the town. Paolo excuses himself and walk away.
+Player enters the bath area seeing Paolo sitting on a chair. Paolo gives a Joja Cola to player, player can choose to refuse. Paolo drinks his Joja Cola and tells the player of his past. Highlighting that he used to be a trouble maker, a tough piece of work. He was that big of a problem so big that his wife decided to left him after she gave birth to Riri. Paolo seems to be understanding saying that he does not blame his wife. He then proceed to say that his old self is still there... Player can react to his statement. Then Paolo will says he could really use some time inside the hot water and asks the player to join.
+</par>
+</details>
+
+### Ten Harts
+
+**Father and Daughter**
+<br>
+After reaching 10 heart with Paolo, Paolo will send a letter. Read the letter and enter bus stop on sunny Saturday between 9am to 3pm
+
+<details>
+<summary>Details</summary>
+<par>
+A girl running excitedly from the bus direction, then she walk around observing the player then cheerfully shout out player name. She then contines saying that her father has been talking a lot about the player. Paolo the comes from the bus and introduced player and Riri to each other. Then Penny, Jas, and Vincent appear from the town direction and greet the group. The group then travel to museum, playground, community center (if finished), and the beach. In the beach Paolo talks to the player saying that he feels safe in the town and likes Riri to also experience the place as part of her childhood.
 <br><br>
-Paolo will start visiting on Sunday after the event
-<br><br>
-After 10 days of the event Paolo will send a letter with Joja Cola attached. He writes that the drink is his favorite when taking a dip in the spa, followed by mention that player and him should visit the spa together sometime.
+Paolo and Riri will start visiting on Saturday when it's not raining after the event
 </par>
 </details>
 
@@ -288,4 +299,4 @@ Prices of concessions can be seen on [movie theater wikipage](https://stardewval
 
 ## Notes
 
-* Paolo's appearance is inspired by Rui Hachimura.
+* Paolo's appearance is inspired by [Rui Hachimura](https://en.wikipedia.org/wiki/Rui_Hachimura).

@@ -1,10 +1,10 @@
 {
    "$schema": "https://smapi.io/schemas/manifest.json",
-   "Name": "Fleeting Tales",
+   "Name": "Visiting Tales",
    "Author": "ItsBenter",
    "Version": "1.0.0",
    "Description": "Adds new characters and expand the story in Pelican Town.",
-   "UniqueID": "ItsBenter.FleetingTales.CP",
+   "UniqueID": "ItsBenter.VisitingTales.CP",
    "MinimumApiVersion": "4.0",
    "UpdateKeys": [
       "Nexus:6789"

@@ -1,4 +1,4 @@
-Karl is an office worker from Zuzu City. He comes to Pelican Town for some fishing, a hobby and a way to escape the bustling city life. He's a down-to-earth, hardworking man who is just trying to provide for his family. You can often spot him casting his line in the valley on Fridays and Saturdays.
+Riri is Paolo's daughter. Paolo visits the valley with Riri after he felt more at home in Pelican Town and want to share what the valley has to offer with his daughter.
 
 ![](Images/Riri_portrait.png) ![](Images/Riri_sprites.png)
 
@@ -38,43 +38,38 @@ This list excludes [universal gift tastes](https://stardewvalleywiki.com/Friends
 <details>
   <summary>Loves</summary>
   <ul>
-    <li><a href="https://stardewvalleywiki.com/Salmon_Dinner">Salmon Dinner</a></li>
-    <li><a href="https://stardewvalleywiki.com/Sashimi">Sashimi</a></li>
-    <li><a href="https://stardewvalleywiki.com/Fried_Calamari">Fried Calamary</a></li>
-    <li><a href="https://stardewvalleywiki.com/Crispy_Bass">Crispy Bass</a></li>
-    <li><a href="https://stardewvalleywiki.com/Beer">Beer</a></li>
-    <li><a href="https://stardewvalleywiki.com/Mead">Mead</a></li>
-    <li><a href="https://stardewvalleywiki.com/Pi%C3%B1a_Colada">Piña Colada</a></li>
-    <li><a href="https://stardewvalleywiki.com/Ice_Cream">Ice Cream</a></li>
+    <li><a href="https://stardewvalleywiki.com/Banana_Pudding">Banana Pudding</a></li>
+    <li><a href="https://stardewvalleywiki.com/Blue_Jazz">Blue Jazz</a></li>
+    <li><a href="https://stardewvalleywiki.com/Glazed_Yam">Glazed Yam</a></li>
+    <li><a href="https://stardewvalleywiki.com/Poppyseed_Muffin">Poppyseed Muffin</a></li>
+    <li><a href="https://stardewvalleywiki.com/Mango_Sticky_Rice">Mango Sticky Rice</a></li>
   </ul>
 </details>
 <details>
   <summary>Likes</summary>
   <ul>
-    <li>All eggs except <a href="https://stardewvalleywiki.com/Void_Egg">Void Egg</a></li>
-    <li>All fish</li>
-    <li><a href="https://stardewvalleywiki.com/Hardwood">Hardwood</a></li>
+    <li><a href="https://stardewvalleywiki.com/Coconut">Coconut</a></li>
+    <li><a href="https://stardewvalleywiki.com/Coconut">Sugar</a></li>
   </ul>
 </details>
 <details>
   <summary>Neutrals</summary>
   <ul>
-    <li>All vegetables</li>
-    <li>All flowers</li>
-    <li><a href="https://stardewvalleywiki.com/Rabbit%27s_Foot">Rabbit's Foot</a></li>
-    <li><a href="https://stardewvalleywiki.com/Pearl">Pearl</a></li>
+    <li>All milk</li>
   </ul>
 </details>
 <details>
   <summary>Dislikes</summary>
   <ul>
-    <li><a href="https://stardewvalleywiki.com/Ginger">Ginger</a></li>
+    <li><a href="https://stardewvalleywiki.com/Blackberry">Blackberry</a></li>
+    <li><a href="https://stardewvalleywiki.com/Triple_Shot_Espresso">Triple Shot Espresso</a></li>
+    <li><a href="https://stardewvalleywiki.com/Coffee">Coffee</a></li>
   </ul>
 </details>
 <details>
   <summary>Hates</summary>
   <ul>
-    <li><a href="https://stardewvalleywiki.com/Hot_Pepper">Hot Pepper</a></li>
+    <li><a href="https://stardewvalleywiki.com/Rabbit%27s_Foot">Rabbit's Foot</a></li>
   </ul>
 </details>
 

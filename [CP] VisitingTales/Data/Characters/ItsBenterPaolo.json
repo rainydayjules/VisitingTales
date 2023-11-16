@@ -24,10 +24,10 @@
           "SocializeConditions": true,
           "CanVisitIslandCondition": false,
           "ExcludeFromIntroductionsQuest": true,
-          "ExcludeFromPerfectionScore": true,
+          "ExcludeFromPerfectionScore": "{{AddedNPCsAffectPerfection}}",
           "EndSlideShow": "TrailingGroup",
           //Spawn rules
-          "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Any <id>",
+          "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Any ItsBenter.VisitingTales.Diane06H",
           "Home": [
             {
               "Id": "Default",

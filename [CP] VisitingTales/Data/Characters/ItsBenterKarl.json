@@ -22,9 +22,9 @@
           "Calendar": "Never",
           "SocialTab": "HiddenUntilMet",
           "SocializeConditions": true,
-          "CanVisitIslandCondition": false, //only Saturday
+          "CanVisitIslandCondition": false,
           "ExcludeFromIntroductionsQuest": true,
-          "ExcludeFromPerfectionScore": true,
+          "ExcludeFromPerfectionScore": "{{AddedNPCsAffectPerfection}}",,
           "EndSlideShow": "TrailingGroup",
           //Spawn rules
           "UnlockConditions": "PLAYER_FISHING_LEVEL Any 10",

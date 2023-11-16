@@ -1,0 +1,14 @@
+{
+    "$schema": "https://smapi.io/schemas/content-patcher.json",
+    "Format": "1.30.0",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters/Dialogue/Lewis",
+            "Entries": {
+                "ItsBenterCT.DianeIntroduction": "{{i18n:ItsBenterCT.DianeIntroduction.Lewis}}",
+                "ItsBenterCT.PaoloIntroduction": "{{i18n:ItsBenterCT.PaoloIntroduction.Lewis}}"
+            }
+        },
+    ]
+}

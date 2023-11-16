@@ -7,7 +7,7 @@
    "UniqueID": "ItsBenter.VisitingTales.CP",
    "MinimumApiVersion": "4.0",
    "UpdateKeys": [
-      "Nexus:6789"
+      "Nexus:6899"
    ],
    "ContentPackFor": {
       "UniqueID": "Pathoschild.ContentPatcher"

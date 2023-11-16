@@ -24,7 +24,7 @@
           "SocializeConditions": true,
           "CanVisitIslandCondition": false,
           "ExcludeFromIntroductionsQuest": true,
-          "ExcludeFromPerfectionScore": "{{AddedNPCsAffectPerfection}}",,
+          "ExcludeFromPerfectionScore": "{{AddedNPCsAffectPerfection}}",
           "EndSlideShow": "TrailingGroup",
           //Spawn rules
           "UnlockConditions": "PLAYER_FISHING_LEVEL Any 10",

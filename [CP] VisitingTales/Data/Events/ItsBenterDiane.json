@@ -1,0 +1,102 @@
+﻿{
+  "$schema": "https://smapi.io/schemas/content-patcher.json",
+  "Format": "1.30.0",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "Entries": {
+        //Introduction event: That Lady Arrived
+        //Lewis 1: And here we are
+        //Lewis 2: This here is the town's library and museum, all made possible by the taxes from our local businesses.#$b#It's taken a lot of hard work, but, as you'll soon notice, the collection here has become something quite special.
+        //Diane 1: That's wonderful to hear. News reached me that Pelican Town's museum collection has rapidly grow. $1
+        //Lewis 3: Hehe... Of course, all due to the town's excellent management
+        //Lewis 4: Ah, speaking of!
+        //Lewis 5: Diane, let me introduce you to @.#$b#A recent addition to our town, now managing the land right next to the Bus Station.
+        //Diane 2: It's quite nice meeting you @. Name is Diane.#$b#You caught me in the middle of a little tour of this charming town you have here.#$b#I take it you visit this place often?
+        //QuickQuestion 1 Response 1 Player 1: Yes, I like it here.
+        //QuickQuestion 1 Response 2 Player 2: Not really. I’m too busy.
+        //QuickQuestion 1 Response 3 Player 3: Only when I need to.
+        //QuickQuestion 1 Response 1 Diane 3: Oh, isn't that nice.#$b#I'd love to discuss all the different books and artifacts with you.#$b#Well, at your convenience, surely.
+        //QuickQuestion 1 Response 2 Diane 4: Understandable. I figure that might be the case.#$b#I guess I'd have to look for someone who would be more intimate with what the place have in store then.
+        //QuickQuestion 1 Response 2 Lewis 6: We have Gunther, the curator. He should get you covered Diane.
+        //QuickQuestion 1 Response 3 Diane 5: Interesting, what is it that you need to do here?
+        //QuickQuestion 1 Response 3 Lewis 7: Oh, sometimes @ donates items for the collection.
+        //QuickQuestion 1 Response 3 Diane 6: That's most fascinating. So @ must be quite knowledgable of the area then...
+        //Lewis 8: Shall we continue to the inside?
+        //Diane 9: Surely, if you don't mind.
+        //Diane 10: Once again, it's a pleasure meeting you @.
+        //Lewis 9 *ehem* I expect you to be on your best behavior with Diane.#$b#She planned for this tour for quite some time. This must be important to her.#$b#Everyone will need to mind their manners!
+        //
+        //Lewis will say that Diane is planning to visit the town again
+        //Marnie would be a little jealous
+        //Sam would mention he saw Diane
+        //Gus mention she seems like a kind lady, but wonder what gets her to the town
+        //Caroline mention Pierre noticing the jewelry "There's a woman who visit with Lewis. Seems nice. Yet, all Pierre can do it commenting about her accesories.#$b#Sometimes I just can't with him."
+        //Clint seems blushed infatuated
+        //Emily says that Diane is witholding something "That lady's aura is quite cloudy, like it's waiting for the sun to shine through."
+        //Vincent and Leah says he didn't get to see Diane
+        //Shane says So someone arranged a tour for this town. Bah, why do I care?"
+        //
+        //Rosa would say "So I heard there's someone who toured the town with Lewis. Of course he didn't bother to take her to this far away land $2"
+        //Juliet would mention that Diane seems from money 
+        "ItsBenter.Diane00/w Sunny/!d Mon Tue Wed/t 0900 1600//G MUSEUM_DONATIONS 45": "
+        continue/92 91/ItsBenterDiane 97 94 0 Lewis 98 93 0 farmer -100 -100/
+        broadcastEvent/addConversationTopic ItsBenterCT.DianeIntroduction 4/addConversationTopic ItsBenterCT.DianeWaitTime 14/
+        viewport move 10 0 5000/
+        textAboveHead Lewis \"{{i18n:ItsBenterEvent.Diane00.Lewis.1}}\"/
+        advancedMove Lewis false 4 0/faceDirection Lewis 0/advancedMove ItsBenterDiane false 4 0 0 -1/skippable/
+        speak Lewis \"{{i18n:ItsBenterEvent.Diane00.Lewis.2}}\"/
+        speak ItsBenterDiane \"{{i18n:ItsBenterEvent.Diane00.Diane.1}}\"/
+        speak Lewis \"{{i18n:ItsBenterEvent.Diane00.Lewis.3}}\"/
+        faceDirection ItsBenterDiane 1/pause 200/emote ItsBenterDiane 40/pause 200/
+        playSound doorClose/warp farmer 101 90/faceDirection ItsBenterDiane 0/pause 250/
+        textAboveHead Lewis \"{{i18n:ItsBenterEvent.Diane00.Lewis.4}}\"/
+        advancedMove Lewis false 0 -1/faceDirection Lewis 3/
+        speak Lewis \"{{i18n:ItsBenterEvent.Diane00.Lewis.5}}\"/
+        advancedMove farmer false 0 1/
+        speak ItsBenterDiane \"{{i18n:ItsBenterEvent.Diane00.Diane.2}}\"/
+        quickQuestion #{{i18n:ItsBenterEvent.Diane00.Player.1}}#{{i18n:ItsBenterEvent.Diane00.Player.2}}#{{i18n:ItsBenterEvent.Diane00.Player.3}}(break)friendship ItsBenterDiane 50\\emote ItsBenterDiane 56\\pause 50\\speak ItsBenterDiane \"{{i18n:ItsBenterEvent.Diane00.Diane.3}}\"(break)speak ItsBenterDiane\"{{i18n:ItsBenterEvent.Diane00.Diane.4}}\\speak Lewis \"{{i18n:ItsBenterEvent.Diane00.Lewis.6}}\"(break)speak ItsBenterDiane\"{{i18n:ItsBenterEvent.Diane00.Diane.5}}\\speak Lewis \"{{i18n:ItsBenterEvent.Diane00.Lewis.7}}\\emote ItsBenterDiane 16\\pause 200\\speak ItsBenterDiane\"{{i18n:ItsBenterEvent.Diane00.Diane.6}}/
+        pause 300/emote Lewis 40/
+        speak Lewis \"{{i18n:ItsBenterEvent.Diane00.Lewis.8}}\"/
+        speak ItsBenterDiane \"{{i18n:ItsBenterEvent.Diane00.Diane.9}}\"/
+        advancedMove farmer false -1 0/faceDirection farmer 0/pause 50/advancedMove ItsBenterDiane false -3 0/faceDirection ItsBenterDiane 2/
+        speak ItsBenterDiane \"{{i18n:ItsBenterEvent.Diane00.Diane.10}}\"/
+        faceDirection ItsBenterDiane 0/warp ItsBenterDiane -100 -100/
+        advancedMove Lewis false -1 0/faceDirection farmer 1/
+        speak Lewis \"{{i18n:ItsBenterEvent.Diane00.Lewis.9}}/
+        pause 50/emote player 12/stopAdvancedMoves/end",
+        //2 Hearts: Package for Jas
+        "ItsBenter.Diane01/w Sunny/!d Mon Tue Wed/t 1400 1600/f ItsBenterDiane 500": ""
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/ArchaeologyHouse",
+      "Entries": {
+        //2 Hearts: Bits of Recognition
+        "ItsBenter.Diane02/p ItsBenterDiane/f ItsBenterDiane 500": "",
+        //4 Hearts: A Little History
+        "ItsBenter.Diane03/p ItsBenterDiane/f ItsBenterDiane 1000": "",
+        //8 Hearts: Adventuring Assistance Required
+        "ItsBenter.Diane05/p ItsBenterDiane/f ItsBenterDiane 2000": ""
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "Entries": {
+        //6 Hearts: Medical Assistance Required
+        "ItsBenter.Diane04/!w Rain/z Winter/f ItsBenterDiane 1500": ""
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/BusStop",
+      "Entries": {
+        //10 Hearts: Diane a Museum Curator
+        "ItsBenter.Diane06/e ItsBenter.Paolo00/f ItsBenterDiane 2500": ""
+      }
+    }
+  ]
+}

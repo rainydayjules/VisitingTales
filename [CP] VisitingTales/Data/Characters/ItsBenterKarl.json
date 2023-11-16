@@ -42,19 +42,6 @@
         }
       }
     },
-    //Karl is only valid to be selected to visit Island on Saturday
-    {
-      "Action": "EditData",
-      "Target": "Data/Characters",
-      "When": {
-        "DayOfWeek": "Saturday"
-      },
-      "Entries": {
-        "ItsBenterKarl": {
-          "CanVisitIslandCondition": true
-        }
-      }
-    },
     //Gift Tastes
     {
       "Action": "EditData",

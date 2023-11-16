@@ -92,6 +92,7 @@ This list excludes [universal gift tastes](https://stardewvalleywiki.com/Friends
   <summary>Likes</summary>
   <ul>
     <li>All gems</li>
+    <li>All items that can be donated to museum</li>
     <li><a href="https://stardewvalleywiki.com/Pearl">Pearl</a></li>
   </ul>
 </details>

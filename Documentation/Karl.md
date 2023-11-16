@@ -83,6 +83,7 @@ This list excludes [universal gift tastes](https://stardewvalleywiki.com/Friends
   <ul>
     <li>All eggs except <a href="https://stardewvalleywiki.com/Void_Egg">Void Egg</a></li>
     <li>All fish</li>
+    <li>Alcohol items</li>
     <li><a href="https://stardewvalleywiki.com/Hardwood">Hardwood</a></li>
   </ul>
 </details>

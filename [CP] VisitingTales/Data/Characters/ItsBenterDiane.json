@@ -47,10 +47,10 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "ItsBenterDiane": "{{i18n:ItsBenterDiane.Gifts_Loved}}/70 104 106 376 607/{{i18n:ItsBenterDiane.Gifts_Liked}}/-2 797/{{i18n:ItsBenterDiane.Gifts_Disliked}}/-21/{{i18n:ItsBenterDiane.Gifts_Hated}}/128 397/{{i18n:ItsBenterDiane.Gifts_Neutral}}/-7 -4 446 373 -79 -80 -75 -26/"
+        "ItsBenterDiane": "{{i18n:ItsBenterDiane.Gifts_Loved}}/70 104 106 376 607/{{i18n:ItsBenterDiane.Gifts_Liked}}/-2 797 museum_donatable pearl_variation/{{i18n:ItsBenterDiane.Gifts_Disliked}}/-21/{{i18n:ItsBenterDiane.Gifts_Hated}}/128 397/{{i18n:ItsBenterDiane.Gifts_Neutral}}/-7 -4 446 373 -79 -80 -75 -26/"
       }
       //Loves: jade 70, elvish jewelry 104, ornamental fan 106, poppy 376, roasted hazelnuts 607
-      //Likes: gems -2, pearl 797
+      //Likes: gems -2, pearl 797 museum_donatable pearl_variation
       //Neutrals: cooking -7, fish -4, rabbit's foot 446, golden pumpkin 373, fruit -79, flowers -80, vegetable -75, artisan goods -26
       //Dislikes: baits -21
       //Hates: pufferfish 128, sea urchin 397

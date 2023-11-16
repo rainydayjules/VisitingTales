@@ -156,9 +156,14 @@
       "FromFile": "blank.json"
     },
     {
-      "LogName": "NPC Details",
+      "LogName": "NPCs Details",
       "Action": "Include",
       "FromFile": "Data/Characters/ItsBenterKarl.json, Data/Characters/ItsBenterDiane.json, Data/Characters/ItsBenterPaolo.json, Data/Characters/ItsBenterRiri.json"
+    },
+    {
+      "LogName": "NPCs Events",
+      "Action": "Include",
+      "FromFile": "Data/Events/ItsBenterKarl.json, Data/Events/ItsBenterDiane.json, Data/Events/ItsBenterPaolo.json, Data/Events/ItsBenterRiri.json"
     }
   ]
 }

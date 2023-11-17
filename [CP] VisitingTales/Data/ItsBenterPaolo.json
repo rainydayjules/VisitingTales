@@ -64,12 +64,7 @@
         "ItsBenterPaolo_tap": "24/24/24"
       }
     },
-    //Schedule
-    {
-      "Action": "Load",
-      "Target": "Characters/schedules/ItsBenterPaolo",
-      "FromFile": "Characters/schedules/ItsBenterPaolo_{{ItsBenterPaoloSchedule}}.json"
-    },
+
     //Dialogue
     {
       "Action": "EditData",

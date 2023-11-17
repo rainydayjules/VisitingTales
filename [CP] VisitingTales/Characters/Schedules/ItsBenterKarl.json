@@ -1,0 +1,72 @@
+{
+    "$schema": "https://smapi.io/schemas/content-patcher.json",
+    "Format": "1.30.0",
+    "Changes": [
+        {
+            "LogName": "Karl away schdule",
+            "Action": "EditData",
+            "Target": "Characters/Schedules/ItsBenterKarl",
+            "Entries": {
+                "Spring": ""
+            }
+        },
+        {
+            "LogName": "Karl Friday schedule",
+            "Action": "EditData",
+            "Target": "Characters/Schedules/ItsBenterKarl",
+            "When": {
+                "HasSeenEvent |contains=ItsBenter.Karl00": true,
+            },
+            "Entries": {
+                "Fri": ""
+            }
+        },
+        {
+            "LogName": "Karl Sunday schedule - Mountain",
+            "Action": "EditData",
+            "Target": "Characters/Schedules/ItsBenterKarl",
+            "When": {
+                "HasSeenEvent |contains=ItsBenter.Karl00": true,
+                "Random: Mountain,Town,Forest|key=KarlSaturdaySchedule": "Mountain"
+            },
+            "Entries": {
+                "Sun": ""
+            }
+        },
+        {
+            "LogName": "Karl Sunday schedule - Town",
+            "Action": "EditData",
+            "Target": "Characters/Schedules/ItsBenterKarl",
+            "When": {
+                "HasSeenEvent |contains=ItsBenter.Karl00": true,
+                "Random: Mountain,Town,Forest|key=KarlSaturdaySchedule": "Town"
+            },
+            "Entries": {
+                "Sun": ""
+            }
+        },
+        {
+            "LogName": "Karl Sunday schedule - Forest",
+            "Action": "EditData",
+            "Target": "Characters/Schedules/ItsBenterKarl",
+            "When": {
+                "HasSeenEvent |contains=ItsBenter.Karl00": true,
+                "Random: Mountain,Town,Forest|key=KarlSaturdaySchedule": "Forest"
+            },
+            "Entries": {
+                "Sun": ""
+            }
+        },
+        {
+            "LogName": "Karl stop visiting on Friday after promotion",
+            "Action": "EditData",
+            "Target": "Characters/Schedules/ItsBenterKarl",
+            "When": {
+                "HasSeenEvent |contains=ItsBenter.Karl04": true
+            },
+            "Entries": {
+                "Fri": "goto Spring"
+            }
+        }
+    ]
+}

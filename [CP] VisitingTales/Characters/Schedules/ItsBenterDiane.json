@@ -1,0 +1,62 @@
+{
+    "$schema": "https://smapi.io/schemas/content-patcher.json",
+    "Format": "1.30.0",
+    "Changes": [
+        {
+            "LogName": "Diane away schdule",
+            "Action": "EditData",
+            "Target": "Characters/Schedules/ItsBenterDiane",
+            "Entries": {
+                "Spring": ""
+            }
+        },
+        {
+            "LogName": "Diane Tuesday schedule",
+            "Action": "EditData",
+            "Target": "Characters/Schedules/ItsBenterDiane",
+            "When": {
+                "HasSeenEvent |contains=ItsBenter.Diane00": true
+            },
+            "Entries": {
+                "Tue": ""
+            }
+        },
+        {
+            "LogName": "Diane Monday and Wednesday schedule - Museum",
+            "Action": "EditData",
+            "Target": "Characters/Schedules/ItsBenterKarl",
+            "When": {
+                "HasSeenEvent |contains=ItsBenter.Diane00": true,
+                "Random: Museum,Town|key=DianeMondayWednesdaySchedule": "Museum"
+            },
+            "Entries": {
+                "Mon": "goto Wed",
+                "Wed": ""
+            }
+        },
+        {
+            "LogName": "Diane Monday and Wednesday schedule - Town",
+            "Action": "EditData",
+            "Target": "Characters/Schedules/ItsBenterKarl",
+            "When": {
+                "HasSeenEvent |contains=ItsBenter.Diane00": true,
+                "Random: Museum,Town|key=DianeMondayWednesdaySchedule": "Town"
+            },
+            "Entries": {
+                "Mon": "goto Wed",
+                "Wed": ""
+            }
+        },
+        {
+            "LogName": "Diane stop visiting on Monday after becoming a curator",
+            "Action": "EditData",
+            "Target": "Characters/Schedules/ItsBenterDiane",
+            "When": {
+                "HasSeenEvent |contains=ItsBenter.Diane06": true
+            },
+            "Entries": {
+                "Mon": "goto Spring",
+            }
+        }
+    ]
+}

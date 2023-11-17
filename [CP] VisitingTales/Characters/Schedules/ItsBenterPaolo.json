@@ -1,0 +1,84 @@
+{
+    "$schema": "https://smapi.io/schemas/content-patcher.json",
+    "Format": "1.30.0",
+    "Changes": [
+        {
+            "LogName": "Paolo away schdule",
+            "Action": "EditData",
+            "Target": "Characters/Schedules/ItsBenterPaolo",
+            "Entries": {
+                "Spring": ""
+            }
+        },
+        {
+            "LogName": "Paolo Tuesday schedule",
+            "Action": "EditData",
+            "Target": "Characters/Schedules/ItsBenterPaolo",
+            "When": {
+                "HasSeenEvent |contains=ItsBenter.Paolo00": true
+            },
+            "Entries": {
+                "Tue": ""
+            }
+        },
+        {
+            "LogName": "Paolo Monday and Wednesday schedule - Museum",
+            "Action": "EditData",
+            "Target": "Characters/Schedules/ItsBenterPaolo",
+            "When": {
+                "HasSeenEvent |contains=ItsBenter.Paolo00": true,
+                "Random: Museum,Town|key=DianeMondayWednesdaySchedule": "Museum"
+            },
+            "Entries": {
+                "Mon": "goto Wed",
+                "Wed": ""
+            }
+        },
+        {
+            "LogName": "Paolo Monday and Wednesday schedule - Town",
+            "Action": "EditData",
+            "Target": "Characters/Schedules/ItsBenterPaolo",
+            "When": {
+                "HasSeenEvent |contains=ItsBenter.Paolo00": true,
+                "Random: Museum,Town|key=DianeMondayWednesdaySchedule": "Museum"
+            },
+            "Entries": {
+                "Mon": "goto Wed",
+                "Wed": ""
+            }
+        },
+        {
+            "LogName": "Paolo stop visiting on Monday after Diane becomes a curator",
+            "Action": "EditData",
+            "Target": "Characters/Schedules/ItsBenterPaolo",
+            "When": {
+                "HasSeenEvent |contains=ItsBenter.Diane06": true
+            },
+            "Entries": {
+                "Mon": "goto Spring",
+            }
+        },
+        {
+            "LogName": "Paolo start visiting on Sunday after encounter on the bridge",
+            "Action": "EditData",
+            "Target": "Characters/Schedules/ItsBenterPaolo",
+            "When": {
+                "HasSeenEvent |contains=ItsBenter.Paolo02": true
+            },
+            "Entries": {
+                "Sun": ""
+            }
+        },
+        {
+            "LogName": "Paolo start visiting on Saturday with Riri",
+            "Action": "EditData",
+            "Target": "Characters/Schedules/ItsBenterPaolo",
+            "When": {
+                "HasSeenEvent |contains=ItsBenter.Paolo04": true
+            },
+            "Entries": {
+                "Sat": ""
+            }
+        },
+    ]
+}

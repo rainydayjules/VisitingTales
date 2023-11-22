@@ -11,27 +11,27 @@
         //Lewis: "Ah @, Diane said she would like to visit the town again. Isn't that nice?"
         //Marnie: "I saw Mr. Lewis with that lady. $3#$b#They seemed very happy walking around the town... $2#$e#*sigh*... If only$2"
         //Marnie (if another mod makes her stop her thing with Lewis): "I heard Lewis gave a tour of the town.#%b#I hope he treated the lady well..."
-        //Sam; "Oh yeah, saw Lewis and that woman when I was skateboarding the other day.#$b#Of course, he wasn't pleased seeing me at all. $1" 
+        //Sam; "Oh yeah, I saw Lewis and that woman when skateboarding the other day.#$b#Of course, he wasn't pleased seeing me at all. $1" 
         //Gus: "Diane, quite a nice lady isn't she? I wonder what gets her to this town though."
         //Caroline: "Lewis visit the shop with Diane awhile back. She is very sweet.#$b#Yet, all Pierre do is commenting on her accessories. $2#$b#Sometimes I just can't with him. $2"
         //Clint: "Umm... Yes, Lewis came here and show the place around with Diane.#$b#She has a wonderdul smile isn't she? $1"
-        //Emily: "Diane, her aura is quite cloudy, like it's waiting for the sun to shine through. $3#$b#But then, there's also nothing wrong with cloudy wheater too. $0"
+        //Emily: "Diane, her aura is quite cloudy. It's waiting for the sun to shine through. $3#$b#But then, there's also nothing wrong with cloudy weather too. $0"
         //Jas: "... Mrs. Diane looks like a princess.#$b#I wonder if she would visit us again..."
         //Vincent: "I didn't get to meet Mrs. Diane... $2"
-        //Shane: "So someone arranged a tour for this town. $3#$b#Bah, why do I care? $3"
+        //Shane: "So someone arranged a tour around this town. $3#$b#Bah, why do I care? $3"
         //Elliot: "*mumble*... Diane, a lady of class and heart... *mumble*#$b#Oh, I'm just imagining writing a passage from an earlier encounter.#$e#Did you get to meet her?"
-        //Penny: "I met Lewis and Diane when they walk around the town.#$b#They stop by and we had a nice conversation going. $1"
+        //Penny: "I met Lewis and Diane when they walked around the town.#$b#We stopped and had a nice conversation going. $1"
         //
-        //Rosa: "News reached me that Lewis gave a tour around the town... Of course he didn't bother to show this far-far away land."
-        //Juliet: "That Diane, bet she comes from money.#$b#Oh, it's not only the jewelry that tells sweetheart." 
+        //Rosa: "News reached me that Lewis gave someone a tour around the town... Of course he didn't bother to show her this far-far away land."
+        //Juliet: "That Diane, bet she comes from money.#$b#Oh sweetheart, it's not only the jewelry that tell." 
         //
         //Lewis 1: And here we are
-        //Lewis 2: This here is the town's library and museum, all made possible by the taxes from our local businesses.#$b#It's taken a lot of hard work, but, as you'll soon notice, the collection here has become something quite special.
+        //Lewis 2: This here is the town's library and museum, all made possible by the taxes from our local businesses.#$b#It's a lot of hard work, but, as you'll soon notice, the collection here has become something quite special.
         //Diane 1: That's wonderful to hear. News reached me that Pelican Town's museum collection has rapidly grow. $1
         //Lewis 3: Hehe... Of course, all due to the town's excellent management
         //Lewis 4: Ah, speaking of!
-        //Lewis 5: Diane, let me introduce you to @.#$b#A recent addition to our town, now he is managing the land right next to the Bus Station.^Diane, let me introduce you to @.#$b#A recent addition to our town, now she is managing the land right next to the Bus Station.
-        //Diane 2: It's quite nice meeting you @. Name is Diane.#$b#You caught me in the middle of a little tour of this charming town you have here.#$b#I take it you visit this place often?
+        //Lewis 5: Diane, let me introduce you to @.#$b#A recent addition to our town, now he is managing the land right next to the Bus Station.^A recent addition to our town, now she is managing the land right next to the Bus Station.
+        //Diane 2: It's quite nice meeting you @. Name is Diane.#$b#You caught me in the middle of a tour of this charming town you have here.#$b#I take it you visit this place often?
         //QuickQuestion 1 Response 1 Player 1: Yes, I like it here.
         //QuickQuestion 1 Response 2 Player 2: Not really. I’m too busy.
         //QuickQuestion 1 Response 3 Player 3: Only when I need to.
@@ -45,34 +45,86 @@
         //Diane 9: Surely, if you don't mind.
         //Diane 10: Once again, it's a pleasure meeting you @.
         //Lewis 9 *ehem* I expect you to be on your best behavior with Diane.#$b#We planned this tour for quite some time. This must be important to her.#$b#Everyone will need to mind their manners!
-        "ItsBenter.Diane00/w Sunny/!d Mon Tue Wed/t 0900 1600//G MUSEUM_DONATIONS 45": "
+        //
+        //Event would have compatch with Mr. Ginger and SVE's Charlie later on.
+        "ItsBenterEvent.Diane00/w Sunny/!d Mon Tue Wed/t 0900 1600//G MUSEUM_DONATIONS 45": "
         continue/92 91/ItsBenterDiane 97 94 0 Lewis 98 93 0 farmer -100 -100/
-        broadcastEvent/addConversationTopic ItsBenterCT.DianeIntroduction 4/addConversationTopic ItsBenterCT.DianeWaitTime 7/
+        broadcastEvent/addConversationTopic ItsBenterCT.DianeIntroduction 5/addConversationTopic ItsBenterCT.DianeWaitTime 14/
         viewport move 10 0 5000/
-        textAboveHead Lewis \"{{i18n:ItsBenterEvent.Diane00.Lewis.1}}\"/
+        textAboveHead Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.1}}"/
         advancedMove Lewis false 4 0/faceDirection Lewis 0/advancedMove ItsBenterDiane false 4 0 0 -1/skippable/
-        speak Lewis \"{{i18n:ItsBenterEvent.Diane00.Lewis.2}}\"/
-        speak ItsBenterDiane \"{{i18n:ItsBenterEvent.Diane00.Diane.1}}\"/
-        speak Lewis \"{{i18n:ItsBenterEvent.Diane00.Lewis.3}}\"/
+        speak Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.2}}"/
+        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.1}}"/
+        speak Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.3}}"/
         faceDirection ItsBenterDiane 1/pause 200/emote ItsBenterDiane 40/pause 200/
         playSound doorClose/warp farmer 101 90/faceDirection ItsBenterDiane 0/pause 250/
-        textAboveHead Lewis \"{{i18n:ItsBenterEvent.Diane00.Lewis.4}}\"/
+        textAboveHead Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.4}}"/
         advancedMove Lewis false 0 -1/faceDirection Lewis 3/
-        speak Lewis \"{{i18n:ItsBenterEvent.Diane00.Lewis.5}}\"/
+        speak Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.5}}"/
         advancedMove farmer false 0 1/
-        speak ItsBenterDiane \"{{i18n:ItsBenterEvent.Diane00.Diane.2}}\"/
-        quickQuestion#{{i18n:ItsBenterEvent.Diane00.Player.1}}#{{i18n:ItsBenterEvent.Diane00.Player.2}}#{{i18n:ItsBenterEvent.Diane00.Player.3}}(break)friendship ItsBenterDiane 50\\emote ItsBenterDiane 56\\pause 50\\speak ItsBenterDiane \"{{i18n:ItsBenterEvent.Diane00.Diane.3}}\"(break)speak ItsBenterDiane\"{{i18n:ItsBenterEvent.Diane00.Diane.4}}\\speak Lewis \"{{i18n:ItsBenterEvent.Diane00.Lewis.6}}\"(break)speak ItsBenterDiane\"{{i18n:ItsBenterEvent.Diane00.Diane.5}}\\speak Lewis \"{{i18n:ItsBenterEvent.Diane00.Lewis.7}}\\emote ItsBenterDiane 16\\pause 200\\speak ItsBenterDiane\"{{i18n:ItsBenterEvent.Diane00.Diane.6}}/
+        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.2}}"/
+        quickQuestion#{{i18n:ItsBenterEvent.Diane00.Player.1}}#{{i18n:ItsBenterEvent.Diane00.Player.2}}#{{i18n:ItsBenterEvent.Diane00.Player.3}}(break)friendship ItsBenterDiane 50\\emote ItsBenterDiane 56\\pause 50\\speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.3}}"(break)speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.4}}"\\speak Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.6}}"(break)speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.5}}"\\speak Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.7}}"\\emote ItsBenterDiane 16\\pause 200\\speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.6}}"/
         pause 300/emote Lewis 40/
-        speak Lewis \"{{i18n:ItsBenterEvent.Diane00.Lewis.8}}\"/
-        speak ItsBenterDiane \"{{i18n:ItsBenterEvent.Diane00.Diane.9}}\"/
+        speak Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.8}}"/
+        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.9}}"/
         advancedMove farmer false -1 0/faceDirection farmer 0/pause 50/advancedMove ItsBenterDiane false -3 0/faceDirection ItsBenterDiane 2/
-        speak ItsBenterDiane \"{{i18n:ItsBenterEvent.Diane00.Diane.10}}\"/
+        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.10}}"/
         faceDirection ItsBenterDiane 0/warp ItsBenterDiane -100 -100/
         advancedMove Lewis false -1 0/faceDirection farmer 1/
-        speak Lewis \"{{i18n:ItsBenterEvent.Diane00.Lewis.9}}/
-        pause 50/emote player 12/stopAdvancedMoves/end",
+        speak Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.9}}"/
+        pause 50/emote player 12/stopAdvancedMoves/end
+        ",
         //2 Hearts: Package for Jas
-        "ItsBenter.Diane01/w Sunny/!d Mon Tue Wed/t 1400 1600/f ItsBenterDiane 500": ""
+        //ItsBenterCT.DianePackageForJas.1
+        //Marnie: Oh @, so a package of pop-up books arrived in the ranch's mail. $t ItsBenterCT.DianePackageForJas.2 3#$$b#Jas said it must be Diane who send it. It's very kind of her. $1
+        //Jas: Mrs. Diane send me so many pop-up books. $t ItsBenterCT.DianePackageForJas.2 3#$b#They're so pretty!#$e#Mrs. Diane said she used to read pop-up books. 
+        //ItsBenterCT.DianePackageForJas.2
+        //Diane: Oh yes, the books.#$b#Surely Jas could make a better use of them. $1#$e#It's a sad thought that the books used to just gather dust when they could've bring so much joy instead.
+        //
+        //Diane 1: Hi dear, it's Jas isn't it?#$b#What is it you're reading Jas?
+        //Jas 1: ... $3#$b#Umm... Rainbow Kites in the Sky
+        //Diane 2: What a nice coincidence, I used to read the book too.#$b#Back when I was a little girl. $1
+        //Jas 2: Who's your favorite character? Mabel?
+        //Diane 3: Let me think, hmm... #$b#I do like Mabel, but my favorite would be Hanya.#$b#She endured all the pain and make the best out of her situation.
+        //Jas 3: Oh...
+        //Diane 4: I remember staring at Hanya popping out of the book holding a sunflower. $1
+        //Diane 5: Ah, on the book I used to read character come out and stand on the paper. It was a pop up book.
+        //Jas 4: Must be very pretty. $1
+        //Penny 1: Hello Jas, Diane.
+        //Penny 2: Jas would you like me to accompany you to go back home?
+        //Jas 5: Yup yup
+        //Jas 6: I'll see you later Mrs. Diane
+        "ItsBenterEvent.Diane01/w Sunny/!d Mon Tue Wed/t 1400 1600/f ItsBenterDiane 500": "
+        continue/31 88/Jas 32 89 ItsBenterDiane 24 90 farmer -100 -100 Penny -100 -100/
+        addConversationTopic ItsBenterCT.DianePackageForJas.1 5/
+        showFrame Jas 23/
+        viewport move 10 0 5000/
+        advancedMove ItsBenterDiane 3 0 1 1000 1 0 0 -2 3 0/showFrame ItsBenterDiane 12/skippable/
+        warp farmer 26 81/
+        advancedMove farmer 4 0 0 1/
+        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane01.Diane.1}}"/
+        speak Jas "{{i18n:ItsBenterEvent.Diane01.Jas.1}}"/
+        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane01.Diane.2}}"/
+        speak Jas "{{i18n:ItsBenterEvent.Diane01.Jas.2}}"/
+        emote ItsBenterDiane 40/pause 500/
+        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane01.Diane.3}}"/
+        textAboveHead Jas "{{i18n:ItsBenterEvent.Diane01.Jas.3}}"/
+        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane01.Diane.4}}"/
+        emote Jas 8/pause 250/
+        warp Penny 34 92/
+        advancedMove Penny 0 -1 -2 0/faceDirection Penny 0/
+        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane01.Diane.5}}"/
+        jump Jas 4/emote Jas 20/faceDirection Jas 0/
+        speak Jas "{{i18n:ItsBenterEvent.Diane01.Jas.4}}"/
+        pause 100/showFrame ItsBenterDiane 0/
+        speak Penny "{{i18n:ItsBenterEvent.Diane01.Penny.1}}"/
+        pause 250/
+        speak Penny "{{i18n:ItsBenterEvent.Diane01.Penny.2}}"/
+        textAboveHead Jas "{{i18n:ItsBenterEvent.Diane01.Jas.5}}"/
+        speak Jas "{{i18n:ItsBenterEvent.Diane01.Jas.6}}"/
+        pause 200/advancedMove Jas -3 0/faceDirection ItsBenterDiane 3/advancedMove Penny -14 0/advancedMove Jas 0 1 -10 0/
+        emote ItsBenterDiane 40/pause 750/stopAdvancedMoves/end
+        "
       }
     },
     {
@@ -80,11 +132,11 @@
       "Target": "Data/Events/ArchaeologyHouse",
       "Entries": {
         //2 Hearts: Bits of Recognition
-        "ItsBenter.Diane02/p ItsBenterDiane/f ItsBenterDiane 500": "",
+        "ItsBenterEvent.Diane02/p ItsBenterDiane/f ItsBenterDiane 500": "",
         //4 Hearts: A Little History
-        "ItsBenter.Diane03/p ItsBenterDiane/f ItsBenterDiane 1000": "",
+        "ItsBenterEvent.Diane03/p ItsBenterDiane/f ItsBenterDiane 1000": "",
         //8 Hearts: Adventuring Assistance Required
-        "ItsBenter.Diane05/p ItsBenterDiane/f ItsBenterDiane 2000": ""
+        "ItsBenterEvent.Diane05/p ItsBenterDiane/f ItsBenterDiane 2000": ""
       }
     },
     {
@@ -92,11 +144,11 @@
       "Target": "Data/Events/ArchaeologyHouse",
       "Entries": {
         //2 Hearts: Bits of Recognition
-        "ItsBenter.Diane02/p ItsBenterDiane/f ItsBenterDiane 500": "",
+        "ItsBenterEvent.Diane02/p ItsBenterDiane/f ItsBenterDiane 500": "",
         //4 Hearts: A Little History
-        "ItsBenter.Diane03/p ItsBenterDiane/f ItsBenterDiane 1000": "",
+        "ItsBenterEvent.Diane03/p ItsBenterDiane/f ItsBenterDiane 1000": "",
         //8 Hearts: Adventuring Assistance Required
-        "ItsBenter.Diane05/p ItsBenterDiane/f ItsBenterDiane 2000": ""
+        "ItsBenterEvent.Diane05/p ItsBenterDiane/f ItsBenterDiane 2000": ""
       }
     },
     {
@@ -104,7 +156,7 @@
       "Target": "Data/Events/Beach",
       "Entries": {
         //6 Hearts: Medical Assistance Required
-        "ItsBenter.Diane04/!w Rain/z Winter/f ItsBenterDiane 1500": ""
+        "ItsBenterEvent.Diane04/!w Rain/z Winter/f ItsBenterDiane 1500": ""
       }
     },
     {
@@ -112,7 +164,7 @@
       "Target": "Data/Events/BusStop",
       "Entries": {
         //10 Hearts: Diane a Museum Curator
-        "ItsBenter.Diane06/e ItsBenter.Paolo00/f ItsBenterDiane 2500": ""
+        "ItsBenterEvent.Diane06/e ItsBenter.Paolo00/f ItsBenterDiane 2500": ""
       }
     }
   ]

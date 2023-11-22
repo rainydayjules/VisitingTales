@@ -15,7 +15,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterKarl",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.Karl00": true,
+                "HasSeenEvent |contains=ItsBenterEvent.Karl00": true,
             },
             "Entries": {
                 "Fri": ""
@@ -26,7 +26,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterKarl",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.Karl00": true,
+                "HasSeenEvent |contains=ItsBenterEvent.Karl00": true,
                 "Random: Mountain,Town,Forest|key=KarlSaturdaySchedule": "Mountain"
             },
             "Entries": {
@@ -38,7 +38,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterKarl",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.Karl00": true,
+                "HasSeenEvent |contains=ItsBenterEvent.Karl00": true,
                 "Random: Mountain,Town,Forest|key=KarlSaturdaySchedule": "Town"
             },
             "Entries": {
@@ -50,7 +50,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterKarl",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.Karl00": true,
+                "HasSeenEvent |contains=ItsBenterEvent.Karl00": true,
                 "Random: Mountain,Town,Forest|key=KarlSaturdaySchedule": "Forest"
             },
             "Entries": {
@@ -62,10 +62,10 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterKarl",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.Karl04": true
+                "HasSeenEvent |contains=ItsBenterEvent.Karl04": true
             },
             "Entries": {
-                "Fri": "goto Spring"
+                "Fri": "GOTO Spring"
             }
         }
     ]

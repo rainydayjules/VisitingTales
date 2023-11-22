@@ -64,53 +64,6 @@
         "ItsBenterKarl_fishing_right": "20/20/20",
         "ItsBenterKarl_fishing_down": "24/24/24"
       }
-    },
-    //Schedule
-    {
-      "Action": "Load",
-      "Target": "Characters/schedules/ItsBenterKarl",
-      "FromFile": "Characters/schedules/ItsBenterKarl_{{ItsBenterKarlSchedule}}.json"
-    },
-    //Dialogue
-    {
-      "Action": "EditData",
-      "Target": "Characters/Dialogue/ItsBenterKarl",
-      "Entries": {
-        ////Base Dialogue////
-        //Stop visiting on Fri after Karl's 10 heart event
-        "Fri": "{{i18n:ItsBenterKarl.Dialogue.Fri}}",
-        "Fri2": "{{i18n:ItsBenterKarl.Dialogue.Fri2-{{Random:1, 2, 3}}}}",
-        "Fri4": "{{i18n:ItsBenterKarl.Dialogue.Fri4-{{Random:1, 2, {{Season}}-1}}}}",
-        "Fri6": "{{i18n:ItsBenterKarl.Dialogue.Fri6}}",
-        "Fri8": "{{i18n:ItsBenterKarl.Dialogue.Fri8}}",
-        "Fri10": "{{i18n:ItsBenterKarl.Dialogue.Fri10}}",
-        "Sat": "{{i18n:ItsBenterKarl.Dialogue.Sat-{{Random:1, 2}}}}",
-        "Sat2": "{{i18n:ItsBenterKarl.Dialogue.Sat2-{{Random:1, 2}}}}",
-        "Sat4": "{{i18n:ItsBenterKarl.Dialogue.Sat4-{{Random:1, 2}}}}",
-        "Sat6": "{{i18n:ItsBenterKarl.Dialogue.Sat6-{{Random:1, 2, 3}}}}",
-        "Sat8": "{{i18n:ItsBenterKarl.Dialogue.Sat8-{{Random:1, 2, 3, 4}}}}",
-        "Sat10": "{{i18n:ItsBenterKarl.Dialogue.Sat10-{{Random:1, 2, 3, 4, 5, 6, 7, 8, 9, 10, {{Season}}-1}}}}",
-        ////Spring////
-        "spring_5": "{{i18n:ItsBenterKarl.Dialogue.spring_5}}", //Season change
-        "spring_6": "{{i18n:ItsBenterKarl.Dialogue.spring_5}}", //Season change
-        "spring_13": "{{i18n:ItsBenterKarl.Dialogue.spring_13}}", //Egg festival
-        ////Summer////
-        "summer_5": "{{i18n:ItsBenterKarl.Dialogue.summer_5}}", //Season change
-        "summer_6": "{{i18n:ItsBenterKarl.Dialogue.summer_6}}", //Season change
-        ////Fall////
-        "fall_5": "{{i18n:ItsBenterKarl.Dialogue.fall_5}}", //Season change
-        "fall_6": "{{i18n:ItsBenterKarl.Dialogue.fall_6}}", //Season change
-        "fall_27": "{{i18n:ItsBenterKarl.Dialogue.fall_6}}", //Day before Dance of the Moonlight Jellies
-        ////Winter////
-        "winter_5": "{{i18n:ItsBenterKarl.Dialogue.winter_5}}", //Season change
-        "winter_6": "{{i18n:ItsBenterKarl.Dialogue.winter_6}}", //Season change
-        ////Conversation Topics///
-        "cc_Complete": "{{i18n:ItsBenterKarl.Dialogue.cc_Complete}}",
-        "movieTheater": "{{i18n:ItsBenterKarl.Dialogue.movieTheater}}",
-        "pamHouseUpgrade": "{{i18n:ItsBenterKarl.Dialogue.pamHouseUpgrade}}",
-        "pamHouseUpgradeAnonymous": "{{i18n:ItsBenterKarl.Dialogue.pamHouseUpgradeAnonymous}}",
-        
-      }
     }
   ]
 }

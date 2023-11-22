@@ -1,0 +1,13 @@
+﻿{
+  "$schema":"https://smapi.io/schemas/content-patcher.json",
+  "Format": "1.30.0",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/ItsBenterPaolo",
+      "Entries": {
+        
+      }
+    }
+  ]
+}

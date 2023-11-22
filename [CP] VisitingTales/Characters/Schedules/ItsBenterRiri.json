@@ -1,0 +1,25 @@
+{
+    "$schema": "https://smapi.io/schemas/content-patcher.json",
+    "Format": "1.30.0",
+    "Changes": [
+        {
+            "LogName": "Riri away schdule",
+            "Action": "EditData",
+            "Target": "Characters/Schedules/ItsBenterRiri",
+            "Entries": {
+                "Spring": ""
+            }
+        },
+        {
+            "LogName": "Riri Saturday schedule",
+            "Action": "EditData",
+            "Target": "Characters/Schedules/ItsBenterRiri",
+            "When": {
+                "HasSeenEvent |contains=ItsBenterEvent.Paolo10": true
+            },
+            "Entries": {
+                "Sat": ""
+            }
+        }
+    ]
+}

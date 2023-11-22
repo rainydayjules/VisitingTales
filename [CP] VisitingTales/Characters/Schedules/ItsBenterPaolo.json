@@ -15,7 +15,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterPaolo",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.Paolo00": true
+                "HasSeenEvent |contains=ItsBenterEvent.Paolo00": true
             },
             "Entries": {
                 "Tue": ""
@@ -26,11 +26,11 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterPaolo",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.Paolo00": true,
+                "HasSeenEvent |contains=ItsBenterEvent.Paolo00": true,
                 "Random: Museum,Town|key=DianeMondayWednesdaySchedule": "Museum"
             },
             "Entries": {
-                "Mon": "goto Wed",
+                "Mon": "GOTO Wed",
                 "Wed": ""
             }
         },
@@ -39,11 +39,11 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterPaolo",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.Paolo00": true,
+                "HasSeenEvent |contains=ItsBenterEvent.Paolo00": true,
                 "Random: Museum,Town|key=DianeMondayWednesdaySchedule": "Museum"
             },
             "Entries": {
-                "Mon": "goto Wed",
+                "Mon": "GOTO Wed",
                 "Wed": ""
             }
         },
@@ -52,10 +52,10 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterPaolo",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.Diane06": true
+                "HasSeenEvent |contains=ItsBenterEvent.Diane06": true
             },
             "Entries": {
-                "Mon": "goto Spring",
+                "Mon": "GOTO Spring",
             }
         },
         {
@@ -63,7 +63,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterPaolo",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.Paolo02": true
+                "HasSeenEvent |contains=ItsBenterEvent.Paolo02": true
             },
             "Entries": {
                 "Sun": ""
@@ -74,7 +74,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterPaolo",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.Paolo04": true
+                "HasSeenEvent |contains=ItsBenterEvent.Paolo04": true
             },
             "Entries": {
                 "Sat": ""

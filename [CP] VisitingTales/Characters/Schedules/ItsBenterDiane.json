@@ -10,12 +10,14 @@
                 "Spring": ""
             }
         },
+        //After the introduction there'll be gap of 7 days before Diane would start visiting Pelican Town
         {
             "LogName": "Diane Tuesday schedule",
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterDiane",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.Diane00": true
+                "HasSeenEvent |contains=ItsBenterEvent.Diane00": true,
+                "HasConversationTopic |contains=ItsBenterCT.DianeWaitTime": false
             },
             "Entries": {
                 "Tue": ""
@@ -24,26 +26,28 @@
         {
             "LogName": "Diane Monday and Wednesday schedule - Museum",
             "Action": "EditData",
-            "Target": "Characters/Schedules/ItsBenterKarl",
+            "Target": "Characters/Schedules/ItsBenterDiane",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.Diane00": true,
+                "HasSeenEvent |contains=ItsBenterEvent.Diane00": true,
+                "HasConversationTopic |contains=ItsBenterCT.DianeWaitTime": false,
                 "Random: Museum,Town|key=DianeMondayWednesdaySchedule": "Museum"
             },
             "Entries": {
-                "Mon": "goto Wed",
+                "Mon": "GOTO Wed",
                 "Wed": ""
             }
         },
         {
             "LogName": "Diane Monday and Wednesday schedule - Town",
             "Action": "EditData",
-            "Target": "Characters/Schedules/ItsBenterKarl",
+            "Target": "Characters/Schedules/ItsBenterDiane",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.Diane00": true,
+                "HasSeenEvent |contains=ItsBenterEvent.Diane00": true,
+                "HasConversationTopic |contains=ItsBenterCT.DianeWaitTime": false,
                 "Random: Museum,Town|key=DianeMondayWednesdaySchedule": "Town"
             },
             "Entries": {
-                "Mon": "goto Wed",
+                "Mon": "GOTO Wed",
                 "Wed": ""
             }
         },
@@ -52,10 +56,10 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterDiane",
             "When": {
-                "HasSeenEvent |contains=ItsBenter.Diane06": true
+                "HasSeenEvent |contains=ItsBenterEvent.Diane06": true
             },
             "Entries": {
-                "Mon": "goto Spring",
+                "Mon": "GOTO Spring",
             }
         }
     ]

@@ -63,21 +63,6 @@
         "ItsBenterRiri_sleep": "20/20/20",
         "ItsBenterRiri_read": "24/24/24"
       }
-    },
-    //Schedule
-    {
-      "Action": "Load",
-      "Target": "Characters/schedules/ItsBenterRiri",
-      "FromFile": "Characters/schedules/ItsBenterRiri_{{ItsBenterRiriSchedule}}.json"
-    },
-    //Dialogue
-    {
-      "Action": "EditData",
-      "Target": "Characters/Dialogue/ItsBenterRiri",
-      "Entries": {
-        ////Spring////
-        "spring_1": "{{i18n:ItsBenterRiri.Dialogue.spring_1}}", //Season change
-      }
     }
   ]
 }

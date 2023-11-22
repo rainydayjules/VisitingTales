@@ -135,6 +135,10 @@ After donating 45 artifacts to the museum, enter town from the museum on a sunny
 <summary>Details</summary>
 <par>
 Diane and Lewis are talking in front of the museum, with Lewis proudly talking about his town management. Then the player exits the museum. Lewis introduces the player and Diane to each other. Diane asks if the player visits the museum often.
+<br><br>
+Various town residents will make comment on Diane's tour in Pelican Town.
+<br>
+14 days after the event, Diane would start visiting Pelican Town.
 </par>
 </details>
 
@@ -148,10 +152,8 @@ Enter town map on a sunny Monday, Tuesday, or Wednesday between 2pm and 6pm
 <summary>Details</summary>
 <par>
 Jas is reading a book under a tree near Emily and Haley's house. Diane comes over and asks about the book, revealing that she used to read a pop-up version of the book. Penny joins them and offers to walk Jas home. They head in the direction of Marnie's ranch.
-<br>
-After Penny and Jas leave, only the player and Diane remain. Diane expresses concern that Jas is often alone but believes she might be overthinking it. Then she proceed to compliment Penny for her work with the children.
 <br><br>
-The day after the event Jas and Marney would mention they received a package of pop-up children books in the mail.
+The day after the event Jas and Marnie would mention they received a package of pop-up children books in the mail.
 </par>
 </details>
 

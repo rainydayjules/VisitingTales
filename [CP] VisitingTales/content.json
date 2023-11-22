@@ -22,57 +22,6 @@
         "HasFlag |contains=Farm_Eternal": "false"
       }
     },
-    
-    //Karl schedule
-    {
-      "Name": "ItsBenterKarlSchedule",
-      "Value": "locked"
-    },
-    {
-      "Name": "ItsBenterKarlSchedule",
-      "Value": "unlocked",
-      "When": {
-        "HasSeenEvent |contains=xxxx": true
-      }
-    },
-    {
-      "Name": "ItsBenterKarlSchedule",
-      "Value": "promoted",
-      "When": {
-        "HasSeenEvent |contains=xxxx": true
-      }
-    },
-    //Diane schedule
-    {
-      "Name": "ItsBenterDianeSchedule",
-      "Value": "Locked"
-    },
-    {
-      "Name": "ItsBenterDianeSchedule",
-      "Value": "Unlocked",
-      "When": {
-        "HasSeenEvent |contains=ItsBenter.Diane00": true
-      }
-    },
-    {
-      "Name": "ItsBenterDianeSchedule",
-      "Value": "Curator",
-      "When": {
-        "HasSeenEvent |contains=ItsBenter.Diane06": true
-      }
-    },
-    //Riri schedule
-    {
-      "Name": "ItsBenterRiriSchedule",
-      "Value": "Locked"
-    },
-    {
-      "Name": "ItsBenterRiriSchedule",
-      "Value": "Unlocked",
-      "When": {
-        "HasSeenEvent |contains=xxxx": true
-      }
-    }
   ],
   //Load Map
   "CustomLocations": [
@@ -108,13 +57,13 @@
       "FromFile": "{{Target}}.png"
     },
     {
-      "LogName": "NPCs details",
+      "LogName": "NPCs data",
       "Action": "Include",
       "FromFile": "Data/ItsBenterKarl.json, Data/ItsBenterDiane.json, Data/ItsBenterPaolo.json, Data/ItsBenterRiri.json"
     },
     //blank.json is used to allow using content patcher token through EditData
     {
-      "LogName": "NPCs blank dialogues",
+      "LogName": "NPCs blank dialogue",
       "Action": "Load",
       "Target": "Characters/Dialogue/ItsBenterKarl, Characters/Dialogue/ItsBenterDiane, Characters/Dialogue/ItsBenterPaolo, Characters/Dialogue/ItsBenterRiri",
       "FromFile": "blank.json"
@@ -124,6 +73,11 @@
       "Action": "Load",
       "Target": "Characters/Schedules/ItsBenterKarl, Characters/Schedules/ItsBenterDiane, Characters/Schedules/ItsBenterPaolo, Characters/Schedules/ItsBenterRiri",
       "FromFile": "blank.json"
+    },
+    {
+      "LogName": "NPCs dialogue",
+      "Action": "Include",
+      "FromFile": "Characters/Dialogue/ItsBenterKarl.json, Characters/Dialogue/ItsBenterDiane.json, Characters/Dialogue/ItsBenterPaolo.json, Characters/Dialogue/ItsBenterRiri.json"
     },
     {
       "LogName": "NPCs schedules",

@@ -1,5 +1,4 @@
-[Visiting Tales](https://www.nexusmods.com/stardewvalley/mods/6789) adds characters that would visit Pelican Town. They are made to spice up your experience and hopefully enrich the gameplay.
-The characters will not visit the valley right away. Instead they will start visiting as the player progresses in the game.
+[Visiting Tales](https://www.nexusmods.com/stardewvalley/mods/6789) adds a cast of characters that would visit Pelican Town. The characters will not visit the valley right away. Instead they will start visiting as the player progresses in the game. 
 
 ## Contents
 
@@ -8,6 +7,8 @@ The characters will not visit the valley right away. Instead they will start vis
   * [Diane](#diane)
   * [Paolo](#paolo)
   * [Riri](#riri)
+* [Compatibility]{#compatibility}
+* [FAQ](#faq)
 
 ## Characters
 
@@ -43,3 +44,18 @@ Paolo is accompanying Diane after she caught herself needing some assistance. He
 Riri is Paolo's daughter. Paolo visits the valley with Riri after he felt more at home in Pelican Town and want to share what the valley has to offer with his daughter.
 
 **For more information on [Riri](Riri.md)**.
+
+## Compatibility
+- Character schedules and heart event patches when East Scarp and Stardew Valley Expanded is installed
+- Conversation topic dialogues for some East Scarp and Stardew Valley Expanded characters (meaning the modded character would take note of occurrences introduced by this mod). These are mostly characters that I've encountered when playing the game. Feel free to post your suggestion for other modded characters.
+
+## FAQ
+
+1. Is it safe to add [Visiting Tales](https://www.nexusmods.com/stardewvalley/mods/6899) mid-save?
+It is! The characters in this mod are meant to be experienced as further addition to the ever-growing Pelican Town.
+2. How do I trigger this heart event?
+If you want the info readily available in-game you can use [Event Lookup](https://www.nexusmods.com/stardewvalley/mods/8505?tab=bugs). Otherwise you can check the character page on Github documentation.
+3. What's this character loved/liked/hated gift?
+If you want the info readily available in-game you can either use [Almanac](https://www.nexusmods.com/stardewvalley/mods/11022) or [Lookup Anything](https://www.nexusmods.com/stardewvalley/mods/541). Otherwise you can check the character page on Github documentation.
+4. Is this mod is compatible with that mod?
+If the mod in question is not covered in [compatibility section](#compatibility), then the answer is we don't know. Though you are free to try and report the finding. It will surely be helpful to others.

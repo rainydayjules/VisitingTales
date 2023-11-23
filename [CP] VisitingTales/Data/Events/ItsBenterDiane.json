@@ -48,7 +48,8 @@
         //
         //Event would have compatch with Mr. Ginger and SVE's Charlie later on.
         "ItsBenterEvent.Diane00/w Sunny/!d Mon Tue Wed/t 0900 1600//G MUSEUM_DONATIONS 45": "
-        continue/92 91/ItsBenterDiane 97 94 0 Lewis 98 93 0 farmer -100 -100/
+        continue/92 91/ItsBenterDiane 97 94 1 Lewis 98 93 1 farmer -100 -100 0/
+        changeName ItsBenterDiane {{i18n:ItsBenterUnmetCharacter}}/
         broadcastEvent/addConversationTopic ItsBenterCT.DianeIntroduction 5/addConversationTopic ItsBenterCT.DianeWaitTime 14/
         viewport move 10 0 5000/
         textAboveHead Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.1}}"/
@@ -61,6 +62,7 @@
         textAboveHead Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.4}}"/
         advancedMove Lewis false 0 -1/faceDirection Lewis 3/
         speak Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.5}}"/
+        changeName ItsBenterDiane {{i18n:ItsBenterDiane.Name}}/
         advancedMove farmer false 0 1/
         speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.2}}"/
         quickQuestion#{{i18n:ItsBenterEvent.Diane00.Player.1}}#{{i18n:ItsBenterEvent.Diane00.Player.2}}#{{i18n:ItsBenterEvent.Diane00.Player.3}}(break)friendship ItsBenterDiane 50\\emote ItsBenterDiane 56\\pause 50\\speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.3}}"(break)speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.4}}"\\speak Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.6}}"(break)speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.5}}"\\speak Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.7}}"\\emote ItsBenterDiane 16\\pause 200\\speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.6}}"/
@@ -75,11 +77,11 @@
         pause 50/emote player 12/stopAdvancedMoves/end
         ",
         //2 Hearts: Package for Jas
-        //ItsBenterCT.DianePackageForJas.1
+        //ItsBenterCT.DianePackageForJas
         //Marnie: Oh @, so a package of pop-up books arrived in the ranch's mail. $t ItsBenterCT.DianePackageForJas.2 3#$$b#Jas said it must be Diane who send it. It's very kind of her. $1
-        //Jas: Mrs. Diane send me so many pop-up books. $t ItsBenterCT.DianePackageForJas.2 3#$b#They're so pretty!#$e#Mrs. Diane said she used to read pop-up books. 
-        //ItsBenterCT.DianePackageForJas.2
-        //Diane: Oh yes, the books.#$b#Surely Jas could make a better use of them. $1#$e#It's a sad thought that the books used to just gather dust when they could've bring so much joy instead.
+        //Jas: Mrs. Diane send me so many pop-up books. $t ItsBenterCT.DianePackageForJas.1 3#$b#They're so pretty! $1 
+        //ItsBenterCT.DianePackageForJas.1
+        //Diane: Oh yes, the books.#$b#Surely little Jas could make a better use of them. $1#$e#It's a sad-sad thought that the books was gather dust when they could've bring so much joy instead. $1
         //
         //Diane 1: Hi dear, it's Jas isn't it?#$b#What is it you're reading Jas?
         //Jas 1: ... $3#$b#Umm... Rainbow Kites in the Sky
@@ -95,8 +97,8 @@
         //Jas 5: Yup yup
         //Jas 6: I'll see you later Mrs. Diane
         "ItsBenterEvent.Diane01/w Sunny/!d Mon Tue Wed/t 1400 1600/f ItsBenterDiane 500": "
-        continue/31 88/Jas 32 89 ItsBenterDiane 24 90 farmer -100 -100 Penny -100 -100/
-        addConversationTopic ItsBenterCT.DianePackageForJas.1 5/
+        continue/31 88/Jas 32 89 3 ItsBenterDiane 24 90 1 farmer -100 -100 0 Penny -100 -100 0/
+        addConversationTopic ItsBenterCT.DianePackageForJas 5/
         showFrame Jas 23/
         viewport move 10 0 5000/
         advancedMove ItsBenterDiane 3 0 1 1000 1 0 0 -2 3 0/showFrame ItsBenterDiane 12/skippable/
@@ -134,21 +136,9 @@
         //2 Hearts: Bits of Recognition
         "ItsBenterEvent.Diane02/p ItsBenterDiane/f ItsBenterDiane 500": "",
         //4 Hearts: A Little History
-        "ItsBenterEvent.Diane03/p ItsBenterDiane/f ItsBenterDiane 1000": "",
+        "ItsBenterEvent.Diane03/e ItsBenterEvent.Diane01/e ItsBenterEvent.Diane02/p ItsBenterDiane/f ItsBenterDiane 1000": "",
         //8 Hearts: Adventuring Assistance Required
-        "ItsBenterEvent.Diane05/p ItsBenterDiane/f ItsBenterDiane 2000": ""
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Data/Events/ArchaeologyHouse",
-      "Entries": {
-        //2 Hearts: Bits of Recognition
-        "ItsBenterEvent.Diane02/p ItsBenterDiane/f ItsBenterDiane 500": "",
-        //4 Hearts: A Little History
-        "ItsBenterEvent.Diane03/p ItsBenterDiane/f ItsBenterDiane 1000": "",
-        //8 Hearts: Adventuring Assistance Required
-        "ItsBenterEvent.Diane05/p ItsBenterDiane/f ItsBenterDiane 2000": ""
+        "ItsBenterEvent.Diane05/e ItsBenterEvent.Diane04/p ItsBenterDiane/f ItsBenterDiane 2000": ""
       }
     },
     {
@@ -156,7 +146,7 @@
       "Target": "Data/Events/Beach",
       "Entries": {
         //6 Hearts: Medical Assistance Required
-        "ItsBenterEvent.Diane04/!w Rain/z Winter/f ItsBenterDiane 1500": ""
+        "ItsBenterEvent.Diane04/e ItsBenterEvent.Diane03/!w Rain/z Winter/f ItsBenterDiane 1500": ""
       }
     },
     {
@@ -164,7 +154,7 @@
       "Target": "Data/Events/BusStop",
       "Entries": {
         //10 Hearts: Diane a Museum Curator
-        "ItsBenterEvent.Diane06/e ItsBenter.Paolo00/f ItsBenterDiane 2500": ""
+        "ItsBenterEvent.Diane06/e ItsBenterEvent.Diane04/e ItsBenter.Paolo00/f ItsBenterDiane 2500": ""
       }
     }
   ]

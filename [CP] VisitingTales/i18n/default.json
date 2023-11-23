@@ -4,6 +4,8 @@
   "config.section.PerfectionScore.name": "Perfection Score",
   "config.AddedNPCsAffectPerfection.name": "Added NPCs Affect Perfection",
   "config.AddedNPCsAffectPerfection.description": "Whether you need to reach maximum heart with NPCs added by this mod to reach 100% perfection in-game. This won't have any effect if player already reach 100% perfection.",
+  //
+  "ItsBenterUnmetCharacter": "???",
   //Karl
   "ItsBenterKarl.Name": "Karl",
   "ItsBenterKarl.Gifts_Loved": "You've got a keen eye for what I like. Much thanks @.",

@@ -115,12 +115,12 @@ This list excludes [universal gift tastes](https://stardewvalleywiki.com/Friends
 
 **New Fisherman in Town**
 <br>
-After reaching level 10 fishing, enter bus stop on a sunny Friday or Saturday between 3pm and 6pm
+After reaching level 10 fishing and having at least 1 empty inventory slot, enter bus stop on a sunny Friday or Saturday between 3pm and 6pm
 
 <details>
 <summary>Details</summary>
 <par>
-Player enters the bus stop and encounters cheerful Karl, who is on his way to the bus. Karl spots the player and offers an Iridium-quality carp from his day's catch. He mentions that the player can look forward to more encounters with him, as he would like to explore fishing spots around Stardew Valley.
+Player enters the bus stop and encounters cheerful Karl, who is on his way to the bus. Karl spots the player and offers an Iridium-quality Largemouth Bass from his day's catch. He mentions that the player can look forward to more encounters with him, as he would like to explore fishing spots around Stardew Valley.
 </par>
 </details>
 
@@ -139,7 +139,7 @@ Player enters the mountains and spot Karl and Linus sitting a campfire near Linu
 
 ### Four Hearts
 
-**Losing the Catch**
+**Losing a Catch**
 <br>
 On Friday or Saturday enter Cindersap Forest between 3pm and 6pm
 

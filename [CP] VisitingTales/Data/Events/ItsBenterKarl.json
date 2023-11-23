@@ -8,20 +8,21 @@
       "Entries": {
         //Introduction: A New Fisherman in Town
         //ItsBenterCT.KarlIntroduction
-        //Pam: Do you met Karl, that tall guy with moustache?#$b#He gave me fish!
+        //Pam: Did you met Karl, that tall guy with moustache?#$b#He gave me fish!
         //Penny: We had a lovely roasted fish for dinner. $1#$e#Mom said she got it from a guy with moustache.
         //If married to Penny: Mom said she got a fish from a guy with moustache.#$b# Isn't that just so random? $1#$e#You as well honey? What a coincidence.
-        //Linus: Oh Karl, a cheerful fella that one.#$e#He didn't treat me badly.
+        //Linus: Oh Karl, a kind fella that one.#$e#He didn't treat me badly.
         //Leo: Karl gave Leo a fish. $1#$b#But Leo can also fish! 
-        //Robin: Oh @, have you met Karl? He was fishing on the lake the other day.#$b#He said he'd like to come by again. $1#$e#I totally don't mind seeing a new face in here.
-        //Sebastian: 
+        //Robin: Oh @, have you met Karl? He was fishing on the lake the other day.#$b#Said he'd like to come by again. $1#$e#I totally don't mind seeing a new face around here.
+        //Sebastian: So this Karl, is he really come all the way here just to fish? 
         //Demetrius: Fishing is fine. In fact, it could help controlling overpopulation.#$e#I'd be sure to tell that Karl guy the next time I see him. $1
-        //Maru: I think mom is excited at the prospect of having a regular visitor to the mountain.#$b#It can get a bit lonely sometimes.
+        //Maru: I think mom is excited at the prospect of a regular visitor to the mountain.#$b#It can get a bit lonely sometimes.
+        //Willy: I heard of Karl, a new fisherman in town. $1#$b#Well, he isn't quite a fisherman but he will definitely spice up the local fishing scene. $3 
         //
         //Susan: Karl? Oh yes, I believe I saw him fishing.#$b#What else can I say?
         //
         //ItsBenterCT.KarlIntroduction.1
-        //Karl: Hey it's @, we met again! Hope you are well. $1
+        //Karl: Hey it's @, we met again!#$e#I hope you are well @. $1
         //
         //Karl 1: Hey, you are so full of energy. I like that!
         //Karl 2: I'm Karl by the way.#$b#Just visited this town to fish. Heard the catch here is pretty good, you know what I mean?

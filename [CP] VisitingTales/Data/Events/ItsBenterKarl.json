@@ -1,0 +1,101 @@
+﻿{
+  "$schema": "https://smapi.io/schemas/content-patcher.json",
+  "Format": "1.30.0",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/BusStop",
+      "Entries": {
+        //Introduction: A New Fisherman in Town
+        //ItsBenterCT.KarlIntroduction
+        //Pam: Do you met Karl, that tall guy with moustache?#$b#He gave me fish!
+        //Penny: We had a lovely roasted fish for dinner. $1#$e#Mom said she got it from a guy with moustache.
+        //If married to Penny: Mom said she got a fish from a guy with moustache.#$b# Isn't that just so random? $1#$e#You as well honey? What a coincidence.
+        //Linus: Oh Karl, a cheerful fella that one.#$e#He didn't treat me badly.
+        //Leo: Karl gave Leo a fish. $1#$b#But Leo can also fish! 
+        //Robin: Oh @, have you met Karl? He was fishing on the lake the other day.#$b#He said he'd like to come by again. $1#$e#I totally don't mind seeing a new face in here.
+        //Sebastian: 
+        //Demetrius: Fishing is fine. In fact, it could help controlling overpopulation.#$e#I'd be sure to tell that Karl guy the next time I see him. $1
+        //Maru: I think mom is excited at the prospect of having a regular visitor to the mountain.#$b#It can get a bit lonely sometimes.
+        //
+        //Susan: Karl? Oh yes, I believe I saw him fishing.#$b#What else can I say?
+        //
+        //ItsBenterCT.KarlIntroduction.1
+        //Karl: Hey it's @, we met again! Hope you are well. $1
+        //
+        //Karl 1: Hey, you are so full of energy. I like that!
+        //Karl 2: I'm Karl by the way.#$b#Just visited this town to fish. Heard the catch here is pretty good, you know what I mean?
+        //QuickQuestion 1 Response 1 Player 1: The catch here is superb!
+        //QuickQuestion 1 Response 2 Player 2: No, I really don't.
+        //QuickQuestion 1 Response 3 Player 3: ...
+        //QuickQuestion 1 Response 1 Karl 3: Sweet, you must be an angler yourself! $1
+        //QuickQuestion 1 Response 2 Karl 4: Ah my bad, should've keep in mind not everyone is an angler.
+        //Karl 5: You know what, I'd like you to have this @.
+        //Karl 6: It's all fresh from the lake. 
+        //Karl 7: I’d better be going @. Don’t want to keep the bus driver waiting.
+        //Karl 8: Hey @!
+        //Karl 9: Look out for me on weekends! Maybe we can go fishing together. $1
+        "ItsBenterEvent.Karl00/w Sunny/!d Fri Sat/t 1500 1800/c 1/G PLAYER_FISHING_LEVEL ANY 10": "
+        continue/14 23/ItsBenterKarl 16 23 3 farmer 8 23 1 Pam 8 11 2/
+        changeName ItsBenterKarl {{i18n:ItsBenterUnmetCharacter}}/
+        broadcastEvent/addConversationTopic ItsBenterCT.KarlIntroduction 5/addConversationTopic ItsBenterCT.KarlIntroduction.1 14/
+        viewport move 7 0 5000/setRunning/
+        advancedMove farmer 4 0/advancedMove ItsBenterKarl -2 0/
+        emote ItsBenterKarl 16/
+        speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl00.Karl.1}}"/
+        emote farmer 40/skippable/
+        changeName ItsBenterKarl {{i18n:ItsBenterKarl.Name}}/
+        speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl00.Karl.2}}"/
+        quickQuestion#{{i18n:ItsBenterEvent.Karl00.Player.1}}#{{i18n:ItsBenterEvent.Karl00.Player.2}}#{{i18n:ItsBenterEvent.Karl00.Player.3}}(break)friendship ItsBenterKarl 25\\jump ItsBenterKarl 4\\pause 25\\speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl00.Karl.3}}"(break)speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl00.Karl.4}}"(break)speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl00.Karl.4}}"/
+        speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl00.Karl.5}}"/
+        addItem 136 1 4/pause 50/
+        speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl00.Karl.6}}"/
+        emote farmer 56/
+        speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl00.Karl.7}}"/
+        advancedMove ItsBenterKarl 0 -4/faceDirection ItsBenterKarl 2/pause 100/jump ItsBenterKarl 4/
+        textAboveHead ItsBenterKarl "{{i18n:ItsBenterEvent.Karl00.Karl.8}}"/
+        faceDirection farmer 0/pause 100/
+        speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl00.Karl.9}}"/
+        stopAdvancedMoves/globalFade/viewport -1000 -1000/pause 1500/end
+        ",
+        //8 Hearts: Karl is Moving Up
+        "ItsBenterEvent.Karl06/e ItsBenter.Paolo00/f ItsBenterKarl 2500": "
+        "
+      },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Mountain",
+      "Entries": {
+        //2 Hearts: Little Friendly Feast
+        "ItsBenterEvent.Karl01/w Sunny/!d Fri Sat/t 1500 1800/f ItsBenterKarl 500": ""
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+        //4 Hearts: Losing a Catch
+        "ItsBenterEvent.Karl02/e ItsBenterEvent.Karl01/!d Fri Sat/f ItsBenterKarl 1000": "",
+        //6 Hearts: An Attempt was Made
+        "ItsBenterEvent.Karl03/e ItsBenterEvent.Karl02/!d Fri Sat/f ItsBenterKarl 1500": "",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        //6 Hearts: Karl Explains
+        "ItsBenterEvent.Karl04/e ItsBenterEvent.Karl03": "",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "Entries": {
+        //8 Hearts: Karl is Moving Up
+        "ItsBenterEvent.Karl05/w Sunny/z Winter/n ItsBenterLetter.Karl05": "",
+      }
+    }
+  ]
+}

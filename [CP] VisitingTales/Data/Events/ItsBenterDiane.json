@@ -45,10 +45,8 @@
         //Diane 9: Surely, if you don't mind.
         //Diane 10: Once again, it's a pleasure meeting you @.
         //Lewis 9 *ehem* I expect you to be on your best behavior with Diane.#$b#We planned this tour for quite some time. This must be important to her.#$b#Everyone will need to mind their manners!
-        //
-        //Event would have compatch with Mr. Ginger and SVE's Charlie later on.
         "ItsBenterEvent.Diane00/w Sunny/!d Mon Tue Wed/t 0900 1600//G MUSEUM_DONATIONS 45": "
-        continue/92 91/ItsBenterDiane 97 94 1 Lewis 98 93 1 farmer -100 -100 0/
+        libraryTheme/92 91/ItsBenterDiane 97 94 1 Lewis 98 93 1 farmer -100 -100 0/
         changeName ItsBenterDiane {{i18n:ItsBenterUnmetCharacter}}/
         broadcastEvent/addConversationTopic ItsBenterCT.DianeIntroduction 5/addConversationTopic ItsBenterCT.DianeWaitTime 14/
         viewport move 10 0 5000/
@@ -96,14 +94,16 @@
         //Penny 2: Jas would you like me to accompany you to go back home?
         //Jas 5: Yup yup
         //Jas 6: I'll see you later Mrs. Diane
+        //
+        ////Event would have compatch with Mr. Ginger and SVE's Charlie later on.
         "ItsBenterEvent.Diane01/w Sunny/!d Mon Tue Wed/t 1400 1600/f ItsBenterDiane 500": "
-        continue/31 88/Jas 32 89 3 ItsBenterDiane 24 90 1 farmer -100 -100 0 Penny -100 -100 0/
+        jaunty/31 88/Jas 32 89 3 ItsBenterDiane 24 90 1 farmer -100 -100 0 Penny -100 -100 0/
         addConversationTopic ItsBenterCT.DianePackageForJas 5/
         showFrame Jas 23/
         viewport move 10 0 5000/
         advancedMove ItsBenterDiane 3 0 1 1000 1 0 0 -2 3 0/showFrame ItsBenterDiane 12/skippable/
         warp farmer 26 81/
-        advancedMove farmer 4 0 0 1/
+        advancedMove farmer 3 0 0 3/
         speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane01.Diane.1}}"/
         speak Jas "{{i18n:ItsBenterEvent.Diane01.Jas.1}}"/
         speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane01.Diane.2}}"/
@@ -125,7 +125,7 @@
         textAboveHead Jas "{{i18n:ItsBenterEvent.Diane01.Jas.5}}"/
         speak Jas "{{i18n:ItsBenterEvent.Diane01.Jas.6}}"/
         pause 200/advancedMove Jas -3 0/faceDirection ItsBenterDiane 3/advancedMove Penny -14 0/advancedMove Jas 0 1 -10 0/
-        emote ItsBenterDiane 40/pause 750/stopAdvancedMoves/end
+        emote ItsBenterDiane 40/pause 750/stopAdvancedMoves/end position 29 84
         "
       }
     },

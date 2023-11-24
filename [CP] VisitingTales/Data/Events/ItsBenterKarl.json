@@ -22,7 +22,7 @@
         //Susan: Karl? Oh yes, I believe I saw him fishing.#$b#What else can I say?
         //
         //ItsBenterCT.KarlIntroduction.1
-        //Karl: Hey it's @, we met again!#$e#I hope you are well @. $1
+        //Karl: Hey it's @, we met again!#$e#I hope you are well @. $1#$e#Going to fish sometime?
         //
         //Karl 1: Hey, you are so full of energy. I like that!
         //Karl 2: I'm Karl by the way.#$b#Just visited this town to fish. Heard the catch here is pretty good, you know what I mean?
@@ -37,7 +37,7 @@
         //Karl 8: Hey @!
         //Karl 9: Look out for me on weekends! Maybe we can go fishing together. $1
         "ItsBenterEvent.Karl00/w Sunny/!d Fri Sat/t 1500 1800/c 1/G PLAYER_FISHING_LEVEL ANY 10": "
-        continue/14 23/ItsBenterKarl 16 23 3 farmer 8 23 1 Pam 8 11 2/
+        CloudCountry/14 23/ItsBenterKarl 16 23 3 farmer 8 23 1 Pam 8 11 2/
         changeName ItsBenterKarl {{i18n:ItsBenterUnmetCharacter}}/
         broadcastEvent/addConversationTopic ItsBenterCT.KarlIntroduction 5/addConversationTopic ItsBenterCT.KarlIntroduction.1 14/
         viewport move 7 0 5000/setRunning/
@@ -53,14 +53,11 @@
         speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl00.Karl.6}}"/
         emote farmer 56/
         speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl00.Karl.7}}"/
-        advancedMove ItsBenterKarl 0 -4/faceDirection ItsBenterKarl 2/pause 100/jump ItsBenterKarl 4/
+        advancedMove ItsBenterKarl 0 -4/faceDirection farmer 0/pause 100/faceDirection ItsBenterKarl 2/jump ItsBenterKarl 4/
         textAboveHead ItsBenterKarl "{{i18n:ItsBenterEvent.Karl00.Karl.8}}"/
-        faceDirection farmer 0/pause 100/
+        pause 100/emote farmer 8/
         speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl00.Karl.9}}"/
-        stopAdvancedMoves/globalFade/viewport -1000 -1000/pause 1500/end
-        ",
-        //8 Hearts: Karl is Moving Up
-        "ItsBenterEvent.Karl06/e ItsBenter.Paolo00/f ItsBenterKarl 2500": "
+        stopAdvancedMoves/globalFade/viewport -1000 -1000/pause 1500/end position 12 23
         "
       },
     },
@@ -69,7 +66,52 @@
       "Target": "Data/Events/Mountain",
       "Entries": {
         //2 Hearts: Little Friendly Feast
-        "ItsBenterEvent.Karl01/w Sunny/!d Fri Sat/t 1500 1800/f ItsBenterKarl 500": ""
+        //ItsBenterCT.KarlFishRoast
+        //Linus: The meal, it's definitely something... 
+        //Karl: Quite nice spending time with good people. $4
+        //Sebastian: I saw you and the other two.#$b#Cooking in open flame, sharing meal together.#$b#I guess that's nice.
+        //
+        //Karl 1: It's @!
+        //Karl 2: Come join us. $1
+        //Linus 1: A companion I see...
+        //Karl 2a: Well-well...
+        //Karl 3: What a fine day we're having here.#$b#Could use more of days like this, don't we?
+        //Linus 2: The fish should be ready now.
+        //Karl 4: Here have a serving @.
+        //Karl 5: Mmmm... How's the taste?
+        //QuickQuestion 1 Response 1 Player 1: Splendid!
+        //QuickQuestion 1 Response 2 Player 2: It's fine, I guess?
+        //QuickQuestion 1 Response 3 Player 3: Yuck...
+        //QuickQuestion 1 Response 1 Karl 6: Totally is! Linus' roast is just something else!
+        //QuickQuestion 1 Response 1 Linus 3: I have learned much from my travel. $1
+        //QuickQuestion 1 Response 2 Karl 7: I think it's tasty. Linus' roast is just something else!
+        //QuickQuestion 1 Response 3 Karl 8: I didn't see that coming. $7
+        //Karl 8: Well, a meal is better when eaten with new friends. $4#$b#Because it sure does for me. $1
+        "ItsBenterEvent.Karl01/w Sunny/!d Fri Sat/t 1500 1800/f ItsBenterKarl 500": "
+        continue/23 9/farmer 22 9 ItsBenterKarl 28 9 Linus -100 -100/
+        viewport move 5 0 3000/
+        advancedMove farmer 2 0/shake ItsBenterKarl 300/
+        textAboveHead ItsBenterKarl "{{i18n:ItsBenterEvent.Karl01.Karl.1}}"/
+        speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl01.Karl.2}}"/
+        advancedMove farmer 4 0/warp Linus 29 8/emote Linus 40/skippable/
+        speak Linus "{{i18n:ItsBenterEvent.Karl01.Linus.1}}"/
+        advancedMove Linus 1 0 0 1/faceDirection Linus 3/advancedMove farmer 0 -1 4 0/faceDirection farmer 2/pause 50/
+        animate Linus true true 100 20 20 21 20 21 21 20 21 20/pause 500/
+        textAboveHead ItsBenterKarl "{{i18n:ItsBenterEvent.Karl01.Karl.2a}}"/
+        pause 100/
+        speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl01.Karl.3}}"/
+        pause 500/
+        speak Linus "{{i18n:ItsBenterEvent.Karl01.Linus.2}}"/
+        emote ItsBenterKarl 56 true/emote farmer 32 true/
+        showFrame ItsBenterKarl 22/stopAnimation Linus 12/
+        speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl01.Karl.4}}"/
+        farmerEat 198/animate ItsBenterKarl false false 150 22 23 22 23/
+        emote ItsBenterKarl 20/stopAnimation ItsBenterKarl 4/
+        speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl01.Karl.5}}"/
+        quickQuestion#{{i18n:ItsBenterEvent.Karl01.Player.1}}#{{i18n:ItsBenterEvent.Karl01.Player.2}}#{{i18n:ItsBenterEvent.Karl01.Player.3}}(break)friendship Linus 25\\emote Linus 56\\pause 50\\speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl01.Karl.6}}"\\speak Linus "{{i18n:ItsBenterEvent.Karl01.Linus.3}}"(break)speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl01.Karl.7}}"\\speak Linus "{{i18n:ItsBenterEvent.Karl01.Linus.3}}"(break)friendship Linus -50\\friendship ItsBenterKarl -50\\emote Linus 28\\pause 150\\speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl01.Karl.8}}"/
+        speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl00.Karl.8}}"/
+        stopAdvancedMoves/globalFade/viewport 1000 1000/pause 2000/end position 28 29
+        "
       }
     },
     {

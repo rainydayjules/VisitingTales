@@ -22,13 +22,17 @@
         "HasFlag |contains=Farm_Eternal": "false"
       }
     },
+    //Alternate schedule coordinates for compatibility
+    {
+      
+    }
   ],
   "Changes": [
     {
       "LogName": "Load NPC Warp Room Map",
       "Action": "Load",
-      "Target": "VisitingTales/Maps/ItsBenter.VisitingTales.NPCWarpRoom",
-      "FromFile": "Maps/{{TargetWithoutPath}}.png"
+      "Target": "Maps/ItsBenter.VisitingTales.NPCWarpRoom",
+      "FromFile": "{{Target}}.tmx"
     },
     {
       "Action": "EditData",
@@ -40,13 +44,11 @@
             "X": 3,
             "Y": 3
           },
-          "ExcludeFromNpcPathfinding": false,
           "CreateOnLoad": {
-            "MapPath": "VisitingTales\\Maps\\ItsBenter.VisitingTales.NPCWarpRoom",
+            "MapPath": "Maps\\ItsBenter.VisitingTales.NPCWarpRoom",
             "Type": null,
             "AlwaysActive": false
-          },
-          "CustomFields": {}
+          }
         },
       }
     },

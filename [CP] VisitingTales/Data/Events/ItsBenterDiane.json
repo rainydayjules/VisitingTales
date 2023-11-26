@@ -45,7 +45,7 @@
         //Diane 9: Surely, if you don't mind.
         //Diane 10: Once again, it's a pleasure meeting you @.
         //Lewis 9 *ehem* I expect you to be on your best behavior with Diane.#$b#We planned this tour for quite some time. This must be important to her.#$b#Everyone will need to mind their manners!
-        "ItsBenterEvent.Diane00/w Sunny/!d Mon Tue Wed/t 0900 1600//G MUSEUM_DONATIONS 45": "
+        "ItsBenterEvent.Diane00/Weather Sunny/DayOfWeek Mon Tue Wed/Time 900 1600/G MUSEUM_DONATIONS 45": "
         libraryTheme/92 91/ItsBenterDiane 97 94 1 Lewis 98 93 1 farmer -100 -100 0/
         changeName ItsBenterDiane {{i18n:ItsBenterUnmetCharacter}}/
         broadcastEvent/addConversationTopic ItsBenterCT.DianeIntroduction 5/addConversationTopic ItsBenterCT.DianeWaitTime 14/
@@ -96,7 +96,7 @@
         //Jas 6: I'll see you later Mrs. Diane
         //
         ////Event would have compatch with Mr. Ginger and SVE's Charlie later on.
-        "ItsBenterEvent.Diane01/w Sunny/!d Mon Tue Wed/t 1400 1600/f ItsBenterDiane 500": "
+        "ItsBenterEvent.Diane01/Weather Sunny/DayOfWeek Mon Tue Wed/Time 1400 1600/Friendship ItsBenterDiane 500": "
         jaunty/31 88/Jas 32 89 3 ItsBenterDiane 24 90 1 farmer -100 -100 0 Penny -100 -100 0/
         addConversationTopic ItsBenterCT.DianePackageForJas 5/
         showFrame Jas 23/
@@ -134,11 +134,11 @@
       "Target": "Data/Events/ArchaeologyHouse",
       "Entries": {
         //2 Hearts: Bits of Recognition
-        "ItsBenterEvent.Diane02/p ItsBenterDiane/f ItsBenterDiane 500": "",
+        "ItsBenterEvent.Diane02/NpcVisibleHere ItsBenterDiane/Friendship ItsBenterDiane 500": "",
         //4 Hearts: A Little History
-        "ItsBenterEvent.Diane03/e ItsBenterEvent.Diane01/e ItsBenterEvent.Diane02/p ItsBenterDiane/f ItsBenterDiane 1000": "",
+        "ItsBenterEvent.Diane03/SawEvent ItsBenterEvent.Diane01/SawEvent ItsBenterEvent.Diane02/NpcVisibleHere ItsBenterDiane/Friendship ItsBenterDiane 1000": "",
         //8 Hearts: Adventuring Assistance Required
-        "ItsBenterEvent.Diane05/e ItsBenterEvent.Diane04/p ItsBenterDiane/f ItsBenterDiane 2000": ""
+        "ItsBenterEvent.Diane05/SawEvent ItsBenterEvent.Diane04/NpcVisibleHere ItsBenterDiane/Friendship ItsBenterDiane 2000": ""
       }
     },
     {
@@ -146,7 +146,7 @@
       "Target": "Data/Events/Beach",
       "Entries": {
         //6 Hearts: Medical Assistance Required
-        "ItsBenterEvent.Diane04/e ItsBenterEvent.Diane03/!w Rain/z Winter/f ItsBenterDiane 1500": ""
+        "ItsBenterEvent.Diane04/SawEvent ItsBenterEvent.Diane03/!Weather Rain/NotSeason Winter/Friendship ItsBenterDiane 1500": ""
       }
     },
     {
@@ -154,7 +154,7 @@
       "Target": "Data/Events/BusStop",
       "Entries": {
         //10 Hearts: Diane a Museum Curator
-        "ItsBenterEvent.Diane06/e ItsBenterEvent.Diane04/e ItsBenter.Paolo00/f ItsBenterDiane 2500": ""
+        "ItsBenterEvent.Diane06/SawEvent ItsBenterEvent.Diane04/SawEvent ItsBenter.Paolo00/Friendship ItsBenterDiane 2500": ""
       }
     }
   ]

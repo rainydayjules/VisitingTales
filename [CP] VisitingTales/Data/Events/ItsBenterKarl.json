@@ -36,7 +36,7 @@
         //Karl 7: I’d better be going @. Don’t want to keep the bus driver waiting.
         //Karl 8: Hey @!
         //Karl 9: Look out for me on weekends! Maybe we can go fishing together. $1
-        "ItsBenterEvent.Karl00/w Sunny/!d Fri Sat/t 1500 1800/c 1/G PLAYER_FISHING_LEVEL ANY 10": "
+        "ItsBenterEvent.Karl00/Weather Sunny/DayOfWeek Fri Sat/Time 1500 1800/FreeInventorySlots 1/G PLAYER_FISHING_LEVEL ANY 10": "
         CloudCountry/14 23/ItsBenterKarl 16 23 3 farmer 8 23 1 Pam 8 11 2/
         changeName ItsBenterKarl {{i18n:ItsBenterUnmetCharacter}}/
         broadcastEvent/addConversationTopic ItsBenterCT.KarlIntroduction 5/addConversationTopic ItsBenterCT.KarlIntroduction.1 14/
@@ -87,7 +87,7 @@
         //QuickQuestion 1 Response 2 Karl 7: I think it's tasty. Linus' roast is just something else!
         //QuickQuestion 1 Response 3 Karl 8: I didn't see that coming. $7
         //Karl 8: Well, a meal is better when eaten with new friends. $4#$b#Because it sure does for me. $1
-        "ItsBenterEvent.Karl01/w Sunny/!d Fri Sat/t 1500 1800/f ItsBenterKarl 500": "
+        "ItsBenterEvent.Karl01/Weather Sunny/DayOfWeek Fri Sat/Time 1500 1800/Friendship ItsBenterKarl 500": "
         continue/23 9/farmer 22 9 ItsBenterKarl 28 9 Linus -100 -100/
         viewport move 5 0 3000/
         advancedMove farmer 2 0/shake ItsBenterKarl 300/
@@ -119,9 +119,9 @@
       "Target": "Data/Events/Forest",
       "Entries": {
         //4 Hearts: Losing a Catch
-        "ItsBenterEvent.Karl02/e ItsBenterEvent.Karl01/!d Fri Sat/f ItsBenterKarl 1000": "",
+        "ItsBenterEvent.Karl02/SawEvent ItsBenterEvent.Karl01/DayOfWeek Fri Sat/Friendship ItsBenterKarl 1000": "",
         //6 Hearts: An Attempt was Made
-        "ItsBenterEvent.Karl03/e ItsBenterEvent.Karl02/!d Fri Sat/f ItsBenterKarl 1500": "",
+        "ItsBenterEvent.Karl03/SawEvent ItsBenterEvent.Karl02/DayOfWeek Fri Sat/Friendship ItsBenterKarl 1500": "",
       }
     },
     {
@@ -129,7 +129,7 @@
       "Target": "Data/Events/Farm",
       "Entries": {
         //6 Hearts: Karl Explains
-        "ItsBenterEvent.Karl04/e ItsBenterEvent.Karl03": "",
+        "ItsBenterEvent.Karl04/SawEvent ItsBenterEvent.Karl03": "",
       }
     },
     {
@@ -137,7 +137,7 @@
       "Target": "Data/Events/Beach",
       "Entries": {
         //8 Hearts: Karl is Moving Up
-        "ItsBenterEvent.Karl05/w Sunny/z Winter/n ItsBenterLetter.Karl05": "",
+        "ItsBenterEvent.Karl05/Weather Sunny/NotSeason Winter/HostOrLocalMail ItsBenterLetter.Karl05": "",
       }
     }
   ]

@@ -52,17 +52,6 @@
       //Neutrals: cooking -7, fish -4, rabbit's foot 446, golden pumpkin 373, fruit -79, flowers -80, vegetable -75, artisan goods -26
       //Dislikes: baits -21
       //Hates: pufferfish 128, sea urchin 397
-    },
-    //Animation
-    {
-      "Action": "EditData",
-      "Target": "Data/animationDescriptions",
-      "Entries": {
-        "ItsBenterDiane.sleep": "20/20/20",
-        "ItsBenterDiane.writing": "20/20/20",
-        "ItsBenterDiane.reading": "24/24/24",
-        "ItsBenterDiane.reflect": "24/24/24"
-      }
     }
   ]
 }

@@ -52,15 +52,6 @@
       //Neutrals: milk -6
       //Dislikes: blackberry 410, triple shot espreso 253, coffee 395
       //Hates: rabbit's foot 446
-    },
-    //Animation
-    {
-      "Action": "EditData",
-      "Target": "Data/animationDescriptions",
-      "Entries": {
-        "ItsBenterRiri_sleep": "20/20/20",
-        "ItsBenterRiri_read": "24/24/24"
-      }
     }
   ]
 }

@@ -52,15 +52,6 @@
       //Neutrals: prismatic shard 74, rabbit's foot 446
       //Dislikes: blackberry 410
       //Hates: tulip 591, mead 459
-    },
-    //Animation
-    {
-      "Action": "EditData",
-      "Target": "Data/animationDescriptions",
-      "Entries": {
-        "ItsBenterPaolo_sleep": "20/20/20",
-        "ItsBenterPaolo_tap": "24/24/24"
-      }
     }
   ]
 }

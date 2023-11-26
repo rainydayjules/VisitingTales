@@ -52,16 +52,6 @@
       //Neutrals: vegetables -75, flower -80, pearl 797, rabbit's foot 446
       //Dislikes: ginger 829
       //Hates: hot pepper 260
-    },
-    //Animation
-    {
-      "Action": "EditData",
-      "Target": "Data/animationDescriptions",
-      "Entries": {
-        "ItsBenterKarl_sleep": "20/20/20",
-        "ItsBenterKarl_fishing_right": "20/20/20",
-        "ItsBenterKarl_fishing_down": "24/24/24"
-      }
     }
   ]
 }

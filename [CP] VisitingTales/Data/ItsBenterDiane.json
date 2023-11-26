@@ -18,13 +18,11 @@
           "BirthDay": 25,
           "HomeRegion": "Other",
           //Social features
-          "CanBeRomanced": false,
           "Calendar": "Never",
           "SocialTab": "HiddenUntilMet",
-          "SocializeConditions": true,
-          "CanVisitIslandCondition": false,
-          "ExcludeFromIntroductionsQuest": true,
-          "ExcludeFromPerfectionScore": "{{AddedNPCsAffectPerfection}}",
+          "CanVisitIsland": false,
+          "IntroductionsQuest": true,
+          "PerfectionScore": "{{AddedNPCsAffectPerfection}}",
           "EndSlideShow": "TrailingGroup",
           //Spawn rules
           "UnlockConditions": "MUSEUM_DONATIONS 45",

@@ -18,13 +18,11 @@
           "BirthDay": 3,
           "HomeRegion": "Other",
           //Social features
-          "CanBeRomanced": false,
           "Calendar": "Never",
           "SocialTab": "HiddenUntilMet",
-          "SocializeConditions": true,
-          "CanVisitIslandCondition": false,
-          "ExcludeFromIntroductionsQuest": true,
-          "ExcludeFromPerfectionScore": "{{AddedNPCsAffectPerfection}}",
+          "CanVisitIsland": false,
+          "IntroductionsQuest": true,
+          "PerfectionScore": "{{AddedNPCsAffectPerfection}}",
           "EndSlideShow": "TrailingGroup",
           //Spawn rules
           "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Any <id>",

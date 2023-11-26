@@ -18,20 +18,18 @@
           "BirthDay": 22,
           "HomeRegion": "Other",
           //Social features
-          "CanBeRomanced": false,
           "Calendar": "Never",
           "SocialTab": "HiddenUntilMet",
-          "SocializeConditions": true,
-          "CanVisitIslandCondition": false,
-          "ExcludeFromIntroductionsQuest": true,
-          "ExcludeFromPerfectionScore": "{{AddedNPCsAffectPerfection}}",
+          "CanVisitIsland": false,
+          "IntroductionsQuest": true,
+          "PerfectionScore": "{{AddedNPCsAffectPerfection}}",
           "EndSlideShow": "TrailingGroup",
           //Spawn rules
           "UnlockConditions": "PLAYER_FISHING_LEVEL Any 10",
           "Home": [
             {
               "Id": "Default",
-              "Location": "Custom_ItsBenter_NPCWarpRoom",
+              "Location": "ItsBenter.VisitingTales.NPCWarpRoom",
               "Tile": {
                 "X": 0,
                 "Y": 0

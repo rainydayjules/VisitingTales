@@ -22,7 +22,7 @@
           "SocialTab": "HiddenUntilMet",
           "CanVisitIsland": false,
           "IntroductionsQuest": true,
-          "PerfectionScore": "{{AddedNPCsAffectPerfection}}",
+          "PerfectionScore": "{{AddedNPCsAffectPerfectionToken}}",
           "EndSlideShow": "TrailingGroup",
           //Spawn rules
           "UnlockConditions": "PLAYER_FISHING_LEVEL Any 10",

@@ -11,11 +11,11 @@
   "DynamicTokens": [
     //Config
     {
-      "Name": "AddedNPCsAffectPerfection",
+      "Name": "AddedNPCsAffectPerfectionToken",
       "Value": "false"
     },
     {
-      "Name": "AddedNPCsAffectPerfection",
+      "Name": "AddedNPCsAffectPerfectionToken",
       "Value": "true",
       "When": {
         "AddedNPCsAffectPerfection": "true",

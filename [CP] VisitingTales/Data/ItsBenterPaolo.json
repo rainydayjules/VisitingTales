@@ -22,7 +22,7 @@
           "SocialTab": "HiddenUntilMet",
           "CanVisitIsland": false,
           "IntroductionsQuest": true,
-          "PerfectionScore": "{{AddedNPCsAffectPerfection}}",
+          "PerfectionScore": "{{AddedNPCsAffectPerfectionToken}}",
           "EndSlideShow": "TrailingGroup",
           //Spawn rules
           "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Any ItsBenter.VisitingTales.Diane06H",

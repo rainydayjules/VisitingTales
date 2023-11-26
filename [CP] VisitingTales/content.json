@@ -23,24 +23,46 @@
       }
     },
   ],
-  //Load Map
-  "CustomLocations": [
-    {
-      "Name": "Custom_ItsBenter_NPCWarpRoom",
-      "FromMapFile": "Maps/Custom_ItsBenter_NPCWarpRoom.tmx"
-    }
-  ],
   "Changes": [
     {
-      "LogName": "Add NPC warp inside the bus. Already taking into account SVE's one",
+      "LogName": "Load NPC Warp Room Map",
+      "Action": "Load",
+      "Target": "VisitingTales/Maps/ItsBenter.VisitingTales.NPCWarpRoom",
+      "FromFile": "Maps/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "ItsBenter.VisitingTales.NPCWarpRoom": {
+          "DisplayName": "{{i18n:ItsBenter.VisitingTales.NPCWarpRoom.Name}}",
+          "DefaultArrivalTile": {
+            "X": 3,
+            "Y": 3
+          },
+          "ExcludeFromNpcPathfinding": false,
+          "CreateOnLoad": {
+            "MapPath": "VisitingTales\\Maps\\ItsBenter.VisitingTales.NPCWarpRoom",
+            "Type": null,
+            "AlwaysActive": false
+          },
+          "CustomFields": {}
+        },
+      }
+    },
+    {
+      "LogName": "Add NPC warp inside the bus. Already taking into account SVE.",
       "Action": "EditMap",
       "Target": "Maps/BusStop",
       "TextOperations": [
         {
-            "Operation": "Append",
-            "Target": ["MapProperties", "NPCWarp"],
-            "Value": "13 9 Custom_ItsBenter_NPCWarpRoom 2 2",
-            "Delimiter": " "
+          "Operation": "Append",
+          "Target": [
+            "MapProperties",
+            "NPCWarp"
+          ],
+          "Value": "13 9 ItsBenter.VisitingTales.NPCWarpRoom 6 3",
+          "Delimiter": " "
         }
       ]
     },

@@ -7,20 +7,24 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterDiane",
             "Entries": {
-                "Spring": ""
+                "Spring": "610 ItsBenter.VisitingTales.NPCWarpRoom 1 0 2"
             }
         },
-        //After the introduction there'll be gap of 7 days before Diane would start visiting Pelican Town
         {
-            "LogName": "Diane Tuesday schedule",
+            "LogName": "Diane Tuesday",
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterDiane",
             "When": {
                 "HasSeenEvent |contains=ItsBenterEvent.Diane00": true,
-                "HasConversationTopic |contains=ItsBenterCT.DianeWaitTime": false
+                "HasConversationTopic |contains=ItsBenterCT.DianeWaitTime": false //After the introduction there'll be gap of 7 days before Diane would start visiting Pelican Town
             },
             "Entries": {
-                "Tue": ""
+                "Tue": "
+                900 ArchaeologyHouse 13 9 2 ItsBenterDiane_ReadFacingDown/
+                1430 Town 90 98 2/
+                1600 Town 22 28 1/
+                2000 ItsBenter.VisitingTales.NPCWarpRoom 1 0 2
+                "
             }
         },
         {
@@ -34,7 +38,16 @@
             },
             "Entries": {
                 "Mon": "GOTO Wed",
-                "Wed": ""
+                "Wed": "
+                900 Town 31 77 1/
+                a1200 ArchaeologyHouse 26 15 1/
+                1230 ArchaeologyHouse 35 14 3/
+                1300 ArchaeologyHouse 40 5 0/
+                1330 ArchaeologyHouse 45 13 2/
+                1400 ArchaeologyHouse 9 16 ItsBenterDiane_ReadFacingUp/
+                1800 Town 82 90 3/
+                2000 ItsBenter.VisitingTales.NPCWarpRoom 1 0 2
+                "
             }
         },
         {
@@ -48,7 +61,35 @@
             },
             "Entries": {
                 "Mon": "GOTO Wed",
-                "Wed": ""
+                "Wed": "
+                900 Beach 20 24 2/
+                1300 Saloon 10 23 0/
+                1530 Town 29 55 2/
+                2000 ItsBenter.VisitingTales.NPCWarpRoom 1 0 2
+                "
+            }
+        },
+        {
+            "LogName": "Diane Rain schedule",
+            "Action": "EditData",
+            "Target": "Characters/Schedules/ItsBenterDiane",
+            "When": {
+                "HasSeenEvent |contains=ItsBenterEvent.Diane00": true,
+                "HasConversationTopic |contains=ItsBenterCT.DianeWaitTime": false,
+                "{{Weather: valley}}": "rain, storm"
+            },
+            "Entries": {
+                "Mon": "GOTO Wed",
+                "Tue": "GOTO Wed",
+                "Wed": "
+                900 ArchaeologyHouse 13 9 2 ItsBenterDiane_ReadFacingDown/
+                a1200 ArchaeologyHouse 26 15 1/
+                1230 ArchaeologyHouse 35 13 3/
+                1300 ArchaeologyHouse 39 4 0/
+                1330 ArchaeologyHouse 45 13 2/
+                1400 ArchaeologyHouse 2 10 0/
+                1800 ItsBenter.VisitingTales.NPCWarpRoom 1 0 2
+                "
             }
         },
         {

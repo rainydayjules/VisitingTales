@@ -29,7 +29,7 @@
           "Home": [
             {
               "Id": "Default",
-              "Location": "Custom_ItsBenter_NPCWarpRoom",
+              "Location": "ItsBenter.VisitingTales.NPCWarpRoom",
               "Tile": {
                 "X": 2,
                 "Y": 0

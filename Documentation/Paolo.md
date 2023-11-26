@@ -95,9 +95,8 @@ Initially Paolo visits Pelican Town on Monday, Tuesday, and Wednesday where he i
   <table>
    <tr><th>Time</th><th>Location</th></tr>
    <tr><td>06.00</td><td>From inside the bus goes to the beach</td></tr>
-   <tr><td>08.30</td><td>Goes to Pierre's shop</td></tr>
-   <tr><td>10.00</td><td>Goes to workout in the bath house</td></tr>
-   <tr><td>14.00</td><td>Goes to play pool in Saloon</td></tr>
+   <tr><td>09.00</td><td>Goes to the bath house</td></tr>
+   <tr><td>13.00</td><td>Goes to play pool in Saloon</td></tr>
    <tr><td>16.00</td><td>Goes to bus stop to catch a ride home</td></tr>
   </table>
 </details>

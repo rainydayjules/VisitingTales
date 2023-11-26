@@ -39,15 +39,15 @@ Karl visits Pelican Town on Friday and Saturday.
   <b>Fishing in Mountain and Visiting Linus</b>
   <table>
    <tr><th>Time</th><th>Location</th></tr>
-   <tr><td>07.00</td><td>From inside the bus goes to stand near fireplace near Linus tent</td></tr>
+   <tr><td>07.00</td><td>From inside the bus goes to stand in front of Linus tent</td></tr>
    <tr><td>10.00</td><td>Goes to fish in mountain lake alternating between the lake island and west side of the lake</td></tr>
-   <tr><td>16.00</td><td>Goes to stand near fireplace near Linus tent</td></tr>
+   <tr><td>16.00</td><td>Goes to stand in front of Linus tent</td></tr>
    <tr><td>19.00</td><td>Goes to bus stop to catch a ride home</td></tr>
   </table>
   <b>Fishing in Town</b>
   <table>
     <tr><th>Time</th><th>Location</th></tr>
-    <tr><td>07.00</td><td>From inside the bus goes to fish in town river near the top stream</td></tr>
+    <tr><td>07.00</td><td>From inside the bus goes to fish in town</td></tr>
     <tr><td>12.00</td><td>Goes to Stardrop Saloon</td></tr>
     <tr><td>15.30</td><td>Goes to fish in beach piers</td></tr>
     <tr><td>19.00</td><td>Goes to bus stop to catch a ride home</td></tr>

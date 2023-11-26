@@ -7,7 +7,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterRiri",
             "Entries": {
-                "Spring": ""
+                "Spring": "ItsBenter.VisitingTales.NPCWarpRoom 3 0 2"
             }
         },
         {
@@ -18,7 +18,23 @@
                 "HasSeenEvent |contains=ItsBenterEvent.Paolo10": true
             },
             "Entries": {
-                "Sat": ""
+                "Sat": "
+                900 Town 32 89 3/
+                1200 Town 24 14 0/
+                1700 ItsBenter.VisitingTales.NPCWarpRoom 3 0 2
+                "
+            }
+        },
+        {
+            "LogName": "Paolo and Riri not visiting on Saturday if it's raining",
+            "Action": "EditData",
+            "Target": "Characters/Schedules/ItsBenterRiri",
+            "When": {
+                "HasSeenEvent |contains=ItsBenterEvent.Paolo10": true,
+                "{{Weather: valley}}": "rain, storm"
+            },
+            "Entries": {
+                "Sat": "GOTO Spring"
             }
         }
     ]

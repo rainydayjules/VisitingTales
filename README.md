@@ -59,15 +59,11 @@ Patches made for other mods:
 
 ## FAQ
 
-1. Is it safe to add [Visiting Tales](https://www.nexusmods.com/stardewvalley/mods/6899) mid-save?
-<br>
+1. Is it safe to add [Visiting Tales](https://www.nexusmods.com/stardewvalley/mods/6899) mid-save? <br>
 It is! The characters in this mod are meant to be experienced as further addition to the ever-growing Pelican Town.
-2. How do I trigger this heart event?
-<br>
+2. How do I trigger this heart event? <br>
 If you want the info readily available in-game you can use [Event Lookup](https://www.nexusmods.com/stardewvalley/mods/8505?tab=bugs). Otherwise you can check the character page on Github documentation.
-3. What's this character loved/liked/hated gift?
-<br>
+3. What's this character loved/liked/hated gift? <br>
 If you want the info readily available in-game you can use [Almanac](https://www.nexusmods.com/stardewvalley/mods/11022), [Gift Taste Helper Continued](https://www.nexusmods.com/stardewvalley/mods/18762) or [Lookup Anything](https://www.nexusmods.com/stardewvalley/mods/541). Otherwise you can check the character page on Github documentation.
-5. Is this mod is compatible with that mod?
-<br>
+4. Is this mod is compatible with that mod? <br>
 If the mod in question is not covered in [compatibility section](#compatibility), then the answer is I don't really know. Though you are free to try and report the finding. It will surely be helpful to others.

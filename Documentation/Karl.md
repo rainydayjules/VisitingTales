@@ -16,7 +16,7 @@ Karl is an office worker from Zuzu City. He comes to Pelican Town for some fishi
 
 ## Relationships
 
-Karl resides in Zuzu alongside his wife, Emma. From his dialogues it appears that Emma does not share his loves for fishing. He generally gets along well with his co-workers, but despite his friendly demeanor, Karl is not particularly close to anyone except for Linus and Willy in Pelican Town.
+Karl resides in Zuzu alongside his wife, Emma. From his dialogues it appears that Emma does not share his loves for fishing. He generally gets along well with his co-workers and seemingly proud of his job. In Pelican Town he appears to be friends with Linus and Willy.
 
 ## Schedules
 

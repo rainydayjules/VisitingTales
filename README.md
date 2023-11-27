@@ -46,16 +46,28 @@ Riri is Paolo's daughter. Paolo visits the valley with Riri after he felt more a
 **For more information on [Riri](Documentation/Riri.md)**.
 
 ## Compatibility
+This mod should be compatible with most other content pack mods. 
+
+Potential issues are:
+-  Conflicting standing spots with other NPCs. It can be in general schedule and festival.
+-  Event not playing properly due to changing map.
+-  Lore differences. The characters may say something that could be not in line with other mods.
+
+Patches made for other mods:
 - Character schedules and heart event patches when [East Scarp](https://www.nexusmods.com/stardewvalley/mods/5787) and [Stardew Valley Expanded](https://www.nexusmods.com/stardewvalley/mods/3753) is installed
 - Conversation topic dialogues for some [East Scarp](https://www.nexusmods.com/stardewvalley/mods/5787) and [Stardew Valley Expanded](https://www.nexusmods.com/stardewvalley/mods/3753) characters (meaning the modded character would take note of occurrences introduced by this mod). These are mostly characters that I've encountered when playing the game. Feel free to post your suggestion for other modded characters.
 
 ## FAQ
 
 1. Is it safe to add [Visiting Tales](https://www.nexusmods.com/stardewvalley/mods/6899) mid-save?
+<br>
 It is! The characters in this mod are meant to be experienced as further addition to the ever-growing Pelican Town.
 2. How do I trigger this heart event?
+<br>
 If you want the info readily available in-game you can use [Event Lookup](https://www.nexusmods.com/stardewvalley/mods/8505?tab=bugs). Otherwise you can check the character page on Github documentation.
 3. What's this character loved/liked/hated gift?
-If you want the info readily available in-game you can either use [Almanac](https://www.nexusmods.com/stardewvalley/mods/11022) or [Lookup Anything](https://www.nexusmods.com/stardewvalley/mods/541). Otherwise you can check the character page on Github documentation.
-4. Is this mod is compatible with that mod?
-If the mod in question is not covered in [compatibility section](#compatibility), then the answer is we don't know. Though you are free to try and report the finding. It will surely be helpful to others.
+<br>
+If you want the info readily available in-game you can use [Almanac](https://www.nexusmods.com/stardewvalley/mods/11022), [Gift Taste Helper Continued](https://www.nexusmods.com/stardewvalley/mods/18762) or [Lookup Anything](https://www.nexusmods.com/stardewvalley/mods/541). Otherwise you can check the character page on Github documentation.
+5. Is this mod is compatible with that mod?
+<br>
+If the mod in question is not covered in [compatibility section](#compatibility), then the answer is I don't really know. Though you are free to try and report the finding. It will surely be helpful to others.

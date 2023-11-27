@@ -16,7 +16,7 @@ Riri is Paolo's daughter. Paolo visits the valley with Riri after he felt more a
 
 ## Relationships
 
-Karl resides in Zuzu alongside his wife, Emma. From his dialogues it appears that Emma does not share his loves for fishing. He generally gets along well with his co-workers, but despite his friendly demeanor, Karl is not particularly close to anyone except for Linus and Willy in Pelican Town.
+Riri lives with Paolo and her grandparents. Though given Paolo's line of work she is most often looked after by her grandparents. She often tries to 'step up' and try to be more adult like. When visiting Pelican Town, Riri spends time playing with Jas and Vincent.
 
 ## Schedules
 
@@ -74,19 +74,6 @@ This list excludes [universal gift tastes](https://stardewvalleywiki.com/Friends
 </details>
 
 ## Heart Events
-
-### Two Hearts
-
-**Little Friendly Feast**
-<br>
-On a sunny Friday or Saturday enter mountain between 3pm and 6pm
-
-<details>
-<summary>Details</summary>
-<par>
-Player enters the mountains and spot Karl and Linus sitting a campfire near Linus' tent. Karl notices and invites the player to join their small gathering. He's curious about what the player thinks of the roasted fish they're having. No matter the player's response, Karl says that the meal becomes even better when shared with new friends.
-</par>
-</details>
 
 ## Movie Theater Tastes
 

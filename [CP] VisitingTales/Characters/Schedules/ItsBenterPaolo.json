@@ -7,7 +7,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterPaolo",
             "Entries": {
-                "Spring": "610 ItsBenter.VisitingTales.NPCWarpRoom 2 0 2"
+                "Spring": "610 ItsBenter.VisitingTales_NPCWarpRoom 2 0 2"
             }
         },
         {
@@ -22,7 +22,7 @@
                 900 ArchaeologyHouse 10 10 1/
                 1430 Town 94 97 3/
                 1600 Town 20 25 1/
-                2000 ItsBenter.VisitingTales.NPCWarpRoom 2 0 2
+                2000 ItsBenter.VisitingTales_NPCWarpRoom 2 0 2
                 "
             }
         },
@@ -44,7 +44,7 @@
                 1330 ArchaeologyHouse 43 11 1/
                 1400 ArchaeologyHouse 6 17 1/
                 1800 Town 84 87 3/
-                2000 ItsBenter.VisitingTales.NPCWarpRoom 2 0 2
+                2000 ItsBenter.VisitingTales_NPCWarpRoom 2 0 2
                 "
             }
         },
@@ -62,7 +62,7 @@
                 900 Beach 23 23 2/
                 1300 Saloon 7 23 0/
                 1530 Town 32 54 2/
-                2000 ItsBenter.VisitingTales.NPCWarpRoom 2 0 2
+                2000 ItsBenter.VisitingTales_NPCWarpRoom 2 0 2
                 "
             }
         },
@@ -84,7 +84,7 @@
                 1300 ArchaeologyHouse 42 4 0/
                 1330 ArchaeologyHouse 43 11 1/
                 1400 ArchaeologyHouse 1 12 1/
-                1800 ItsBenter.VisitingTales.NPCWarpRoom 2 0 2
+                1800 ItsBenter.VisitingTales_NPCWarpRoom 2 0 2
                 "
             }
         },
@@ -111,7 +111,7 @@
                 610 Beach 43 34 2 ItsBenterPaolo_SittingChair/
                 900 BathHouse_Pool 17 10 2 ItsBenterPaolo_SittingBath/
                 1300 Saloon 42 21 3/
-                1600 ItsBenter.VisitingTales.NPCWarpRoom 2 0 2
+                1600 ItsBenter.VisitingTales_NPCWarpRoom 2 0 2
                 "
             }
         },
@@ -126,7 +126,7 @@
                 "Sat": "
                 900 Town 28 91 0/
                 1200 Town 18 16 1/
-                1700 ItsBenter.VisitingTales.NPCWarpRoom 2 0 2
+                1700 ItsBenter.VisitingTales_NPCWarpRoom 2 0 2
                 "
             }
         },

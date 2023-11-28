@@ -7,7 +7,7 @@
             "Action": "EditData",
             "Target": "Characters/Schedules/ItsBenterRiri",
             "Entries": {
-                "Spring": "ItsBenter.VisitingTales.NPCWarpRoom 3 0 2"
+                "Spring": "ItsBenter.VisitingTales_NPCWarpRoom 3 0 2"
             }
         },
         {
@@ -21,7 +21,7 @@
                 "Sat": "
                 900 Town 32 89 3/
                 1200 Town 24 14 0/
-                1700 ItsBenter.VisitingTales.NPCWarpRoom 3 0 2
+                1700 ItsBenter.VisitingTales_NPCWarpRoom 3 0 2
                 "
             }
         },

@@ -31,21 +31,21 @@
     {
       "LogName": "Load NPC Warp Room Map",
       "Action": "Load",
-      "Target": "Maps/ItsBenter.VisitingTales.NPCWarpRoom",
+      "Target": "Maps/ItsBenter.VisitingTales_NPCWarpRoom",
       "FromFile": "{{Target}}.tmx"
     },
     {
       "Action": "EditData",
       "Target": "Data/Locations",
       "Entries": {
-        "ItsBenter.VisitingTales.NPCWarpRoom": {
-          "DisplayName": "{{i18n:ItsBenter.VisitingTales.NPCWarpRoom.Name}}",
+        "ItsBenter.VisitingTales_NPCWarpRoom": {
+          "DisplayName": "{{i18n:ItsBenter.VisitingTales_NPCWarpRoom.Name}}",
           "DefaultArrivalTile": {
             "X": 3,
             "Y": 3
           },
           "CreateOnLoad": {
-            "MapPath": "Maps\\ItsBenter.VisitingTales.NPCWarpRoom",
+            "MapPath": "Maps\\ItsBenter.VisitingTales_NPCWarpRoom",
             "Type": null,
             "AlwaysActive": false
           }
@@ -63,7 +63,7 @@
             "MapProperties",
             "NPCWarp"
           ],
-          "Value": "13 9 ItsBenter.VisitingTales.NPCWarpRoom 6 3",
+          "Value": "13 9 ItsBenter.VisitingTales_NPCWarpRoom 6 3",
           "Delimiter": " "
         }
       ]

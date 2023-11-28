@@ -51,7 +51,7 @@
         broadcastEvent/addConversationTopic ItsBenterCT.DianeIntroduction 5/addConversationTopic ItsBenterCT.DianeWaitTime 14/
         viewport move 10 0 5000/
         textAboveHead Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.1}}"/
-        advancedMove Lewis false 4 0/faceDirection Lewis 0/advancedMove ItsBenterDiane false 4 0 0 -1/skippable/
+        advancedMove Lewis false 4 0/faceDirection Lewis 0/advancedMove ItsBenterDiane false 4 0 0 -1/
         speak Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.2}}"/
         speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.1}}"/
         speak Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.3}}"/
@@ -60,7 +60,7 @@
         textAboveHead Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.4}}"/
         advancedMove Lewis false 0 -1/faceDirection Lewis 3/
         speak Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.5}}"/
-        changeName ItsBenterDiane {{i18n:ItsBenterDiane.Name}}/
+        changeName ItsBenterDiane {{i18n:ItsBenterDiane.Name}}/skippable/
         advancedMove farmer false 0 1/
         speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.2}}"/
         quickQuestion#{{i18n:ItsBenterEvent.Diane00.Player.1}}#{{i18n:ItsBenterEvent.Diane00.Player.2}}#{{i18n:ItsBenterEvent.Diane00.Player.3}}(break)friendship ItsBenterDiane 50\\emote ItsBenterDiane 56\\pause 50\\speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.3}}"(break)speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.4}}"\\speak Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.6}}"(break)speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.5}}"\\speak Lewis "{{i18n:ItsBenterEvent.Diane00.Lewis.7}}"\\emote ItsBenterDiane 16\\pause 200\\speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane00.Diane.6}}"/
@@ -134,7 +134,24 @@
       "Target": "Data/Events/ArchaeologyHouse",
       "Entries": {
         //2 Hearts: Bits of Recognition
-        "ItsBenterEvent.Diane02/NpcVisibleHere ItsBenterDiane/Friendship ItsBenterDiane 500": "",
+        //
+        //Diane 1: Good day @. Gunther and I just had a little conversation.#$b#And I learned that all the items in the collection are donated by you, and you alone.
+        //Diane 2: I don't know how you do it, but kudos $1.
+        //Diane 3: It's too bad that Gunther here won't disclose the identity of the sloppy curator. 
+        //Diane 4: You did good @. You sure are!
+        "ItsBenterEvent.Diane02/NpcVisibleHere ItsBenterDiane/Friendship ItsBenterDiane 500": "
+        libraryTheme/5 11/ItsBenterDiane 2 11 1 farmer -100 -100 0 Gunther 4 10 2/
+        emote ItsBenterDiane 40/pause 200/playSound doorClose/warp farmer 5 9/advancedMove farmer 0 -1/
+        advancedMove ItsBenterDiane 0 1 1 0/pause 750/emote farmer 8/
+        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane02.Diane.1}}"/
+        pause 250/animate ItsBenterDiane false false 100 13 13 0 13 0/
+        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane02.Diane.2}}"/
+        emote farmer 56/pause 100/faceDirection ItsBenterDiane 1/
+        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane02.Diane.3}}"/
+        showframe Gunther 5/emote Gunther 40/
+        speak ItsBenterDiane "{{i18n:ItsBenterEvent.Diane02.Diane.4}}"/
+        showframe ItsBenterDiane 14/stopAdvancedMoves/end position 3 13
+        ",
         //4 Hearts: A Little History
         "ItsBenterEvent.Diane03/SawEvent ItsBenterEvent.Diane01/SawEvent ItsBenterEvent.Diane02/NpcVisibleHere ItsBenterDiane/Friendship ItsBenterDiane 1000": "",
         //8 Hearts: Adventuring Assistance Required

@@ -44,8 +44,7 @@
         advancedMove farmer 4 0/advancedMove ItsBenterKarl -2 0/
         emote ItsBenterKarl 16/
         speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl00.Karl.1}}"/
-        emote farmer 40/skippable/
-        changeName ItsBenterKarl {{i18n:ItsBenterKarl.Name}}/
+        emote farmer 40/changeName ItsBenterKarl {{i18n:ItsBenterKarl.Name}}/skippable/
         speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl00.Karl.2}}"/
         quickQuestion#{{i18n:ItsBenterEvent.Karl00.Player.1}}#{{i18n:ItsBenterEvent.Karl00.Player.2}}#{{i18n:ItsBenterEvent.Karl00.Player.3}}(break)friendship ItsBenterKarl 25\\jump ItsBenterKarl 4\\pause 25\\speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl00.Karl.3}}"(break)speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl00.Karl.4}}"(break)speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl00.Karl.4}}"/
         speak ItsBenterKarl "{{i18n:ItsBenterEvent.Karl00.Karl.5}}"/

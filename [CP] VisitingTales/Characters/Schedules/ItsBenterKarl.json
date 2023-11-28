@@ -19,7 +19,7 @@
             },
             "Entries": {
                 "Fri": "
-                a1500 Beach 34 36 2 ItsBenterKarl_FishingFacingDown/
+                a1500 Beach 34 36 2 ItsBenterKarl_fishingdown/
                 1900 ItsBenter.VisitingTales_NPCWarpRoom 0 0 2
                 "
             }
@@ -35,8 +35,8 @@
             "Entries": {
                 "Sat": "
                 700 Mountain 30 10 0/
-                1000 Mountain 68 24 0 ItsBenterKarl_FishingFacingDown/
-                1200 Mountain 42 13 0 ItsBenterKarl_FishingFacingRight/
+                1000 Mountain 68 24 0 ItsBenterKarl_fishingdown/
+                1200 Mountain 42 13 0 ItsBenterKarl_fishingright/
                 1600 Mountain 30 10 0/
                 1900 ItsBenter.VisitingTales_NPCWarpRoom 0 0 2
                 "
@@ -52,10 +52,10 @@
             },
             "Entries": {
                 "Sat": "
-                700 Town 69 58 ItsBenterKarl_FishingFacingRight/
-                1000 Town 64 100 ItsBenterKarl_FishingFacingDown/
+                700 Town 69 58 ItsBenterKarl_fishingright/
+                1000 Town 64 100 ItsBenterKarl_fishingdown/
                 1200 Saloon 15 17 0/
-                1530 Beach 34 36 2 ItsBenterKarl_FishingFacingDown/
+                1530 Beach 34 36 2 ItsBenterKarl_fishingdown/
                 1900 ItsBenter.VisitingTales_NPCWarpRoom 0 0 2
                 "
             }
@@ -70,8 +70,8 @@
             },
             "Entries": {
                 "Sat": "
-                700 Forest 95 38 2 ItsBenterKarl_FishingFacingDown/
-                1330 Town 64 100 ItsBenterKarl_FishingFacingDown/
+                700 Forest 95 38 2 ItsBenterKarl_fishingdown/
+                1330 Town 64 100 ItsBenterKarl_fishingdown/
                 1700 Beach 11 28 3/
                 1900 ItsBenter.VisitingTales_NPCWarpRoom 0 0 2
                 "

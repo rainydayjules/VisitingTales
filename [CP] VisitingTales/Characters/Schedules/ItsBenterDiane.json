@@ -20,7 +20,7 @@
             },
             "Entries": {
                 "Tue": "
-                900 ArchaeologyHouse 13 9 2 ItsBenterDiane_ReadFacingDown/
+                900 ArchaeologyHouse 13 9 2 ItsBenterDiane_readdown/
                 1430 Town 90 98 2/
                 1600 Town 22 28 1/
                 2000 ItsBenter.VisitingTales_NPCWarpRoom 1 0 2
@@ -44,7 +44,7 @@
                 1230 ArchaeologyHouse 35 14 3/
                 1300 ArchaeologyHouse 40 5 0/
                 1330 ArchaeologyHouse 45 13 2/
-                1400 ArchaeologyHouse 9 16 ItsBenterDiane_ReadFacingUp/
+                1400 ArchaeologyHouse 9 16 ItsBenterDiane_readup/
                 1800 Town 82 90 3/
                 2000 ItsBenter.VisitingTales_NPCWarpRoom 1 0 2
                 "
@@ -82,7 +82,7 @@
                 "Mon": "GOTO Wed",
                 "Tue": "GOTO Wed",
                 "Wed": "
-                900 ArchaeologyHouse 13 9 2 ItsBenterDiane_ReadFacingDown/
+                900 ArchaeologyHouse 13 9 2 ItsBenterDiane_readdown/
                 a1200 ArchaeologyHouse 26 15 1/
                 1230 ArchaeologyHouse 35 13 3/
                 1300 ArchaeologyHouse 39 4 0/

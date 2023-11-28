@@ -119,21 +119,19 @@
       "Target": "Data/animationDescriptions",
       "Entries": {
         //Diane
-        "ItsBenterDiane_Sleep": "20/20/20",
-        "ItsBenterDiane_Writing": "20/20/20",
-        "ItsBenterDiane_ReadFacingDown": "24/24/24",
-        "ItsBenterDiane_ReadFacingUp": "24/24/24",
-        "ItsBenterDiane_Reflect": "24/24/24",
+        "ItsBenterDiane_sleep": "20/20/20",
+        "ItsBenterDiane_readdown": "24/24/24",
+        "ItsBenterDiane_readup": "24/24/24",
         //Karl
-        "ItsBenterKarl_Sleep": "20/20/20",
-        "ItsBenterKarl_FishingFacingDown": "12/12 12 13 13 14 14 15 15/12",
-        "ItsBenterKarl_FishingFacingRight": "12/12 12 13 13 14 14 15 15/12",
+        "ItsBenterKarl_sleep": "20/20/20",
+        "ItsBenterKarl_fishingdown": "12/12 12 13 13 14 14 15 15/12",
+        "ItsBenterKarl_fishingright": "12/12 12 13 13 14 14 15 15/12",
         //Paolo
-        "ItsBenterPaolo_Sleep": "20/20/20",
-        "ItsBenterPaolo_SittingChair": "24/24/24",
-        "ItsBenterPaolo_SittingBath": "24/24/24",
+        "ItsBenterPaolo_sleep": "20/20/20",
+        "ItsBenterPaolo_sittingchair": "24/24/24",
+        "ItsBenterPaolo_sittingbath": "24/24/24",
         //Riri
-        "ItsBenterRiri_Sleep": "20/20/20"
+        "ItsBenterRiri_sleep": "20/20/20"
       }
     }
   ]

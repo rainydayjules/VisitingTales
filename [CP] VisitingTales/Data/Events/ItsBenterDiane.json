@@ -6,45 +6,43 @@
       "Action": "EditData",
       "Target": "Data/Events/Town",
       "Entries": {
-        //Introduction event: That Lady Arrived
-        //Conversation Topic: ItsBenterCT.DianeIntroduction
         //Lewis: "Ah @, Diane said she would like to visit the town again. Isn't that nice?"
-        //Marnie: "I saw Mr. Lewis with that lady. $3#$b#They seemed very happy walking around the town... $2#$e#*sigh*... If only$2"
-        //Marnie (if another mod makes her stop her thing with Lewis): "I heard Lewis gave a tour of the town.#%b#I hope he treated the lady well..."
-        //Sam; "Oh yeah, I saw Lewis and that woman when skateboarding the other day.#$b#Of course, he wasn't pleased seeing me at all. $1" 
-        //Gus: "Diane, quite a nice lady isn't she? I wonder what gets her to this town though."
-        //Caroline: "Lewis visit the shop with Diane awhile back. She is very sweet.#$b#Yet, all Pierre do is commenting on her accessories. $2#$b#Sometimes I just can't with him. $2"
-        //Clint: "Umm... Yes, Lewis came here and show the place around with Diane.#$b#She has a wonderdul smile isn't she? $1"
-        //Emily: "Diane, her aura is quite cloudy. It's waiting for the sun to shine through. $3#$b#But then, there's also nothing wrong with cloudy weather too. $0"
-        //Jas: "... Mrs. Diane looks like a princess.#$b#I wonder if she would visit us again..."
-        //Vincent: "I didn't get to meet Mrs. Diane... $2"
-        //Shane: "So someone arranged a tour around this town. $3#$b#Bah, why do I care? $3"
-        //Elliot: "*mumble*... Diane, a lady of class and heart... *mumble*#$b#Oh, I'm just imagining writing a passage from an earlier encounter.#$e#Did you get to meet her?"
-        //Penny: "I met Lewis and Diane when they walked around the town.#$b#We stopped and had a nice conversation going. $1"
+        //Marnie: "I saw Mr. Lewis with that fancy lady. $3#$b#They seemed very… close, walking around the town... $2#$e#*sigh* If only…$2"
+        //Marnie (if another mod makes her stop her thing with Lewis): "I heard Lewis gave that fancy lady a tour of the town.#%b#He better be treating her well..."
+        //Sam; "Oh yeah, I saw Lewis and that woman when I was skateboarding the other day.#$b#Of course, he wasn't happy to see me. I didn’t even crash into them! $1" 
+        //Gus: "Diane seems like a nice lady. I wonder what she’s visiting Pelican Town for."
+        //Caroline: "Lewis visited the shop with Diane awhile back. She’s very sweet.#$b#But all Pierre could do is point out her fancy jewelry. $2#$b#I just can’t with him, sometimes. $2"
+        //Clint: " Lewis came to show Diane my shop the other day.#$b#She has a nice smile, doesn’t she? $1"
+        //Emily: "Diane has a very cloudy aura. Something is preventing the sun from shining through. $3#$b#But there’s nothing wrong with cloudy weather, I guess.$0"
+        //Jas: "Ms. Diane looks like a princess.#$b#I hope she’ll visit again..."
+        //Vincent: "I didn't get to meet Ms. Diane... $2"
+        //Shane: "So some rich lady got a tour of the town.$3#$b#Bah, why would I care? $3"
+        //Elliot: "*mumble*... Diane, a lady of class and dignity... *mumble*#$b#Oh, I'm just working on a passage inspired by our visitor.#$e#Did you get to meet her?"
+        //Penny: "I met Lewis and Diane when they walked around the town.#$b#We actually had a surprisingly nice conversation. $1"
         //
-        //Rosa: "News reached me that Lewis gave someone a tour around the town... Of course he didn't bother to show her this far-far away land."
-        //Juliet: "That Diane, bet she comes from money.#$b#Oh sweetheart, it's not only the jewelry that tell." 
+        //Rosa: "I heard that Lewis gave someone a tour around the town... Of course, he didn't bother to take her all the way out to East Scarp."
+        //Juliet: "I bet Diane comes from money.#$b#It’s not just the jewelry, it’s her whole vibe." 
         //
-        //Lewis 1: And here we are
-        //Lewis 2: This here is the town's library and museum, all made possible by the taxes from our local businesses.#$b#It's a lot of hard work, but, as you'll soon notice, the collection here has become something quite special.
-        //Diane 1: That's wonderful to hear. News reached me that Pelican Town's museum collection has rapidly grow. $1
-        //Lewis 3: Hehe... Of course, all due to the town's excellent management
+        //Lewis 1: And here we are!
+        //Lewis 2: This here is the town's library and museum, all made possible by the taxes from our local businesses.#$b#It's been a lot of hard work, but the collection here has become something quite special.
+        //Diane 1: That's wonderful to hear. My colleagues have been talking about the rapid growth of the Pelican Town museum’s exhibits. $1
+        //Lewis 3: Hehe... Of course, all thanks to the town's excellent management.
         //Lewis 4: Ah, speaking of!
-        //Lewis 5: Diane, let me introduce you to @.#$b#A recent addition to our town, now he is managing the land right next to the Bus Station.^A recent addition to our town, now she is managing the land right next to the Bus Station.
-        //Diane 2: It's quite nice meeting you @. Name is Diane.#$b#You caught me in the middle of a tour of this charming town you have here.#$b#I take it you visit this place often?
+        //Lewis 5: Diane, let me introduce you to @.#$b#He recently took over the farm right by the bus station.^ She recently took over the farm right by the bus station.
+        //Diane 2: Lovely to meet you, @. My name is Diane.#$b#Lewis has been giving me a tour of this charming town of yours.#$b#I take it you visit the museum often?
         //QuickQuestion 1 Response 1 Player 1: Yes, I like it here.
         //QuickQuestion 1 Response 2 Player 2: Not really. I’m too busy.
         //QuickQuestion 1 Response 3 Player 3: Only when I need to.
-        //QuickQuestion 1 Response 1 Diane 3: Oh, isn't that nice.#$b#I'd love to discuss all the different books and artifacts with you.#$b#Well, at your convenience, surely.
-        //QuickQuestion 1 Response 2 Diane 4: Understandable. I figure that might be the case.#$b#I guess I'd have to look for someone who would be more intimate with what the place have in store then.
-        //QuickQuestion 1 Response 2 Lewis 6: We have Gunther, the curator. He should get you covered Diane.
-        //QuickQuestion 1 Response 3 Diane 5: Interesting, what is it that you need to do here?
+        //QuickQuestion 1 Response 1 Diane 3: Oh, isn't that nice.#$b#I'd love to discuss all the different books and artifacts with you.#$b#If you have the time, of course.
+        //QuickQuestion 1 Response 2 Diane 4: That’s understandable. The life of a farmer must be quite busy.#$b#I’ll have to speak to someone more intimately familiar with the collection.
+        //QuickQuestion 1 Response 2 Lewis 6: We have Gunther, the curator. He’ll be able to answer any questions you have, Diane.
+        //QuickQuestion 1 Response 3 Diane 5: Interesting. What business do you have with the museum?
         //QuickQuestion 1 Response 3 Lewis 7: Oh, sometimes @ donates items to the collection.
-        //QuickQuestion 1 Response 3 Diane 6: That's most fascinating. So @ must be quite knowledgable of the area then...
-        //Lewis 8: Shall we continue to the inside?
-        //Diane 9: Surely, if you don't mind.
-        //Diane 10: Once again, it's a pleasure meeting you @.
-        //Lewis 9 *ehem* I expect you to be on your best behavior with Diane.#$b#We planned this tour for quite some time. This must be important to her.#$b#Everyone will need to mind their manners!
+        //QuickQuestion 1 Response 3 Diane 6: That's marvelous. @ must be quite familiar with the area then...
+        //Lewis 8: Shall we head inside?
+        //Diane 9: Of course.
+        //Diane 10: Once again, it's a pleasure to meet you @.
+        //Lewis 9 *ehem* I expect you to be on your best behavior with Diane.#$b#We’ve planned this tour for months. This must be important to her.#$b#Everyone needs to mind their manners!
         "ItsBenterEvent.Diane00/Weather Sunny/DayOfWeek Mon Tue Wed/Time 900 1600/G MUSEUM_DONATIONS 45": "
         libraryTheme/92 91/ItsBenterDiane 97 94 1 Lewis 98 93 1 farmer -100 -100 0/
         changeName ItsBenterDiane {{i18n:ItsBenterUnmetCharacter}}/
